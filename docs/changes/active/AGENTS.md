@@ -10,6 +10,7 @@ Owns the single authoritative, resumable plan for each material change currently
 - Update the record before implementation work that changes phase status.
 - Do not put credentials or downloaded content archives in this folder.
 
-## Child DOX Index
+## Active records
 
-No child documentation scopes yet.
+- `CHG-001-wordpress-to-astro.md` — Phase 4 (DNS cutover) in progress.
+- `CHG-002-editorial-redesign.md` — presentation redesign: search-first homepage, modern typography, dark/light. Verified locally; awaiting deploy.
