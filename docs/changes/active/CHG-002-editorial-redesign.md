@@ -21,6 +21,22 @@ Direct operator request: redesign the blog theme to a modern dark/light-supporte
 - `pnpm build` (114 pages emitted, 109 article + 3 page + 1 homepage + 1 RSS).
 - `pnpm verify` (`{"routes": 113, "posts": 109, "pages": 3, "media": 78, "localLinks": "PASS"}`).
 - Visual check: home has hero + search pill + 9 topic pills + 109 article rows in newest-first order (top row `2022-08-11`).
+- No generated `title:` line contains an HTML entity; `dist/` contains no `&amp;amp;`.
+
+## Entity double-escaping fix
+
+Nine post titles containing `&` were imported as the literal 5-character
+string `&amp;`. Frontmatter is plain text, so Astro escaped it again at
+render and the pages displayed `&amp;` instead of `&`.
+
+The importer decoded entities in the body (`rewrite_media` → `unescape`)
+but took the `title` element raw. `scripts/import_wordpress.py` now
+applies `unescape` to the title as well, and the content was regenerated
+from the recorded backup rather than hand-edited, per `src/AGENTS.md`.
+
+The re-import changed exactly 9 lines in 9 files, all `title:` lines — no
+body content, media asset, or route path changed, confirming the importer
+is deterministic apart from the intended fix.
 
 ## Follow-up
 
