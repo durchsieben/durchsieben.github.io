@@ -18,11 +18,11 @@ wordpressId: "1145"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Für diejenigen, die Agile täglich leben und umsetzen, ist Agile eine Denkweise. Agil ist nicht nur eine Methodik, die innerhalb des bestehenden Managementrahmens umgesetzt werden muss. Agile ist ein dramatisch anderer Rahmen für das Management selbst. In der Gemeinschaft der Agile-Praktiker, die heute Hunderttausende zählt, beginnt Agile mit einer anderen Sicht auf den <a href="https://durchsieben.de/2021/08/05/zweck-und-aufgabe-von-unternehmen/">Zweck und Aufgabe von Unternehmen</a>. (Denning 2016)</p>
+<p>Für diejenigen, die Agile täglich leben und umsetzen, ist Agile eine Denkweise. Agil ist nicht nur eine Methodik, die innerhalb des bestehenden Managementrahmens umgesetzt werden muss. Agile ist ein dramatisch anderer Rahmen für das Management selbst. In der Gemeinschaft der Agile-Praktiker, die heute Hunderttausende zählt, beginnt Agile mit einer anderen Sicht auf den <a href="/2021/08/05/zweck-und-aufgabe-von-unternehmen/">Zweck und Aufgabe von Unternehmen</a>. (Denning 2016)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Agilität ist das Gegenmittel zum Shareholder Value. Agile steht im Einklang mit <em>Peter Druckers</em> grundlegender Erkenntnis von 1954: "<a href="https://durchsieben.de/2021/08/05/zweck-und-aufgabe-von-unternehmen/">Der einzig gültige Zweck einer Firma ist es, einen Kunden zu schaffen</a>". (Drucker 2009, S. 163) Sie ist die Managementbasis für die entstehende Kreativwirtschaft. Sie ist die Grundlage für kontinuierliche <a href="https://durchsieben.de/2020/11/15/d-h-forschung-innovation/">Innovation</a>. (Denning 2016)</p>
+<p>Agilität ist das Gegenmittel zum Shareholder Value. Agile steht im Einklang mit <em>Peter Druckers</em> grundlegender Erkenntnis von 1954: "<a href="/2021/08/05/zweck-und-aufgabe-von-unternehmen/">Der einzig gültige Zweck einer Firma ist es, einen Kunden zu schaffen</a>". (Drucker 2009, S. 163) Sie ist die Managementbasis für die entstehende Kreativwirtschaft. Sie ist die Grundlage für kontinuierliche <a href="/2020/11/15/d-h-forschung-innovation/">Innovation</a>. (Denning 2016)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -36,11 +36,11 @@ wordpressId: "1145"
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["953"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
 
 <!-- wp:paragraph -->
-<p>Agil bedeutet Veränderungen tief verwurzelter Einstellungen, <a href="https://durchsieben.de/2020/10/10/d-h-werte/">Werte</a> und der eingefahrenen Gewohnheiten der hierarchischen Bürokratie, die sich nicht allein durch ein kurzes Training ändern werden. (Denning 2016)</p>
+<p>Agil bedeutet Veränderungen tief verwurzelter Einstellungen, <a href="/2020/10/10/d-h-werte/">Werte</a> und der eingefahrenen Gewohnheiten der hierarchischen Bürokratie, die sich nicht allein durch ein kurzes Training ändern werden. (Denning 2016)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Diese Art magischen Denkens hat viele große Unternehmen dazu veranlasst, eine Welle von Schulungen zum Thema Agilität in Angriff zu nehmen, nur um festzustellen, dass die Vorteile von Agilität nicht zum Tragen kommen. Die Organisation bleibt unverändert, und die Organisation kommt zu dem Schluss, dass "Agil nicht funktioniert". Was ihnen fehlt, ist, dass es bei Agile um mehr geht als um das Erlernen einer neuen Managementmethode. Agile ist ein <a href="https://durchsieben.de/2020/11/18/d-h-kultur/">Kulturwandel</a> für die gesamte Organisation. (Denning 2016)</p>
+<p>Diese Art magischen Denkens hat viele große Unternehmen dazu veranlasst, eine Welle von Schulungen zum Thema Agilität in Angriff zu nehmen, nur um festzustellen, dass die Vorteile von Agilität nicht zum Tragen kommen. Die Organisation bleibt unverändert, und die Organisation kommt zu dem Schluss, dass "Agil nicht funktioniert". Was ihnen fehlt, ist, dass es bei Agile um mehr geht als um das Erlernen einer neuen Managementmethode. Agile ist ein <a href="/2020/11/18/d-h-kultur/">Kulturwandel</a> für die gesamte Organisation. (Denning 2016)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showAuthor":false,"specificPosts":["1234"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->

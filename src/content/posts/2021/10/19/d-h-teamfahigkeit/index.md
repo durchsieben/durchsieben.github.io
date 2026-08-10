@@ -14,7 +14,7 @@ wordpressId: "2151"
 <!-- /wp:more -->
 
 <!-- wp:paragraph -->
-<p>Teamfähigkeit wird als individuelle Fähigkeit betrachtet, die es ermöglicht in einem Mikrosystem (Team) effektiv zu kooperieren (Seelheim/Witte 2007). Sie ist eine soziale Fähigkeit, wird im Verhalten der Person in einem Team sichtbar und es wird vermutet, dass sie sich positiv auf das <a href="https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ergebnis</a> auswirkt.</p>
+<p>Teamfähigkeit wird als individuelle Fähigkeit betrachtet, die es ermöglicht in einem Mikrosystem (Team) effektiv zu kooperieren (Seelheim/Witte 2007). Sie ist eine soziale Fähigkeit, wird im Verhalten der Person in einem Team sichtbar und es wird vermutet, dass sie sich positiv auf das <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ergebnis</a> auswirkt.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -22,15 +22,15 @@ wordpressId: "2151"
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Wann immer Personen in Gruppen zusammenarbeiten, treten positive und auch negative Effekte der <a href="https://durchsieben.de/2020/09/04/fur-zusammenarbeit-sorgen/">Zusammenarbeit</a> auf. Es kann Zuwächse oder Verluste in der <a href="https://durchsieben.de/2020/10/17/d-h-motivation/">Motivation</a> geben, <a href="https://durchsieben.de/2021/09/29/d-h-produktivitaet/">Prozessverluste</a> aufgrund notwendiger Koordination oder Blockierungseffekte treten auf. Ein Konzept mit durchweg positiver Konnotation ist das Konzept der Teamfähigkeit. (Seelheim/Witte 2014)</p>
+<p>Wann immer Personen in Gruppen zusammenarbeiten, treten positive und auch negative Effekte der <a href="/2020/09/04/fur-zusammenarbeit-sorgen/">Zusammenarbeit</a> auf. Es kann Zuwächse oder Verluste in der <a href="/2020/10/17/d-h-motivation/">Motivation</a> geben, <a href="/2021/09/29/d-h-produktivitaet/">Prozessverluste</a> aufgrund notwendiger Koordination oder Blockierungseffekte treten auf. Ein Konzept mit durchweg positiver Konnotation ist das Konzept der Teamfähigkeit. (Seelheim/Witte 2014)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Teamfähigkeit gehört zu den sozialen Kompetenzen. Soziale oder interpersonale Kompetenzen beschreiben individuelle Unterschiede im Umgang mit sozialen Situationen (Schuler/Barthelme 1995). <em>Greif</em> (1987) beschreibt soziale Kompetenzen als die Fähigkeit, in sozialen Interaktionen Pläne erfolgreich umsetzen und <a href="https://durchsieben.de/2020/08/25/fuer-ziele-sorgen/">Ziele</a> erfüllen zu können. In der globalisierten Arbeitswelt steigt die Bedeutung dieser sozialer Fähigkeiten, weil höhere Anforderungen und eine gestiegene Komplexität vieler Aufgaben zunehmend <span style="text-decoration:underline;">interdisziplinäre Teams, häufig Projektteams</span>, erfordern (Rosenstiel 2006).</p>
+<p>Teamfähigkeit gehört zu den sozialen Kompetenzen. Soziale oder interpersonale Kompetenzen beschreiben individuelle Unterschiede im Umgang mit sozialen Situationen (Schuler/Barthelme 1995). <em>Greif</em> (1987) beschreibt soziale Kompetenzen als die Fähigkeit, in sozialen Interaktionen Pläne erfolgreich umsetzen und <a href="/2020/08/25/fuer-ziele-sorgen/">Ziele</a> erfüllen zu können. In der globalisierten Arbeitswelt steigt die Bedeutung dieser sozialer Fähigkeiten, weil höhere Anforderungen und eine gestiegene Komplexität vieler Aufgaben zunehmend <span style="text-decoration:underline;">interdisziplinäre Teams, häufig Projektteams</span>, erfordern (Rosenstiel 2006).</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Nach <em>Schuler/Barthelme</em> (1995) kann Teamfähigkeit als die Summe mehrerer Facetten sozialer Kompetenz für den Spezialfall der <a href="https://durchsieben.de/2020/09/04/fur-zusammenarbeit-sorgen/">Interaktion</a> innerhalb von Gruppen verstanden werden. Das Konstrukt wurde vor einem beruflichen Hintergrund aufgestellt (Schuler/Barthelme 1995). Es hat soziale Relevanz und trägt eine positive Konnotation, so dass es individuelles Verhalten stimuliert. Im Rahmen der <a href="https://durchsieben.de/2021/10/17/potenziale-entfalten/">Personalentwicklung</a> von Organisationen werden Trainings angeboten, um Teamfähigkeit zu erhöhen (Sonntag/Schaper 2006) und Mitarbeiterbeurteilungen in Unternehmen beinhalten den Punkt Teamfähigkeit. Auch <em>Kleinmann</em> (2005) betont, dass Organisationen sie als wichtig für die Karriere zukünftiger Führungskräfte einstufen. (Seelheim/Witte 2014)</p>
+<p>Nach <em>Schuler/Barthelme</em> (1995) kann Teamfähigkeit als die Summe mehrerer Facetten sozialer Kompetenz für den Spezialfall der <a href="/2020/09/04/fur-zusammenarbeit-sorgen/">Interaktion</a> innerhalb von Gruppen verstanden werden. Das Konstrukt wurde vor einem beruflichen Hintergrund aufgestellt (Schuler/Barthelme 1995). Es hat soziale Relevanz und trägt eine positive Konnotation, so dass es individuelles Verhalten stimuliert. Im Rahmen der <a href="/2021/10/17/potenziale-entfalten/">Personalentwicklung</a> von Organisationen werden Trainings angeboten, um Teamfähigkeit zu erhöhen (Sonntag/Schaper 2006) und Mitarbeiterbeurteilungen in Unternehmen beinhalten den Punkt Teamfähigkeit. Auch <em>Kleinmann</em> (2005) betont, dass Organisationen sie als wichtig für die Karriere zukünftiger Führungskräfte einstufen. (Seelheim/Witte 2014)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -54,7 +54,7 @@ wordpressId: "2151"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Die beiden Dimensionen sind so grundlegend, weil sie zwei entscheidende Fragen beantworten, die für das <a href="https://durchsieben.de/2020/11/18/d-h-kultur/">Überleben in einer sozialen Welt</a> wesentlich sind (Cuddy et al. 2008). Die Wärme-Dimension beantwortet die Frage „Welche Intentionen haben andere mir gegenüber?“. Die Kompetenz-Dimension hingegen beantwortet die Frage „Welche Fähigkeiten haben die anderen ihre Intentionen umzusetzen?“ (Cuddy et al. 2008). (Seelheim/Witte 2014)</p>
+<p>Die beiden Dimensionen sind so grundlegend, weil sie zwei entscheidende Fragen beantworten, die für das <a href="/2020/11/18/d-h-kultur/">Überleben in einer sozialen Welt</a> wesentlich sind (Cuddy et al. 2008). Die Wärme-Dimension beantwortet die Frage „Welche Intentionen haben andere mir gegenüber?“. Die Kompetenz-Dimension hingegen beantwortet die Frage „Welche Fähigkeiten haben die anderen ihre Intentionen umzusetzen?“ (Cuddy et al. 2008). (Seelheim/Witte 2014)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -62,7 +62,7 @@ wordpressId: "2151"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>All diese Komponenten von Effektivität zu erhöhen, die <a href="https://durchsieben.de/2021/09/29/d-h-produktivitaet/">Gesamtleistung</a> zu verbessern, ist unbestritten ein <a href="https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ziel</a> von Unternehmen. Das legt die Vermutung nahe, dass der Grund für die Forderung nach Teamfähigkeit in der Annahme liegt, dass diese die Leistung von Teams verbessert. <em>Schuler/Barthelme</em> (1995, S. 83) formulieren es so: "<em>Sie [Teamfähigkeit] liefert die Grundlage dafür, die Zusammenarbeit zu optimieren und ihre Effizienz zu steigern.</em>" Wenn ein positiver Zusammenhang zwischen Teamfähigkeit und der Leistung einer Gruppe bestehen würde, würde eine aus teamfähigen Mitgliedern bestehende Gruppe bessere Leistungen zeigen als eine aus nicht teamfähigen Mitgliedern bestehende. Es wäre dann möglich, die ideale Gruppe zu kreieren (Moreland et al. 1996), die die maximale Leistung erbringt. (Seelheim/Witte 2014)</p>
+<p>All diese Komponenten von Effektivität zu erhöhen, die <a href="/2021/09/29/d-h-produktivitaet/">Gesamtleistung</a> zu verbessern, ist unbestritten ein <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ziel</a> von Unternehmen. Das legt die Vermutung nahe, dass der Grund für die Forderung nach Teamfähigkeit in der Annahme liegt, dass diese die Leistung von Teams verbessert. <em>Schuler/Barthelme</em> (1995, S. 83) formulieren es so: "<em>Sie [Teamfähigkeit] liefert die Grundlage dafür, die Zusammenarbeit zu optimieren und ihre Effizienz zu steigern.</em>" Wenn ein positiver Zusammenhang zwischen Teamfähigkeit und der Leistung einer Gruppe bestehen würde, würde eine aus teamfähigen Mitgliedern bestehende Gruppe bessere Leistungen zeigen als eine aus nicht teamfähigen Mitgliedern bestehende. Es wäre dann möglich, die ideale Gruppe zu kreieren (Moreland et al. 1996), die die maximale Leistung erbringt. (Seelheim/Witte 2014)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

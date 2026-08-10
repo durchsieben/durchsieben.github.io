@@ -8,6 +8,7 @@ Contains reproducible, standard-library migration tooling.
 
 - `import_wordpress.py` consumes only the ignored backups recorded in `../backup/wordpress/`.
 - It emits published content, a route manifest, and local media assets; it does not publish drafts.
+- `verify_static_site.py` validates the imported counts, all generated legacy routes, local media inventory, and local links in `dist/`.
 - Fail on an incomplete or inconsistent WXR/media pair rather than generating a partial site.
 
 ## Verification

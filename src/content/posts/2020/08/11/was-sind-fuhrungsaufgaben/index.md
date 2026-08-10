@@ -6,11 +6,11 @@ sourceUrl: "https://durchsieben.de/2020/08/11/was-sind-fuhrungsaufgaben/"
 wordpressId: "867"
 ---
 <!-- wp:paragraph -->
-<p>Die Führungsaufgaben beschreiben, was eine Führungskraft zu tun hat (für <a href="https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ziele</a> sorgen, organisieren etc.) oder besser, wofür sie zu sorgen hat. (Pfister/Neumann 2019, S.61)</p>
+<p>Die Führungsaufgaben beschreiben, was eine Führungskraft zu tun hat (für <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ziele</a> sorgen, organisieren etc.) oder besser, wofür sie zu sorgen hat. (Pfister/Neumann 2019, S.61)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Führungskräfte setzen sich vorrangig mit zwischenmenschlichen Themen auseinander, sie <span style="text-decoration:underline;">koordinieren</span> Teams, klären <span style="text-decoration:underline;">Konflikte</span>, <a href="https://durchsieben.de/2020/10/17/d-h-motivation/">motivieren</a> und zeigen Grenzen auf. (Haag 2013, S.133)</p>
+<p>Führungskräfte setzen sich vorrangig mit zwischenmenschlichen Themen auseinander, sie <span style="text-decoration:underline;">koordinieren</span> Teams, klären <span style="text-decoration:underline;">Konflikte</span>, <a href="/2020/10/17/d-h-motivation/">motivieren</a> und zeigen Grenzen auf. (Haag 2013, S.133)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:more -->
@@ -18,7 +18,7 @@ wordpressId: "867"
 <!-- /wp:more -->
 
 <!-- wp:paragraph -->
-<p>Der <strong>Führungskompass</strong> dient als Orientierungshilfe für die Führungskraft und fokussiert die handwerkliche Ebene der Führung. Er beinhaltet die <strong>Führungsaufgaben</strong> und die <strong>wesentlichen Prinzipien</strong>, um <span style="text-decoration:underline;">wirksam</span> zu sein. Wenn man ihn einmal wirklich durchdrungen hat, kann er einem eine gute Orientierung in der Führung sein, ganz gleich ob es sich um die Mitarbeitendenführung, die Führung eines Bereiches oder einer ganzen Organisation handelt. Die grundsätzlichen Aufgaben und Prinzipien sind die gleichen, jedoch die Werkzeuge und Interventionen sind unterschiedlich, s. a. <a href="https://durchsieben.de/2021/08/03/d-h-management-manager-leadership-leader/">interaktionelle und strukturelle Führung</a>. (Pfister/Neumann 2019, S.61)</p>
+<p>Der <strong>Führungskompass</strong> dient als Orientierungshilfe für die Führungskraft und fokussiert die handwerkliche Ebene der Führung. Er beinhaltet die <strong>Führungsaufgaben</strong> und die <strong>wesentlichen Prinzipien</strong>, um <span style="text-decoration:underline;">wirksam</span> zu sein. Wenn man ihn einmal wirklich durchdrungen hat, kann er einem eine gute Orientierung in der Führung sein, ganz gleich ob es sich um die Mitarbeitendenführung, die Führung eines Bereiches oder einer ganzen Organisation handelt. Die grundsätzlichen Aufgaben und Prinzipien sind die gleichen, jedoch die Werkzeuge und Interventionen sind unterschiedlich, s. a. <a href="/2021/08/03/d-h-management-manager-leadership-leader/">interaktionelle und strukturelle Führung</a>. (Pfister/Neumann 2019, S.61)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":958,"sizeSlug":"large"} -->
@@ -36,7 +36,7 @@ wordpressId: "867"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Für den Erfolg ist nicht nur der <a href="https://durchsieben.de/2020/08/19/fuhrungsprinzipien/">Führungsstil</a> ausschlaggebend. Auch andere Faktoren wie z. B. <a href="https://durchsieben.de/2021/08/06/%f0%9f%a7%ac-kompetenzen-und-schlusselqualifikationen-von-fuhrungskraften/">die persönlichen und sozialen Kompetenzen der Führungskraft, ihr Rollenverständnis und ihre kommunikativen Fähigkeiten</a> haben einen großen Einfluss auf die Führung der Mitarbeiter und somit auch auf den unternehmerischen Erfolg. (Pastoors et al. 2019, S.10)</p>
+<p>Für den Erfolg ist nicht nur der <a href="/2020/08/19/fuhrungsprinzipien/">Führungsstil</a> ausschlaggebend. Auch andere Faktoren wie z. B. <a href="/2021/08/06/kompetenzen-und-schlusselqualifikationen-von-fuhrungskraften/">die persönlichen und sozialen Kompetenzen der Führungskraft, ihr Rollenverständnis und ihre kommunikativen Fähigkeiten</a> haben einen großen Einfluss auf die Führung der Mitarbeiter und somit auch auf den unternehmerischen Erfolg. (Pastoors et al. 2019, S.10)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -44,7 +44,7 @@ wordpressId: "867"
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
-<ol><li><a href="https://durchsieben.de/2020/08/13/transaktionale-transformationale-fuehrungshandeln/">Transaktionale & Transformationale Führung(-shandeln)</a></li><li><a href="https://durchsieben.de/2020/08/15/kommunikation/">Kommunikation</a></li><li><a href="https://durchsieben.de/2020/08/17/verantwortung/">Verantwortung</a></li><li><a href="https://durchsieben.de/2020/08/19/fuhrungsprinzipien/">Führungsprinzipien</a><ul><li><a href="https://durchsieben.de/2020/08/21/fuhrung-ist-kooperativ/">Führung ist kooperativ</a></li><li><a href="https://durchsieben.de/2020/08/23/fuhrung-ist-leistungsorientiert/">Führung ist leistungsorientiert</a></li></ul></li><li><a href="https://durchsieben.de/2020/08/25/fur-ziele-sorgen/">Für Ziele sorgen</a></li><li><a href="https://durchsieben.de/2020/08/27/organisieren/">Organisieren</a></li><li><a href="https://durchsieben.de/2020/08/29/kontrollieren-und-beurteilen/">Kontrollieren und Beurteilen</a></li><li><a href="https://durchsieben.de/2020/08/31/entscheiden/">Entscheiden</a></li><li><a href="https://durchsieben.de/2021/10/17/potenziale-entfalten/">Potenziale entfalten</a></li><li><a href="https://durchsieben.de/2020/09/04/fur-zusammenarbeit-sorgen/">Für Zusammenarbeit sorgen</a></li></ol>
+<ol><li><a href="/2020/08/13/transaktionale-transformationale-fuehrungshandeln/">Transaktionale & Transformationale Führung(-shandeln)</a></li><li><a href="/2020/08/15/kommunikation/">Kommunikation</a></li><li><a href="/2020/08/17/verantwortung/">Verantwortung</a></li><li><a href="/2020/08/19/fuhrungsprinzipien/">Führungsprinzipien</a><ul><li><a href="/2020/08/21/fuhrung-ist-kooperativ/">Führung ist kooperativ</a></li><li><a href="/2020/08/23/fuhrung-ist-leistungsorientiert/">Führung ist leistungsorientiert</a></li></ul></li><li><a href="/2020/08/25/fuer-ziele-sorgen/">Für Ziele sorgen</a></li><li><a href="/2020/08/27/organisieren/">Organisieren</a></li><li><a href="/2020/08/29/kontrollieren-und-beurteilen/">Kontrollieren und Beurteilen</a></li><li><a href="/2020/08/31/entscheiden/">Entscheiden</a></li><li><a href="/2021/10/17/potenziale-entfalten/">Potenziale entfalten</a></li><li><a href="/2020/09/04/fur-zusammenarbeit-sorgen/">Für Zusammenarbeit sorgen</a></li></ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->

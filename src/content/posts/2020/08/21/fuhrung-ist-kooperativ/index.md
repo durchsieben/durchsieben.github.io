@@ -32,7 +32,7 @@ wordpressId: "904"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Der Schwerpunkt der <a href="https://durchsieben.de/2020/08/05/wie-legitimiert-sich-fuhrung/">Führungsarbeit</a> liegt daher auf Formen der Kooperation. Führung schafft Freiräume für die Mitarbeitenden, die diese selbstverantwortlich nutzen. So ist die Entwicklung von kooperativen Problemlösestrukturen zielführender als das autoritär­-regelgeleitete Führungshandeln. (Eckes 2014, S.10)</p>
+<p>Der Schwerpunkt der <a href="/2020/08/05/wie-legitimiert-sich-fuhrung/">Führungsarbeit</a> liegt daher auf Formen der Kooperation. Führung schafft Freiräume für die Mitarbeitenden, die diese selbstverantwortlich nutzen. So ist die Entwicklung von kooperativen Problemlösestrukturen zielführender als das autoritär­-regelgeleitete Führungshandeln. (Eckes 2014, S.10)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -40,7 +40,7 @@ wordpressId: "904"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Führen in bedeutet eine stetige Reflexion, welche <a href="https://durchsieben.de/2020/10/10/d-h-werte/">Werte</a>, Haltungen und welches <a href="https://durchsieben.de/2020/08/09/die-fuhrungsidentitat/">Selbstverständnis die Führungskraft</a> hat. Führen bedeutet nicht mehr Anordnen, Befehlen und Kontrollieren, sondern Zuhören, Fragen stellen und sich eine Meinung bilden, um notwendige Initiativen erkennen und fördern zu können. Die Führungskraft ist nicht mehr der umfassende (und einzige) Experte in seinem Bereich, sondern derjenige, der das Expertentum seiner Mitarbeitenden zusammenführt und nutzbar macht. (Eckes 2014, S.10)</p>
+<p>Führen in bedeutet eine stetige Reflexion, welche <a href="/2020/10/10/d-h-werte/">Werte</a>, Haltungen und welches <a href="/2020/08/09/die-fuhrungsidentitat/">Selbstverständnis die Führungskraft</a> hat. Führen bedeutet nicht mehr Anordnen, Befehlen und Kontrollieren, sondern Zuhören, Fragen stellen und sich eine Meinung bilden, um notwendige Initiativen erkennen und fördern zu können. Die Führungskraft ist nicht mehr der umfassende (und einzige) Experte in seinem Bereich, sondern derjenige, der das Expertentum seiner Mitarbeitenden zusammenführt und nutzbar macht. (Eckes 2014, S.10)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -52,7 +52,7 @@ wordpressId: "904"
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Zurück zum Leitartikel <a href="https://durchsieben.de/2020/08/19/fuhrungsprinzipien/">Führungsprinzipien</a>.</p>
+<p>Zurück zum Leitartikel <a href="/2020/08/19/fuhrungsprinzipien/">Führungsprinzipien</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

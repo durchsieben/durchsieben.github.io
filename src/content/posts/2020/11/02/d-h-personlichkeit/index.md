@@ -6,7 +6,7 @@ sourceUrl: "https://durchsieben.de/2020/11/02/d-h-personlichkeit/"
 wordpressId: "1258"
 ---
 <!-- wp:paragraph -->
-<p>Das Persönliche und Einzigartige am Menschen ist die Art und Weise, wie er seine <a href="https://durchsieben.de/2020/10/30/%f0%9f%93%96-d-h-stelle-position-status-rolle/">Rollen</a> wahrnimmt und sie gestaltet. Die Persönlichkeit eines Menschen entwickelt sich gemäß <em>Schmid </em>(1994) durch die bewusste Wahrnehmung und Ausübung eines Bündels von <a href="https://durchsieben.de/2020/10/30/%f0%9f%93%96-d-h-stelle-position-status-rolle/">Rollen</a> in seinen vielseitigen und erlebnisreichen Welten. Dadurch, dass sich der Mensch in zahlreichen Kontexten bewegt, muss er die Rollenerwartungen, die an jede <a href="https://durchsieben.de/2020/10/30/%f0%9f%93%96-d-h-stelle-position-status-rolle/">Rolle</a> geknüpft sind, integrieren und erfüllen. (Spisak/Della Picca 2017, S.63)</p>
+<p>Das Persönliche und Einzigartige am Menschen ist die Art und Weise, wie er seine <a href="/2020/10/30/d-h-stelle-position-status-rolle/">Rollen</a> wahrnimmt und sie gestaltet. Die Persönlichkeit eines Menschen entwickelt sich gemäß <em>Schmid </em>(1994) durch die bewusste Wahrnehmung und Ausübung eines Bündels von <a href="/2020/10/30/d-h-stelle-position-status-rolle/">Rollen</a> in seinen vielseitigen und erlebnisreichen Welten. Dadurch, dass sich der Mensch in zahlreichen Kontexten bewegt, muss er die Rollenerwartungen, die an jede <a href="/2020/10/30/d-h-stelle-position-status-rolle/">Rolle</a> geknüpft sind, integrieren und erfüllen. (Spisak/Della Picca 2017, S.63)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1260,"sizeSlug":"large","linkDestination":"media"} -->

@@ -6,7 +6,7 @@ sourceUrl: "https://durchsieben.de/2020/09/04/fur-zusammenarbeit-sorgen/"
 wordpressId: "953"
 ---
 <!-- wp:paragraph -->
-<p>Organisationen haben erkannt, dass das Freischalten von <a href="https://durchsieben.de/2020/11/11/d-h-agil/">Agilität</a> mehr als nur die Skalierung einer Vielzahl von Scrum-Teams erfordert. Die Organisationstheorie geht auf die 1940er Jahre zurück und war von der Idee geprägt, dass eine Organisation am besten verstanden werden kann, wenn man jedes ihrer Teile sorgfältig studiert - ähnlich wie eine Maschine. (Hesselberg 2019)</p>
+<p>Organisationen haben erkannt, dass das Freischalten von <a href="/2020/11/11/d-h-agile/">Agilität</a> mehr als nur die Skalierung einer Vielzahl von Scrum-Teams erfordert. Die Organisationstheorie geht auf die 1940er Jahre zurück und war von der Idee geprägt, dass eine Organisation am besten verstanden werden kann, wenn man jedes ihrer Teile sorgfältig studiert - ähnlich wie eine Maschine. (Hesselberg 2019)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:more -->
@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=UdBiXbuD1h4
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
-<p>Das ist ziemlich tiefgreifend, wenn man die Auswirkungen bedenkt: Die meisten Bemühungen, <a href="https://durchsieben.de/2020/11/13/agile-prinzipien/">Agile</a> zu "skalieren", konzentrieren sich auf die Koordination, Verwaltung und Synchronisierung der verschiedenen Teile eines Systems durch aufwendige Zeremonien, Abhängigkeitsgremien und vierteljährliche Planungssitzungen. (Hesselberg 2019)</p>
+<p>Das ist ziemlich tiefgreifend, wenn man die Auswirkungen bedenkt: Die meisten Bemühungen, <a href="/2020/11/13/agile-prinzipien/">Agile</a> zu "skalieren", konzentrieren sich auf die Koordination, Verwaltung und Synchronisierung der verschiedenen Teile eines Systems durch aufwendige Zeremonien, Abhängigkeitsgremien und vierteljährliche Planungssitzungen. (Hesselberg 2019)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["591"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
@@ -68,17 +68,17 @@ https://www.youtube.com/watch?v=UdBiXbuD1h4
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
-<p>Diese Einsicht stimmt mit meiner Arbeit in diesem Bereich überein und spiegelt sich in den jüngsten Arbeiten von Mitgliedern der Supporting Agile Adoption wie Bossa Nova (Eckstein/Buck) und Unlocking Agility (Hesselberg 2018) wider: Wenn eine Organisation in Richtung mehr <a href="https://durchsieben.de/2020/11/11/d-h-agil/">Agilität</a> umgewandelt wird, müssen alle Teile dieser Organisation berücksichtigt werden: Marketing, HR, Finanzen, Technik... es reicht nicht aus, einfach nur ein paar Scrum-Teams aus der IT aufzustellen. (Hesselberg 2019)</p>
+<p>Diese Einsicht stimmt mit meiner Arbeit in diesem Bereich überein und spiegelt sich in den jüngsten Arbeiten von Mitgliedern der Supporting Agile Adoption wie Bossa Nova (Eckstein/Buck) und Unlocking Agility (Hesselberg 2018) wider: Wenn eine Organisation in Richtung mehr <a href="/2020/11/11/d-h-agile/">Agilität</a> umgewandelt wird, müssen alle Teile dieser Organisation berücksichtigt werden: Marketing, HR, Finanzen, Technik... es reicht nicht aus, einfach nur ein paar Scrum-Teams aus der IT aufzustellen. (Hesselberg 2019)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Der demütigende Teil von <em>Ackoffs</em> Einsichten impliziert auch, dass dies nicht einfach ist. Es wird nicht darum gehen, einen Rahmen, einen Prozess oder ein Top-Down-Veränderungsprogramm zu implementieren. <strong>Organisatorische Agilität bedeutet, Systeme innerhalb eines größeren Systems zu transformieren - um das Auftauchen anzunehmen und kontinuierlich aus organisatorischen Experimenten zu <a href="https://durchsieben.de/2021/07/28/d-h-wissen-lernen/">lernen</a> und sich auf die Organisation als Ganzes zu konzentrieren.</strong> Das System ist das einzige, was zählt; das bedeutet, dass sich Unternehmen weniger auf die Maximierung des Shareholder Value konzentrieren müssen, sondern mehr auf die Qualität des Arbeitslebens derjenigen, die im Unternehmen arbeiten. Auf diese Weise verbessern wir unsere "Schnittstellen". Hier machen wir einen Unterschied. (Hesselberg 2019)</p>
+<p>Der demütigende Teil von <em>Ackoffs</em> Einsichten impliziert auch, dass dies nicht einfach ist. Es wird nicht darum gehen, einen Rahmen, einen Prozess oder ein Top-Down-Veränderungsprogramm zu implementieren. <strong>Organisatorische Agilität bedeutet, Systeme innerhalb eines größeren Systems zu transformieren - um das Auftauchen anzunehmen und kontinuierlich aus organisatorischen Experimenten zu <a href="/2021/07/28/d-h-wissen-lernen/">lernen</a> und sich auf die Organisation als Ganzes zu konzentrieren.</strong> Das System ist das einzige, was zählt; das bedeutet, dass sich Unternehmen weniger auf die Maximierung des Shareholder Value konzentrieren müssen, sondern mehr auf die Qualität des Arbeitslebens derjenigen, die im Unternehmen arbeiten. Auf diese Weise verbessern wir unsere "Schnittstellen". Hier machen wir einen Unterschied. (Hesselberg 2019)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showAuthor":false,"specificPosts":["1234","1416"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
 
 <!-- wp:paragraph -->
-<p>Zurück zum Leitartikel <a href="http://durchsieben.de/?p=867">Was sind Führungsaufgaben</a>.</p>
+<p>Zurück zum Leitartikel <a href="/?p=867">Was sind Führungsaufgaben</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

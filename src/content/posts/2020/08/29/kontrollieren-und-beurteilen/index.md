@@ -10,7 +10,7 @@ wordpressId: "939"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Zurück zum Leitartikel <a href="http://durchsieben.de/?p=867">Was sind Führungsaufgaben</a>.</p>
+<p>Zurück zum Leitartikel <a href="/?p=867">Was sind Führungsaufgaben</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

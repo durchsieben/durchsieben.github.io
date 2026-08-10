@@ -50,7 +50,7 @@ wordpressId: "909"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Zurück zum Leitartikel <a href="https://durchsieben.de/2020/08/19/fuhrungsprinzipien/">Führungsprinzipien</a>.</p>
+<p>Zurück zum Leitartikel <a href="/2020/08/19/fuhrungsprinzipien/">Führungsprinzipien</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

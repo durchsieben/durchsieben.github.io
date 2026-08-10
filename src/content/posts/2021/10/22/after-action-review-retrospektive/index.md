@@ -6,7 +6,7 @@ sourceUrl: "https://durchsieben.de/2021/10/22/after-action-review-retrospektive/
 wordpressId: "2134"
 ---
 <!-- wp:paragraph -->
-<p>Ein After-Action-Review (AAR) ist ein strukturiertes Gespräch, das es Ihnen und Ihrem <a href="https://durchsieben.de/2021/07/26/d-h-team/">Team</a> ermöglicht, aus den Erfolgen und Fehlern der Gruppe zu lernen. Der Prozess ist dem Militär entlehnt, wo die <a href="https://durchsieben.de/2020/10/12/grundverstandnis-der-fuhrungsaufgabe/">Führungskräfte</a> die Überprüfung nutzen, um alles zu bewerten, von einer einzelnen militärischen Aktion bis hin zu einer tagelangen Schlacht. (After-Action Reviews: HBR Tools 2015)</p>
+<p>Ein After-Action-Review (AAR) ist ein strukturiertes Gespräch, das es Ihnen und Ihrem <a href="/2021/07/26/d-h-team/">Team</a> ermöglicht, aus den Erfolgen und Fehlern der Gruppe zu lernen. Der Prozess ist dem Militär entlehnt, wo die <a href="/2020/10/12/grundverstandnis-der-fuhrungsaufgabe/">Führungskräfte</a> die Überprüfung nutzen, um alles zu bewerten, von einer einzelnen militärischen Aktion bis hin zu einer tagelangen Schlacht. (After-Action Reviews: HBR Tools 2015)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:more -->

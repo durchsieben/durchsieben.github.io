@@ -6,7 +6,7 @@ sourceUrl: "https://durchsieben.de/2021/07/26/d-h-team/"
 wordpressId: "1006"
 ---
 <!-- wp:paragraph -->
-<p>Als <strong>Team </strong>wird eine formelle <a href="https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Arbeit</a>sgruppe dann bezeichnet, wenn sie besondere Merkmale aufweist. (Staehle/Conrad/Sydow 1999, S.270)</p>
+<p>Als <strong>Team </strong>wird eine formelle <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Arbeit</a>sgruppe dann bezeichnet, wenn sie besondere Merkmale aufweist. (Staehle/Conrad/Sydow 1999, S.270)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -14,7 +14,7 @@ wordpressId: "1006"
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>kleine, funktionsgegliederte <a href="https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Arbeit</a>sgruppe</li><li><a href="https://durchsieben.de/2020/08/25/fur-ziele-sorgen/">gemeinsame Zielsetzung</a></li><li>relativ intensive wechselseitige Beziehungen</li><li>spezifische Arbeitsform (<em>teamwork</em>)</li><li>ausgeprägter Gemeinschaftsgeist (<em>teamspirit</em>)</li><li>relativ starke Gruppenkohäsion (<a href="https://durchsieben.de/2020/10/19/d-h-norm/">Normen</a>)</li></ul>
+<ul><li>kleine, funktionsgegliederte <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Arbeit</a>sgruppe</li><li><a href="/2020/08/25/fuer-ziele-sorgen/">gemeinsame Zielsetzung</a></li><li>relativ intensive wechselseitige Beziehungen</li><li>spezifische Arbeitsform (<em>teamwork</em>)</li><li>ausgeprägter Gemeinschaftsgeist (<em>teamspirit</em>)</li><li>relativ starke Gruppenkohäsion (<a href="/2020/10/19/d-h-norm/">Normen</a>)</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:more -->
@@ -22,7 +22,7 @@ wordpressId: "1006"
 <!-- /wp:more -->
 
 <!-- wp:paragraph -->
-<p>Die <a href="https://durchsieben.de/2021/10/19/d-h-teamfahigkeit/">Teamfähigkeit</a> der Gruppe ist zwar eine unentbehrliche Voraussetzung für gelingende Teamarbeit, aber sie reicht nicht aus. Der Selbstbezug des Teams auf seine internen Verhältnisse und Prozesse wird vielmehr erst ausreichend in Gang gesetzt, wenn für die folgenden Faktoren nach <em>Wageman</em> (1999) Sorge getragen wird: (Buchinger 2008)</p>
+<p>Die <a href="/2021/10/19/d-h-teamfahigkeit/">Teamfähigkeit</a> der Gruppe ist zwar eine unentbehrliche Voraussetzung für gelingende Teamarbeit, aber sie reicht nicht aus. Der Selbstbezug des Teams auf seine internen Verhältnisse und Prozesse wird vielmehr erst ausreichend in Gang gesetzt, wenn für die folgenden Faktoren nach <em>Wageman</em> (1999) Sorge getragen wird: (Buchinger 2008)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->

@@ -58,7 +58,7 @@ wordpressId: "2095"
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Zurück zum Leitartikel <a href="https://durchsieben.de/2020/09/02/potenziale-entfalten/">Potenziale entfalten</a>.</p>
+<p>Zurück zum Leitartikel <a href="/2021/10/17/potenziale-entfalten/">Potenziale entfalten</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

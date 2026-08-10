@@ -21,6 +21,7 @@ NAMESPACES = {
     "wp": "http://wordpress.org/export/1.2/",
 }
 MEDIA_URL_PATTERN = re.compile(r"https?://durchsieben\.de/wp-content/uploads/[^\"'<>\s)]+")
+INTERNAL_URL_PATTERN = re.compile(r"https?://(?:www\.)?durchsieben\.de(?P<path>/[^\"'<>\s)]*)")
 
 
 @dataclass(frozen=True)
@@ -131,6 +132,31 @@ def rewrite_media(content: str, attachments: dict[str, Attachment]) -> tuple[str
     return "\n".join(line.rstrip() for line in rewritten.splitlines()), unresolved
 
 
+def rewrite_internal_urls(content: str, routes: set[str]) -> str:
+    decoded_routes = {unquote(route): route for route in routes}
+    by_slug: dict[str, str] = {}
+    for decoded, route in decoded_routes.items():
+        slug = decoded.rstrip("/").rsplit("/", 1)[-1]
+        if slug and slug not in by_slug:
+            by_slug[slug] = route
+
+    def replace(match: re.Match[str]) -> str:
+        original = match.group(0)
+        parsed = urlparse(original)
+        candidates = [unquote(parsed.path)]
+        candidates.append(re.sub(r"/(?:📖|🧬)-", "/", candidates[0]))
+        candidates.append(candidates[0].replace("/fur-", "/fuer-"))
+        candidates.append(candidates[0].replace("/d-h-agil/", "/d-h-agile/"))
+        canonical = next((decoded_routes[path] for path in candidates if path in decoded_routes), None)
+        if canonical is None:
+            canonical = by_slug.get(candidates[0].rstrip("/").rsplit("/", 1)[-1])
+        if canonical is None:
+            return original
+        return canonical + (f"?{parsed.query}" if parsed.query else "") + (f"#{parsed.fragment}" if parsed.fragment else "")
+
+    return INTERNAL_URL_PATTERN.sub(replace, content)
+
+
 def source_path(item: ET.Element) -> str:
     value = text(item, "link")
     parsed = urlparse(value)
@@ -200,6 +226,7 @@ def run(args: argparse.Namespace) -> dict[str, object]:
         kind = text(item, "wp:post_type", namespace="wp")
         route = source_path(item)
         content, _ = rewrite_media(text(item, "content:encoded", namespace="content"), attachments)
+        content = rewrite_internal_urls(content, expected_paths)
         destination = content_path(args.content, f"{kind}s", route)
         destination.parent.mkdir(parents=True, exist_ok=True)
         record = {

@@ -1,0 +1,22 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+export async function getStaticPaths() {
+  const entries = [...await getCollection('posts'), ...await getCollection('pages')];
+  return entries.map((entry) => ({ params: { slug: decodeURI(entry.data.sourcePath.replace(/^\//, '').replace(/\/$/, '')) }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const posts = (await getCollection('posts')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+const { Content } = await render(entry);
+const path = entry.data.sourcePath;
+const isArchive = path === '/artikeluebersicht/';
+const isAbout = path === '/about/';
+const isLegal = path === '/impressum/';
+const milestones = [['1977', 'Geboren in Polen, aufgewachsen in Deutschland.'], ['1997', 'Wechsel zu Linux und Beteiligung als Debian GNU/Linux Entwickler.'], ['2009', 'Berufsbegleitendes Studium der Betriebswirtschaftslehre.'], ['Heute', 'Managementthemen aus Literatur und Praxis einordnen.']];
+---
+<BaseLayout title={entry.data.title}>
+  {isArchive && <section class="archive-head"><p class="kicker">Archiv</p><h1>Artikelübersicht</h1><p>Eine thematisch strukturierte Auswahl veröffentlichter Artikel – für gezieltes Vertiefen statt endloses Scrollen.</p><div class="archive-list"><p class="kicker">Themenlandkarte</p><h2>Von Grundlagen zu konkreten Führungsaufgaben.</h2><ul>{posts.map((post, index) => <li><small>{String(index + 1).padStart(2, '0')}</small><a href={post.data.sourcePath}>{post.data.title}</a><span>→</span></li>)}</ul></div></section>}
+  {isAbout && <><section class="page-card"><p class="eyebrow">Über den Autor</p><h1>Raphael Bossek</h1><p class="prose">Technik, Management und die Freude, komplizierte Zusammenhänge verständlich zu machen.</p></section><section class="archive-head"><p class="kicker">Der Weg hierher</p><h2>Vom Programmieren zum Durchsieben der Managementliteratur.</h2><div class="archive-list"><ul>{milestones.map(([year, text]) => <li><small>{year}</small><span>{text}</span></li>)}</ul></div></section></>}
+  {isLegal && <section class="legal"><p class="kicker">Rechtliche Hinweise</p><h1>Impressum</h1><p>Angaben zum Verantwortlichen und Hinweise zur Nutzung dieser Website.</p><dl><div><dt>Verantwortlich für den Inhalt</dt><dd>Raphael Bossek · verantwortlich nach § 55 Abs. 2 RStV.</dd></div><div><dt>Haftung für Inhalte</dt><dd>Eigene Inhalte werden nach den allgemeinen Gesetzen verantwortet.</dd></div><div><dt>Haftung für Links</dt><dd>Für Inhalte externer Websites sind deren Anbieter verantwortlich.</dd></div><div><dt>Urheberrecht</dt><dd>Die erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht.</dd></div></dl></section>}
+  {!isArchive && !isAbout && !isLegal && <><section class="hero article-hero"><div class="hero-copy"><p class="eyebrow">Führung · Grundlagen</p><h1>{entry.data.title}</h1><p>{entry.data.title} – ein Beitrag aus dem Management÷7-Archiv.</p><small>{new Date(entry.data.date).toLocaleDateString('de-DE')}</small></div><div class="hero-visual"><span>[Abbildung aus dem Beitrag]</span></div></section><article class="article-body"><Content /></article></>}
+</BaseLayout>

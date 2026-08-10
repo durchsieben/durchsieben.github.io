@@ -43,12 +43,13 @@ Gate: the wireframe `.pen` source and review exports show all five requested scr
 
 Gate: importer runs from a clean checkout using only the recorded backup; content count and route manifest reconciliation pass.
 
-### Phase 3 — Build the Astro frontend [in-progress]
+### Phase 3 — Build the Astro frontend [done]
 
 1. Create an Astro static site with content collections, an article index, article pages, the existing legal/about pages, RSS, sitemap, and accessible typography.
-2. Add shadcn UI primitives. Retrieve selected Shadcnblocks Pro blocks through the documented API only when `SHADCNBLOCKS_API_KEY` is available to the shell; do not expose it in browser code, source files, Git, or workflow logs.
-3. Implement the approved wireframe structure with selected Shadcnblocks components; preserve the editorial information architecture rather than copying a generic landing page.
-4. Add route-manifest, content-count, link, and production-build checks.
+2. Use native Astro, semantic HTML, and custom CSS primitives; do not introduce React, Tailwind, shadcn, or Shadcnblocks solely for component styling.
+3. Implement the approved wireframe structure while preserving the editorial information architecture rather than copying a generic landing page.
+4. Canonicalize imported links to the former site host when their target has a preserved route; record and resolve stale internal aliases discovered by the link check.
+5. Add route-manifest, content-count, link, and production-build checks.
 
 Gate: `pnpm build` plus focused route/content/link checks pass locally; no secret is tracked or emitted.
 
@@ -67,6 +68,7 @@ Gate: GitHub Pages deployment succeeds; HTTPS is active; sampled old paths retur
 - GitHub Pages requires static output. Exact generated legacy paths are the compatibility mechanism; Astro's static redirect output is not an HTTP 301/308 service.
 - `durchsieben.de` is an apex domain. Cutover requires GitHub Pages custom-domain configuration plus appropriate DNS records, which is a user-visible external change and is deferred to Phase 4.
 - The public `forgegod/durchsieben.de` repository was created with explicit operator approval. GitHub Pages and DNS remain deferred to Phase 4.
+- The operator removed the shadcn and Shadcnblocks requirement during Phase 3. The site remains dependency-light and static; interactive UI work requires a separate explicit request.
 
 ## Verification ledger
 
@@ -74,5 +76,5 @@ Gate: GitHub Pages deployment succeeds; HTTPS is active; sampled old paths retur
 | --- | --- | --- |
 | 1 | done | Five-screen canonical wireframe source/export set passed fresh layout and visual checks. Public API, WXR, and media archive inventories reconcile to 109 published posts, 3 published pages, and 78 attachments; source checksums and the 113-path sitemap route seed passed verification. |
 | 2 | done | Public `forgegod/durchsieben.de` repository initialized on `main`; the importer generated 109 posts, 3 pages, 78 local media files, and 113 unique legacy paths. A literal fresh Git clone re-imported from the recorded backup and produced no tracked differences. |
-| 3 | in-progress | Astro static-site implementation is next. |
+| 3 | done | Native Astro frontend implements the five approved page structures without React, Tailwind, shadcn, or Shadcnblocks. `pnpm check`, `pnpm build`, and `pnpm verify` passed: 113 generated routes, 109 posts, 3 pages, 78 media assets, and no broken local links. The importer canonicalizes stale former-host links to preserved paths before output. |
 | 4 | planned | — |

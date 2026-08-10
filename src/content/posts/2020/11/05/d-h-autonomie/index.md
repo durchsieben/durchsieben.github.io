@@ -6,7 +6,7 @@ sourceUrl: "https://durchsieben.de/2020/11/05/d-h-autonomie/"
 wordpressId: "1247"
 ---
 <!-- wp:paragraph -->
-<p>Unter <strong>Autonomie</strong> versteht man die Möglichkeit und <span style="text-decoration:underline;">Fähigkeit</span>, sich von eigenen, sozial akzeptierten inneren Maßstäben und <a href="https://durchsieben.de/2020/10/10/d-h-werte/">Werten</a> leiten zu lassen; Gestaltungsraum und Gestaltungsfreiheit. (Spisak/Della Picca, Moreno 2017, S.20)</p>
+<p>Unter <strong>Autonomie</strong> versteht man die Möglichkeit und <span style="text-decoration:underline;">Fähigkeit</span>, sich von eigenen, sozial akzeptierten inneren Maßstäben und <a href="/2020/10/10/d-h-werte/">Werten</a> leiten zu lassen; Gestaltungsraum und Gestaltungsfreiheit. (Spisak/Della Picca, Moreno 2017, S.20)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:more -->
@@ -14,11 +14,11 @@ wordpressId: "1247"
 <!-- /wp:more -->
 
 <!-- wp:paragraph -->
-<p>Mitarbeitende, die Verantwortung für ihre <span style="text-decoration:underline;">Aufgaben</span> erhalten und deren Autonomiebedürfnis entsprochen wird, sind <a href="https://durchsieben.de/2020/10/17/d-h-motivation/">motiviert</a>, hohe Leistung zu erbringen. Wenn Mitarbeitende innerhalb ihrer <span style="text-decoration:underline;">Aufgaben</span> Entscheidungen selber treffen können und ihre Handlungsspielräume angemessen groß sind, erhöht sich ihre Performance, und gleichzeitig werden ihre <a href="https://durchsieben.de/2020/10/11/d-h-qualifikation-kompetenz/">Kompetenzen</a> ausgebaut und gefestigt. Die <span style="text-decoration:underline;">Führung</span> sollte demnach ihren Mitarbeitenden innerhalb ihres Aufgabenbereiches <a href="https://durchsieben.de/2020/08/19/fuhrungsprinzipien/">Entscheidungsbefugnisse</a> abgeben, die ihnen erlauben, eigenständig und selbstverantwortlich zu entscheiden und die Entscheidungen umzusetzen. So werden sowohl Mitarbeiter-Commitment als auch Arbeitszufriedenheit gefördert. (Spisak/Della Picca 2017, S.64)</p>
+<p>Mitarbeitende, die Verantwortung für ihre <span style="text-decoration:underline;">Aufgaben</span> erhalten und deren Autonomiebedürfnis entsprochen wird, sind <a href="/2020/10/17/d-h-motivation/">motiviert</a>, hohe Leistung zu erbringen. Wenn Mitarbeitende innerhalb ihrer <span style="text-decoration:underline;">Aufgaben</span> Entscheidungen selber treffen können und ihre Handlungsspielräume angemessen groß sind, erhöht sich ihre Performance, und gleichzeitig werden ihre <a href="/2020/10/11/d-h-qualifikation-kompetenz/">Kompetenzen</a> ausgebaut und gefestigt. Die <span style="text-decoration:underline;">Führung</span> sollte demnach ihren Mitarbeitenden innerhalb ihres Aufgabenbereiches <a href="/2020/08/19/fuhrungsprinzipien/">Entscheidungsbefugnisse</a> abgeben, die ihnen erlauben, eigenständig und selbstverantwortlich zu entscheiden und die Entscheidungen umzusetzen. So werden sowohl Mitarbeiter-Commitment als auch Arbeitszufriedenheit gefördert. (Spisak/Della Picca 2017, S.64)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Autonomie</strong> bedeutet auch, dass Mitarbeitende selbstverantwortlich die Mittel ihrer Arbeit wählen und <a href="https://durchsieben.de/2020/08/25/fur-ziele-sorgen/">Teilziele</a> festlegen können. Dadurch erleben sie sich einflussreich und bedeutungsvoll, was wiederum ihr Selbstwertgefühl und die Bereitschaft zur Übernahme von Verantwortung erhöht. (Spisak/Della Picca 2017, S.65f)</p>
+<p><strong>Autonomie</strong> bedeutet auch, dass Mitarbeitende selbstverantwortlich die Mittel ihrer Arbeit wählen und <a href="/2020/08/25/fuer-ziele-sorgen/">Teilziele</a> festlegen können. Dadurch erleben sie sich einflussreich und bedeutungsvoll, was wiederum ihr Selbstwertgefühl und die Bereitschaft zur Übernahme von Verantwortung erhöht. (Spisak/Della Picca 2017, S.65f)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["892"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->

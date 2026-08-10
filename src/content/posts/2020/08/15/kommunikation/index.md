@@ -20,11 +20,11 @@ wordpressId: "885"
 <!-- wp:a8c/blog-posts {"className":"is-style-default","excerptLength":70,"showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["813"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
 
 <!-- wp:paragraph -->
-<p>Vorgesetzte sind gut beraten, ihre Aktivitäten nicht ausschließlich auf die jeweils anstehende unmittelbare <a href="https://durchsieben.de/2020/08/19/fuhrungsprinzipien/">Führungssituation</a> zu fokussieren. Sie brauchen ihre Mannschaft; sie brauchen aber auch Kommunikationspartner, die über den Blickwinkel kurzfristiger <a href="https://durchsieben.de/2020/08/17/verantwortung/">Führungsverantwortung</a> hinaussehen, und sie brauchen ein Informationsnetz, das möglichst nah die Führungsrealität widerspiegelt. (Bolten 2013, S.118f)</p>
+<p>Vorgesetzte sind gut beraten, ihre Aktivitäten nicht ausschließlich auf die jeweils anstehende unmittelbare <a href="/2020/08/19/fuhrungsprinzipien/">Führungssituation</a> zu fokussieren. Sie brauchen ihre Mannschaft; sie brauchen aber auch Kommunikationspartner, die über den Blickwinkel kurzfristiger <a href="/2020/08/17/verantwortung/">Führungsverantwortung</a> hinaussehen, und sie brauchen ein Informationsnetz, das möglichst nah die Führungsrealität widerspiegelt. (Bolten 2013, S.118f)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Das kann nur gelingen, wenn sie ihre Erwartungen mit den Erwartungen ihrer Gesprächspartner abgleichen können und die daraus entstehenden Beziehungen nutzen. „Networking“ muss betrieben werden! Parallel zu der Fähigkeit, Absprachen treﬀen zu können, sollten Vorgesetzte auch <a href="https://durchsieben.de/2020/09/04/fur-zusammenarbeit-sorgen/">in Netzstrukturen denken</a> und handeln können. (Bolten 2013, S.119)</p>
+<p>Das kann nur gelingen, wenn sie ihre Erwartungen mit den Erwartungen ihrer Gesprächspartner abgleichen können und die daraus entstehenden Beziehungen nutzen. „Networking“ muss betrieben werden! Parallel zu der Fähigkeit, Absprachen treﬀen zu können, sollten Vorgesetzte auch <a href="/2020/09/04/fur-zusammenarbeit-sorgen/">in Netzstrukturen denken</a> und handeln können. (Bolten 2013, S.119)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -32,13 +32,13 @@ wordpressId: "885"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Netzwerke spielen auf allen Ebenen eine wichtige Rolle. Ihre Bedeutung zeigt sich auch darin, dass zwischen im Netzwerk handelnden Menschen ein größeres gegenseitiges <a href="https://durchsieben.de/2020/11/13/agile-prinzipien/">Vertrauen</a> herrscht als in herkömmlichen Hierarchien oder Arbeitsgruppen. Informell bedeutet freiwillig und das bedeutet <a href="https://durchsieben.de/2020/11/13/agile-prinzipien/">Vertrauen</a>. (Bolten 2013, S.119)</p>
+<p>Netzwerke spielen auf allen Ebenen eine wichtige Rolle. Ihre Bedeutung zeigt sich auch darin, dass zwischen im Netzwerk handelnden Menschen ein größeres gegenseitiges <a href="/2020/11/13/agile-prinzipien/">Vertrauen</a> herrscht als in herkömmlichen Hierarchien oder Arbeitsgruppen. Informell bedeutet freiwillig und das bedeutet <a href="/2020/11/13/agile-prinzipien/">Vertrauen</a>. (Bolten 2013, S.119)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["591","1234"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
 
 <!-- wp:paragraph -->
-<p>Beobachten Vorgesetzte, wer häuﬁg in Bezug auf Inhalte und/oder bestimmte Probleme mit wem kommuniziert, werden sie relativ stabile Netzwerke erkennen, weil sich zeigen wird, dass innerhalb dieser Netzwerke stärker zum Problem kommuniziert wird als nach außen hin sichtbar. Das ist auch ein Grund, warum Vorgesetzte als <a href="https://durchsieben.de/2020/08/31/entscheiden/">Entscheidungsträger</a> für ihre Gruppen relativ stark hinter solchen in dieser Form entstandenen Netzwerken stehen sollten. (Bolten 2013, S.119f)</p>
+<p>Beobachten Vorgesetzte, wer häuﬁg in Bezug auf Inhalte und/oder bestimmte Probleme mit wem kommuniziert, werden sie relativ stabile Netzwerke erkennen, weil sich zeigen wird, dass innerhalb dieser Netzwerke stärker zum Problem kommuniziert wird als nach außen hin sichtbar. Das ist auch ein Grund, warum Vorgesetzte als <a href="/2020/08/31/entscheiden/">Entscheidungsträger</a> für ihre Gruppen relativ stark hinter solchen in dieser Form entstandenen Netzwerken stehen sollten. (Bolten 2013, S.119f)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -52,7 +52,7 @@ wordpressId: "885"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Zurück zum Leitartikel <a href="http://durchsieben.de/?p=867">Was sind Führungsaufgaben</a>.</p>
+<p>Zurück zum Leitartikel <a href="/?p=867">Was sind Führungsaufgaben</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

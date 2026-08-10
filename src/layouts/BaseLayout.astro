@@ -1,0 +1,6 @@
+---
+import '../styles/global.css';
+interface Props { title: string; description?: string }
+const { title, description = 'Management÷7 — Management-Wissen für die Praxis.' } = Astro.props;
+---
+<!doctype html><html lang="de"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><meta name="description" content={description} /><link rel="alternate" type="application/rss+xml" title="Management÷7 RSS" href="/rss.xml" /><link rel="sitemap" href="/sitemap-index.xml" /><title>{title} | Management÷7</title></head><body><header class="site-header"><div><a class="brand" href="/"><i></i>Management÷7</a><nav aria-label="Hauptnavigation"><a href="/artikeluebersicht/">Artikel</a><a href="/artikeluebersicht/">Themen</a><a href="/about/">Über den Autor</a><a href="/impressum/">Impressum</a><a class="accent" href="/artikeluebersicht/">Suche</a></nav></div></header><main><slot /></main><footer class="site-footer"><div><section><strong>Management÷7</strong><p>Wir durchsieben die Märchen und Mythen des Managements.</p><small>© Raphael Bossek · Inhalte mit Quellenangaben</small></section><nav><a href="/artikeluebersicht/">Artikelübersicht</a><a href="/about/">Über den Autor</a><a href="/impressum/">Impressum</a></nav></div></footer></body></html>

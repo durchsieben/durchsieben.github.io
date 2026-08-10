@@ -6,7 +6,7 @@ sourceUrl: "https://durchsieben.de/2021/08/04/d-h-marketing/"
 wordpressId: "1022"
 ---
 <!-- wp:paragraph -->
-<p><strong>Marketing </strong>ist die Wissenschaft und Kunst der Erforschung, Schaffung und Lieferung von Werten, um die <a href="https://durchsieben.de/2020/11/04/d-h-bedurfnisse/">Bedürfnisse</a> eines Zielmarktes mit <a href="https://durchsieben.de/2021/08/05/%f0%9f%a7%ac-zweck-und-aufgabe-von-unternehmen/">Gewinn</a> zu befriedigen. Marketing identifiziert unerfüllte <a href="https://durchsieben.de/2020/11/04/d-h-bedurfnisse/">Bedürfnisse</a> und Wünsche. Es definiert, misst und quantifiziert die Größe des identifizierten Marktes und das Gewinnpotenzial. Es zeigt auf, welche Segmente das Unternehmen am besten bedienen kann, und es entwirft und fördert die entsprechenden Produkte und Dienstleistungen. (Kotler)</p>
+<p><strong>Marketing </strong>ist die Wissenschaft und Kunst der Erforschung, Schaffung und Lieferung von Werten, um die <a href="/2020/11/04/d-h-bedurfnisse/">Bedürfnisse</a> eines Zielmarktes mit <a href="/2021/08/05/zweck-und-aufgabe-von-unternehmen/">Gewinn</a> zu befriedigen. Marketing identifiziert unerfüllte <a href="/2020/11/04/d-h-bedurfnisse/">Bedürfnisse</a> und Wünsche. Es definiert, misst und quantifiziert die Größe des identifizierten Marktes und das Gewinnpotenzial. Es zeigt auf, welche Segmente das Unternehmen am besten bedienen kann, und es entwirft und fördert die entsprechenden Produkte und Dienstleistungen. (Kotler)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:more -->

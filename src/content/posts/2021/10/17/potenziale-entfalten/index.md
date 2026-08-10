@@ -6,7 +6,7 @@ sourceUrl: "https://durchsieben.de/2021/10/17/potenziale-entfalten/"
 wordpressId: "949"
 ---
 <!-- wp:paragraph -->
-<p><em>Zukunftsorientierte Beurteilungskriterien</em> reflektieren das Potenzial, d. h. den erwarteten zukünftigen Beitrag von Führungskräften bzw. Mitarbeitern zur Erreichung der <a href="https://durchsieben.de/2020/08/25/fuer-ziele-sorgen/">Unternehmensziele</a>. <em>Vergangenheitsorientierte Beurteilungskriterien</em> erfassen die Leistungen einer oder mehrerer Perioden vor dem Beurteilungszeitpunkt. (entnommen aus Stock-Homburg/Groß 2019, S. 433)</p>
+<p><em>Zukunftsorientierte Beurteilungskriterien</em> reflektieren das Potenzial, d. h. den erwarteten zukünftigen Beitrag von Führungskräften bzw. Mitarbeitern zur Erreichung der <a href="/2020/08/25/fuer-ziele-sorgen/">Unternehmensziele</a>. <em>Vergangenheitsorientierte Beurteilungskriterien</em> erfassen die Leistungen einer oder mehrerer Perioden vor dem Beurteilungszeitpunkt. (entnommen aus Stock-Homburg/Groß 2019, S. 433)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -22,7 +22,7 @@ wordpressId: "949"
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Diejenigen Tätigkeiten, in denen Personalentwicklung im Sinne von Veränderungen von <a href="https://durchsieben.de/2020/10/11/d-h-qualifikation-kompetenz/">Mitarbeiterqualifikationen</a> bzw. -leistungen bewirkt werden kann, sind in die drei Arten Bildung (Lernen), Arbeitsstrukturierung und Karriereplanung (Versetzung) unterteilt. (Berthel/Becker 2007, S. 339)</p>
+<p>Diejenigen Tätigkeiten, in denen Personalentwicklung im Sinne von Veränderungen von <a href="/2020/10/11/d-h-qualifikation-kompetenz/">Mitarbeiterqualifikationen</a> bzw. -leistungen bewirkt werden kann, sind in die drei Arten Bildung (Lernen), Arbeitsstrukturierung und Karriereplanung (Versetzung) unterteilt. (Berthel/Becker 2007, S. 339)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -38,17 +38,17 @@ wordpressId: "949"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Viele wohlmeinende Führungskräfte betrachten Schulungen als Allheilmittel für offensichtliche Lernmöglichkeiten oder Verhaltensprobleme. So werden z. B. Berater mit Workshop beauftragt, der Mitarbeitern helfen soll, weniger bürokratisch und mehr unternehmerisch zu handeln. Ziel dieses Workshops war, den Mitarbeitern beizubringen, dass sie nicht länger auf die Zustimmung ihrer Vorgesetzten warten sollten, sondern sich stattdessen befähigt fühlen sollten, selbst <a href="https://durchsieben.de/2020/08/31/entscheiden/">Entscheidungen</a> zu treffen. Die Hoffnung war, dass dadurch Entscheidungen schneller getroffen werden würden. Obwohl das Unternehmen bereit zu investieren schien, war ein Schulungsprogramm nicht der richtige Weg, um das neue Verhalten, das die Mitarbeiter <a href="https://durchsieben.de/2021/07/28/d-h-wissen-lernen/">lernen</a> sollten, einzuführen. (Carucci 2018)</p>
+<p>Viele wohlmeinende Führungskräfte betrachten Schulungen als Allheilmittel für offensichtliche Lernmöglichkeiten oder Verhaltensprobleme. So werden z. B. Berater mit Workshop beauftragt, der Mitarbeitern helfen soll, weniger bürokratisch und mehr unternehmerisch zu handeln. Ziel dieses Workshops war, den Mitarbeitern beizubringen, dass sie nicht länger auf die Zustimmung ihrer Vorgesetzten warten sollten, sondern sich stattdessen befähigt fühlen sollten, selbst <a href="/2020/08/31/entscheiden/">Entscheidungen</a> zu treffen. Die Hoffnung war, dass dadurch Entscheidungen schneller getroffen werden würden. Obwohl das Unternehmen bereit zu investieren schien, war ein Schulungsprogramm nicht der richtige Weg, um das neue Verhalten, das die Mitarbeiter <a href="/2021/07/28/d-h-wissen-lernen/">lernen</a> sollten, einzuführen. (Carucci 2018)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["208"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
 
 <!-- wp:paragraph -->
-<p>Schulungen können ein wirkungsvolles Mittel sein, wenn die Ursache des Lernbedarfs nachweislich in einer unzureichend entwickelten Fähigkeit oder einem Wissensdefizit liegt. In solchen Fällen ist ein gut konzipiertes Programm mit maßgeschneiderten Inhalten, relevantem Fallmaterial, Übungen zum <a href="https://durchsieben.de/2020/10/11/d-h-qualifikation-kompetenz/">Kompetenzaufbau</a> und einer abschließenden <a href="https://durchsieben.de/2020/10/17/d-h-messung/">Messung</a> des Kompetenzerwerbs sehr hilfreich. Im Fall dieser Organisation hatte der Mangel an Fähigkeiten jedoch nur wenig mit ihrem Problem zu tun. Nachdem wir die Führungskräfte des Unternehmens befragt hatten, warum sie eine Schulung für notwendig hielten, fanden wir heraus, dass die Ursachen ihres Problems eher darin lagen: (Carucci 2018)</p>
+<p>Schulungen können ein wirkungsvolles Mittel sein, wenn die Ursache des Lernbedarfs nachweislich in einer unzureichend entwickelten Fähigkeit oder einem Wissensdefizit liegt. In solchen Fällen ist ein gut konzipiertes Programm mit maßgeschneiderten Inhalten, relevantem Fallmaterial, Übungen zum <a href="/2020/10/11/d-h-qualifikation-kompetenz/">Kompetenzaufbau</a> und einer abschließenden <a href="/2020/10/17/d-h-messung/">Messung</a> des Kompetenzerwerbs sehr hilfreich. Im Fall dieser Organisation hatte der Mangel an Fähigkeiten jedoch nur wenig mit ihrem Problem zu tun. Nachdem wir die Führungskräfte des Unternehmens befragt hatten, warum sie eine Schulung für notwendig hielten, fanden wir heraus, dass die Ursachen ihres Problems eher darin lagen: (Carucci 2018)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Unwirksame <a href="https://durchsieben.de/2020/08/31/entscheiden/">Entscheidungsprozesse</a>, bei denen nicht klar war, welche Führungskräfte und Gruppen für welche Entscheidungen zuständig waren</li><li>Eng verteilte <a href="https://durchsieben.de/2020/08/19/fuhrungsprinzipien/">Autorität</a>, die sich auf die Spitze der Organisation konzentriert</li><li>Keine messbaren Erwartungen an die Entscheidungsfindung der Mitarbeiter</li><li>Keine Technologien zur schnellen Weitergabe von Informationen an diejenigen, die sie für die Entscheidungsfindung benötigen</li></ul>
+<ul><li>Unwirksame <a href="/2020/08/31/entscheiden/">Entscheidungsprozesse</a>, bei denen nicht klar war, welche Führungskräfte und Gruppen für welche Entscheidungen zuständig waren</li><li>Eng verteilte <a href="/2020/08/19/fuhrungsprinzipien/">Autorität</a>, die sich auf die Spitze der Organisation konzentriert</li><li>Keine messbaren Erwartungen an die Entscheidungsfindung der Mitarbeiter</li><li>Keine Technologien zur schnellen Weitergabe von Informationen an diejenigen, die sie für die Entscheidungsfindung benötigen</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -74,7 +74,7 @@ wordpressId: "949"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Vertikale Arbeitsteilung</strong> führt zu Veränderungen des Verhältnisses von Durchführungs- zu <a href="https://durchsieben.de/2020/08/31/entscheiden/">Entscheidungsaufgaben</a> i. d. R. in der Weise, dass letztere abgetrennt und übergeordneten <a href="https://durchsieben.de/2020/10/30/d-h-stelle-position-status-rolle/">Stellen</a> übertragen werden. (Berthel/Becker 2007, S. 339)</p>
+<p><strong>Vertikale Arbeitsteilung</strong> führt zu Veränderungen des Verhältnisses von Durchführungs- zu <a href="/2020/08/31/entscheiden/">Entscheidungsaufgaben</a> i. d. R. in der Weise, dass letztere abgetrennt und übergeordneten <a href="/2020/10/30/d-h-stelle-position-status-rolle/">Stellen</a> übertragen werden. (Berthel/Becker 2007, S. 339)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -86,7 +86,7 @@ wordpressId: "949"
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Der individuelle berufliche Werdegang ist Gegenstand der Karriereplanung. Dabei wird hier unter Karriere jede beliebige <a href="https://durchsieben.de/2020/10/30/d-h-stelle-position-status-rolle/">Stellenfolge</a> einer Person im betrieblichen Stellengefüge verstanden. (Berthel/Becker 2007, S. 372)</p>
+<p>Der individuelle berufliche Werdegang ist Gegenstand der Karriereplanung. Dabei wird hier unter Karriere jede beliebige <a href="/2020/10/30/d-h-stelle-position-status-rolle/">Stellenfolge</a> einer Person im betrieblichen Stellengefüge verstanden. (Berthel/Becker 2007, S. 372)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -178,7 +178,7 @@ wordpressId: "949"
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Zurück zum Leitartikel <a href="http://durchsieben.de/?p=867">Was sind Führungsaufgaben</a>.</p>
+<p>Zurück zum Leitartikel <a href="/?p=867">Was sind Führungsaufgaben</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

@@ -18,7 +18,7 @@ wordpressId: "998"
 <!-- /wp:more -->
 
 <!-- wp:paragraph -->
-<p><strong>Werte </strong>und <strong>Einstellungen </strong>sind erlernt und zwar durch formale Erziehung und Ausbildung sowie durch die Vielzahl menschlicher Kontakte innerhalb und außerhalb der Arbeitswelt. Das individuelle Wertsystem und die Einstellungen eines Menschen prägen ganz entscheidend die Wahrnehmung seiner Umwelt, von Handlungsalternativen und von Handlungsfolgen, und somit sein Entscheidungsverhalten. „Ein Wert ist eine Auffassung (explizit oder implizit), die ein Individuum oder eine Gruppe von Wünschenswerten hegt, und welche die Wahl möglicher Verhaltensweisen (Anm. <a href="https://durchsieben.de/2020/10/19/d-h-norm/">Normen</a>), Handlungsalternativen und -ziele beeinflusst“. (Staehle/Conrad/Sydow 1999, S.173)</p>
+<p><strong>Werte </strong>und <strong>Einstellungen </strong>sind erlernt und zwar durch formale Erziehung und Ausbildung sowie durch die Vielzahl menschlicher Kontakte innerhalb und außerhalb der Arbeitswelt. Das individuelle Wertsystem und die Einstellungen eines Menschen prägen ganz entscheidend die Wahrnehmung seiner Umwelt, von Handlungsalternativen und von Handlungsfolgen, und somit sein Entscheidungsverhalten. „Ein Wert ist eine Auffassung (explizit oder implizit), die ein Individuum oder eine Gruppe von Wünschenswerten hegt, und welche die Wahl möglicher Verhaltensweisen (Anm. <a href="/2020/10/19/d-h-norm/">Normen</a>), Handlungsalternativen und -ziele beeinflusst“. (Staehle/Conrad/Sydow 1999, S.173)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -26,7 +26,7 @@ wordpressId: "998"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Werte</strong> sind letztlich nur Gemeinsamkeitsunterstellungen, die einschränken, was gesagt und verlangt werden kann“, ohne aber zu „determinieren, was getan werden soll“ (Luhmann 1997, S. 343), in der Praxis erscheinen Werte der <a href="https://durchsieben.de/2020/11/18/d-h-kultur/">Organisationskultur</a> aber häufig auch in der Form genauer Verhaltenserwartungen. (Kühl 2017, S.20)</p>
+<p><strong>Werte</strong> sind letztlich nur Gemeinsamkeitsunterstellungen, die einschränken, was gesagt und verlangt werden kann“, ohne aber zu „determinieren, was getan werden soll“ (Luhmann 1997, S. 343), in der Praxis erscheinen Werte der <a href="/2020/11/18/d-h-kultur/">Organisationskultur</a> aber häufig auch in der Form genauer Verhaltenserwartungen. (Kühl 2017, S.20)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["1204"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->

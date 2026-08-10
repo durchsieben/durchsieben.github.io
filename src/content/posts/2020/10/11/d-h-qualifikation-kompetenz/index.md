@@ -14,7 +14,7 @@ wordpressId: "1025"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Die einen <a href="https://durchsieben.de/2020/10/30/d-h-stelle-position-status-rolle/">Stelleninhaber</a> übertragenen formalen Rechte und Befugnisse werden als <strong>Kompetenzen</strong> bezeichnet. (Vahs 2015, S. 62)</p>
+<p>Die einen <a href="/2020/10/30/d-h-stelle-position-status-rolle/">Stelleninhaber</a> übertragenen formalen Rechte und Befugnisse werden als <strong>Kompetenzen</strong> bezeichnet. (Vahs 2015, S. 62)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:more -->
@@ -54,7 +54,7 @@ wordpressId: "1025"
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["892"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
 
 <!-- wp:paragraph -->
-<p>Die <a href="https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Aufgabe</a>, die <a href="https://durchsieben.de/2020/08/17/verantwortung/">Verantwortung</a> und die <strong>Kompetenzen</strong> müssen möglichst übereinstimmen (kongruent sein). Nur wenn der Stelleninhaber die für die Aufgabenerfüllung notwendigen Umsetzungs- und Leistungskompetenzen besitzt, kann er auch für die Ergebnisse seiner Tätigkeit in die Pflicht genommen werden. Die Störung dieses Gleichgewichts kann für die Organisation außerordentlich nachteiligen Folgewirkungen haben. Als markante Beispiele für die Abweichung vom organisatorischen Kongruenzprinzip nennt <em>Krüger</em> (1993) den "Frühstücksdirektor" (Aufgaben ohne Kompetenzen und Verantwortung), die "Amtsanmaßung" (Kompetenzausübung außerhalb des eigenen Aufgabengebietes) und den "Sündenbock" (Verantwortung ohne Aufgaben und Kompetenzen). Das <strong>Kongruenzprinzip</strong> ist einer der bekanntesten und zugleich für die Praxis bedeutendsten Organisationsgrundsätze. (Vahs 2015, S. 64)</p>
+<p>Die <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Aufgabe</a>, die <a href="/2020/08/17/verantwortung/">Verantwortung</a> und die <strong>Kompetenzen</strong> müssen möglichst übereinstimmen (kongruent sein). Nur wenn der Stelleninhaber die für die Aufgabenerfüllung notwendigen Umsetzungs- und Leistungskompetenzen besitzt, kann er auch für die Ergebnisse seiner Tätigkeit in die Pflicht genommen werden. Die Störung dieses Gleichgewichts kann für die Organisation außerordentlich nachteiligen Folgewirkungen haben. Als markante Beispiele für die Abweichung vom organisatorischen Kongruenzprinzip nennt <em>Krüger</em> (1993) den "Frühstücksdirektor" (Aufgaben ohne Kompetenzen und Verantwortung), die "Amtsanmaßung" (Kompetenzausübung außerhalb des eigenen Aufgabengebietes) und den "Sündenbock" (Verantwortung ohne Aufgaben und Kompetenzen). Das <strong>Kongruenzprinzip</strong> ist einer der bekanntesten und zugleich für die Praxis bedeutendsten Organisationsgrundsätze. (Vahs 2015, S. 64)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

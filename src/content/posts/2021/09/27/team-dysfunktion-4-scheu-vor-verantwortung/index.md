@@ -68,7 +68,7 @@ wordpressId: "1796"
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showAuthor":false,"specificPosts":["867"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
 
 <!-- wp:paragraph -->
-<p>Hat eine Führungskraft dagegen eine <a href="https://durchsieben.de/2020/11/18/d-h-kultur/">Kultur</a> der Verantwortung im Team geschaffen, muss sich auch bereit sein, als letzter Schiedsrichter in puncto Disziplin zu fungieren, wenn das Team selbst damit keinen Erfolg hat. Das sollte aber ein seltenes Ereignis bleiben. Dennoch muss allen Teammitgliedern klar sein, dass die Verantwortung nicht udrhc ein Konsens-Verfahren ersetzt wurde, sondern nur zur gemeinsamen Teampflicht geworden ist, und das die Führungskraft des Teams, wenn nötig, nicht zögern wird einzuschreiten. (Lencioni 2014, S. 174)</p>
+<p>Hat eine Führungskraft dagegen eine <a href="/2020/11/18/d-h-kultur/">Kultur</a> der Verantwortung im Team geschaffen, muss sich auch bereit sein, als letzter Schiedsrichter in puncto Disziplin zu fungieren, wenn das Team selbst damit keinen Erfolg hat. Das sollte aber ein seltenes Ereignis bleiben. Dennoch muss allen Teammitgliedern klar sein, dass die Verantwortung nicht udrhc ein Konsens-Verfahren ersetzt wurde, sondern nur zur gemeinsamen Teampflicht geworden ist, und das die Führungskraft des Teams, wenn nötig, nicht zögern wird einzuschreiten. (Lencioni 2014, S. 174)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["943"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->

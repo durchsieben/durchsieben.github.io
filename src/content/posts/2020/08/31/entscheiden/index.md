@@ -18,7 +18,7 @@ wordpressId: "943"
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li><a href="https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ziele</a> (<em>Goals</em>)</li><li>Annahmen (<em>Assumptions</em>)</li><li>Optionen (<em>Options</em>)</li><li>Die/Der Entscheider (<em>Decider</em>)</li></ul>
+<ul><li><a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ziele</a> (<em>Goals</em>)</li><li>Annahmen (<em>Assumptions</em>)</li><li>Optionen (<em>Options</em>)</li><li>Die/Der Entscheider (<em>Decider</em>)</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:image {"id":1605,"sizeSlug":"large","linkDestination":"media"} -->
@@ -36,7 +36,7 @@ wordpressId: "943"
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showAuthor":false,"specificPosts":["989"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
 
 <!-- wp:paragraph -->
-<p>Eine Änderung der Faktoren findet über die Zeit statt, was den Blick auf einen weiteren Faktor Zeit lenkt. Der Faktor Zeit findet sich in den <a href="https://durchsieben.de/2020/08/25/fur-ziele-sorgen/">Zielen</a> wieder, die eine Zeitpunkt für die <a href="https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Zielerreichung</a> definieren. Wird der Zeitpunkt erreicht, so verliert das Ziel seine Bedeutung und muss neu bestimmt werden, was als Änderung der Faktoren verstanden werden kann. So sind Entscheidungen nur auf bestimmte Zeit als dauerhaft anzusehen.</p>
+<p>Eine Änderung der Faktoren findet über die Zeit statt, was den Blick auf einen weiteren Faktor Zeit lenkt. Der Faktor Zeit findet sich in den <a href="/2020/08/25/fuer-ziele-sorgen/">Zielen</a> wieder, die eine Zeitpunkt für die <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Zielerreichung</a> definieren. Wird der Zeitpunkt erreicht, so verliert das Ziel seine Bedeutung und muss neu bestimmt werden, was als Änderung der Faktoren verstanden werden kann. So sind Entscheidungen nur auf bestimmte Zeit als dauerhaft anzusehen.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -52,7 +52,7 @@ wordpressId: "943"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Es existieren in Wissenschaft und Praxis eine Vielzahl an Methoden (vgl. <a href="https://en.wikipedia.org/wiki/Futures_techniques">https://en.wikipedia.org/wiki/Futures_techniques</a>), die Entscheidungsträgern die Annäherung an die Zukunft erleichtern sollen. Neben Klassikern wie Zeitreihenanalyse, Causal Layered Analysis oder Delphi-Technik steht hier auch die Szenario-Technik. Keine davon verspricht eine 100 %-ige Erfolgswahrscheinlichkeit oder eine genaue Vorhersage, was passieren wird. Wer zudem den Begriff "<a href="https://durchsieben.de/2021/08/03/d-h-management-manager-leadership-leader/">Management</a>" nur teilweise oder überhaupt nicht im Analytisch-rationalen Sinn bzw. einer den Gesetzten der Physik folgenden Tätigkeit begreift, findet an dieser Stelle die besten Voraussetzungen, um unternehmerisches Handeln als "Kunst" zu verstehen. (<span style="font-size:revert;color:initial;">Drechsler</span> 2021, S. 224ff.)</p>
+<p>Es existieren in Wissenschaft und Praxis eine Vielzahl an Methoden (vgl. <a href="https://en.wikipedia.org/wiki/Futures_techniques">https://en.wikipedia.org/wiki/Futures_techniques</a>), die Entscheidungsträgern die Annäherung an die Zukunft erleichtern sollen. Neben Klassikern wie Zeitreihenanalyse, Causal Layered Analysis oder Delphi-Technik steht hier auch die Szenario-Technik. Keine davon verspricht eine 100 %-ige Erfolgswahrscheinlichkeit oder eine genaue Vorhersage, was passieren wird. Wer zudem den Begriff "<a href="/2021/08/03/d-h-management-manager-leadership-leader/">Management</a>" nur teilweise oder überhaupt nicht im Analytisch-rationalen Sinn bzw. einer den Gesetzten der Physik folgenden Tätigkeit begreift, findet an dieser Stelle die besten Voraussetzungen, um unternehmerisches Handeln als "Kunst" zu verstehen. (<span style="font-size:revert;color:initial;">Drechsler</span> 2021, S. 224ff.)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -168,13 +168,13 @@ wordpressId: "943"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Bei <a href="https://durchsieben.de/2020/08/21/fuhrung-ist-kooperativ/">kooperativer Führung</a> müssen Vorgesetzte andere Fähigkeiten zeigen als bei <a href="https://durchsieben.de/2020/08/19/fuhrungsprinzipien/">autoritärer Führung</a>. Treffen sie am Ende <a href="https://durchsieben.de/2020/08/21/fuhrung-ist-kooperativ/">kooperativer Prozesse</a> letztendlich autoritär eine Entscheidung, dann müssen sie die <a href="https://durchsieben.de/2020/10/11/d-h-qualifikation-kompetenz/">Kompetenz</a> (Anm.: im Sinne von Wissen/Fähigkeit) haben, selber entscheiden zu können. Bei rein <a href="https://durchsieben.de/2020/08/21/fuhrung-ist-kooperativ/">kooperativer Führung</a> müssen sie die <a href="https://durchsieben.de/2020/10/11/d-h-qualifikation-kompetenz/">Kompetenz</a> haben, eine Entscheidung herbeizuführen, was <a href="https://durchsieben.de/2020/08/15/kommunikation/">kommunikative Fähigkeiten</a> voraussetzt. (Bolten 2013, S.39)</p>
+<p>Bei <a href="/2020/08/21/fuhrung-ist-kooperativ/">kooperativer Führung</a> müssen Vorgesetzte andere Fähigkeiten zeigen als bei <a href="/2020/08/19/fuhrungsprinzipien/">autoritärer Führung</a>. Treffen sie am Ende <a href="/2020/08/21/fuhrung-ist-kooperativ/">kooperativer Prozesse</a> letztendlich autoritär eine Entscheidung, dann müssen sie die <a href="/2020/10/11/d-h-qualifikation-kompetenz/">Kompetenz</a> (Anm.: im Sinne von Wissen/Fähigkeit) haben, selber entscheiden zu können. Bei rein <a href="/2020/08/21/fuhrung-ist-kooperativ/">kooperativer Führung</a> müssen sie die <a href="/2020/10/11/d-h-qualifikation-kompetenz/">Kompetenz</a> haben, eine Entscheidung herbeizuführen, was <a href="/2020/08/15/kommunikation/">kommunikative Fähigkeiten</a> voraussetzt. (Bolten 2013, S.39)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["898","985"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
 
 <!-- wp:paragraph -->
-<p>Erfolgreiche Vorgesetzte können beides und werden beides je nach Situation tun. „Macht“ haben heißt auch <a href="https://durchsieben.de/2020/08/17/verantwortung/">Verantwortung</a> übernehmen. Am Ende müssen sich Vorgesetzte im jeweiligen Einzelfall bewusst für ihren Weg entscheiden. Fragen, die sie sich zu beantworten haben, lauten: "Womit fahre ich besser, welches Verhalten führt zum besseren <a href="https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ergebnis</a>?" (Bolten 2013, S.39f)</p>
+<p>Erfolgreiche Vorgesetzte können beides und werden beides je nach Situation tun. „Macht“ haben heißt auch <a href="/2020/08/17/verantwortung/">Verantwortung</a> übernehmen. Am Ende müssen sich Vorgesetzte im jeweiligen Einzelfall bewusst für ihren Weg entscheiden. Fragen, die sie sich zu beantworten haben, lauten: "Womit fahre ich besser, welches Verhalten führt zum besseren <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ergebnis</a>?" (Bolten 2013, S.39f)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:a8c/blog-posts {"className":"is-style-default","showDate":false,"showImage":false,"showAuthor":false,"specificPosts":["530"],"specificMode":true,"textColor":"vivid-cyan-blue"} /-->
@@ -184,7 +184,7 @@ wordpressId: "943"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Das, was Führungskräfte tun, und wie sie handeln, muss – wollen sie langfristig Erfolg haben – auch ihrem Denken und Sinn entsprechen. Andernfalls wird <a href="https://durchsieben.de/2020/08/09/die-fuhrungsidentitat/">Führungsidentität</a> für Mitarbeiter nicht wirklich erkennbar. (Bolten 2013, S.38)</p>
+<p>Das, was Führungskräfte tun, und wie sie handeln, muss – wollen sie langfristig Erfolg haben – auch ihrem Denken und Sinn entsprechen. Andernfalls wird <a href="/2020/08/09/die-fuhrungsidentitat/">Führungsidentität</a> für Mitarbeiter nicht wirklich erkennbar. (Bolten 2013, S.38)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -216,7 +216,7 @@ wordpressId: "943"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Zurück zum Leitartikel <a href="http://durchsieben.de/?p=867">Was sind Führungsaufgaben</a>.</p>
+<p>Zurück zum Leitartikel <a href="/?p=867">Was sind Führungsaufgaben</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

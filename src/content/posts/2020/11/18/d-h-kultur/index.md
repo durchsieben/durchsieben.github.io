@@ -6,11 +6,11 @@ sourceUrl: "https://durchsieben.de/2020/11/18/d-h-kultur/"
 wordpressId: "1204"
 ---
 <!-- wp:paragraph -->
-<p>Der Begriff <strong>Kultur</strong> selbst hat seine Wurzeln in der anthropologischen Forschung wie beispielsweise jener Forschungsbeitrag von <em>Kluckhohn/Strodtbeck</em> (1961) zeigt, der sich auf die Erforschung von amerikanisch-indianischen Völkern fokussiert. Die AutorInnen unterscheiden Kulturen anhand von ihren <a href="https://durchsieben.de/2020/10/10/d-h-werte/">Werten</a>, <a href="https://durchsieben.de/2020/10/10/d-h-werte/">Einstellungen</a> und Bräuchen. (Herget/Strobl 2018, S.40)</p>
+<p>Der Begriff <strong>Kultur</strong> selbst hat seine Wurzeln in der anthropologischen Forschung wie beispielsweise jener Forschungsbeitrag von <em>Kluckhohn/Strodtbeck</em> (1961) zeigt, der sich auf die Erforschung von amerikanisch-indianischen Völkern fokussiert. Die AutorInnen unterscheiden Kulturen anhand von ihren <a href="/2020/10/10/d-h-werte/">Werten</a>, <a href="/2020/10/10/d-h-werte/">Einstellungen</a> und Bräuchen. (Herget/Strobl 2018, S.40)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><em>Gerhard Wohland</em> definiert: „<strong>Kultur</strong> ist die Kopplung von Verhalten (Anm.: <a href="https://durchsieben.de/2020/10/19/d-h-norm/">Normen</a>) und <a href="https://durchsieben.de/2020/10/10/d-h-werte/">Werten</a>. Weder kann vom Verhalten (Anm.: <a href="https://durchsieben.de/2020/10/19/d-h-norm/">Normen</a>) auf vorhandene  <a href="https://durchsieben.de/2020/10/10/d-h-werte/">Werten</a> geschlossen werden noch von den <a href="https://durchsieben.de/2020/10/10/d-h-werte/">Werten</a> auf Verhalten (Anm.:  <a href="https://durchsieben.de/2020/10/19/d-h-norm/">Normen</a>)“. (Oestereich/Schröder 2017, S.238)</p>
+<p><em>Gerhard Wohland</em> definiert: „<strong>Kultur</strong> ist die Kopplung von Verhalten (Anm.: <a href="/2020/10/19/d-h-norm/">Normen</a>) und <a href="/2020/10/10/d-h-werte/">Werten</a>. Weder kann vom Verhalten (Anm.: <a href="/2020/10/19/d-h-norm/">Normen</a>) auf vorhandene  <a href="/2020/10/10/d-h-werte/">Werten</a> geschlossen werden noch von den <a href="/2020/10/10/d-h-werte/">Werten</a> auf Verhalten (Anm.:  <a href="/2020/10/19/d-h-norm/">Normen</a>)“. (Oestereich/Schröder 2017, S.238)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:more -->
@@ -18,11 +18,11 @@ wordpressId: "1204"
 <!-- /wp:more -->
 
 <!-- wp:paragraph -->
-<p>Kultur ist eine Eindeutschung des lat. Wortes <em>cultura</em>, das eine Ableitung des lat. <em>colere</em> für pflegen, urbar machen und ausbildet ist. Vielleicht begann bereits mit der Eindeutschung des Wortes der <a href="https://durchsieben.de/2021/09/20/d-h-fehler-irrtum/">Irrtum</a>, wir können <strong>Kultur</strong> zielorientiert gestalten.  Wir können <strong>Kultur</strong> aber nur beobachten, uns darüber austauschen und darüber reflektieren. (Oestereich/Schröder 2017, S.238)</p>
+<p>Kultur ist eine Eindeutschung des lat. Wortes <em>cultura</em>, das eine Ableitung des lat. <em>colere</em> für pflegen, urbar machen und ausbildet ist. Vielleicht begann bereits mit der Eindeutschung des Wortes der <a href="/2021/09/20/d-h-fehler-irrtum/">Irrtum</a>, wir können <strong>Kultur</strong> zielorientiert gestalten.  Wir können <strong>Kultur</strong> aber nur beobachten, uns darüber austauschen und darüber reflektieren. (Oestereich/Schröder 2017, S.238)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Die Analogie zur Organisation findet sich darin, dass sie ähnlich wie Stämme, eine Gruppe von Menschen darstellt, deren Überleben von den Mitgliedern der Gruppe abhängig ist und insbesondere davon, inwiefern es den Mitgliedern der Organisation gelingt, ein einheitliches Verständnis ihrer Umgebung zu entwickeln und diese Umgebung auch gemeinsam zu meistern (Kummerow/Kirby 2014, S.4). Folglich wurde diese Analogie von vielen WissenschaftlerInnen herangezogen, um die Schlüsselrolle der <strong>Organisationskultur</strong> für die <a href="https://durchsieben.de/2021/09/29/d-h-produktivitaet/">Performance</a> des Unternehmens hervorzuheben. (Herget/Strobl 2018, S.40)</p>
+<p>Die Analogie zur Organisation findet sich darin, dass sie ähnlich wie Stämme, eine Gruppe von Menschen darstellt, deren Überleben von den Mitgliedern der Gruppe abhängig ist und insbesondere davon, inwiefern es den Mitgliedern der Organisation gelingt, ein einheitliches Verständnis ihrer Umgebung zu entwickeln und diese Umgebung auch gemeinsam zu meistern (Kummerow/Kirby 2014, S.4). Folglich wurde diese Analogie von vielen WissenschaftlerInnen herangezogen, um die Schlüsselrolle der <strong>Organisationskultur</strong> für die <a href="/2021/09/29/d-h-produktivitaet/">Performance</a> des Unternehmens hervorzuheben. (Herget/Strobl 2018, S.40)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -30,7 +30,7 @@ wordpressId: "1204"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Unter <strong>Organisationskultur</strong> ‒ synonym wird vielfach der Begriff <strong>Unternehmenskultur</strong> (<em>corporate culture</em>) verwendet ‒ ist die Gesamtheit der im Laufe der Zeit in einer Organisation bewusst oder unbewusst entstandenen und zu einem bestimmten Zeitpunkt wirksamen Wertvorstellungen, Verhaltensvorschriften (<a href="https://durchsieben.de/2020/10/19/d-h-norm/">Normen</a>), Überzeugungen und <a href="https://durchsieben.de/2020/10/10/d-h-werte/">Einstellungen</a> zu verstehen. (Vahs 2015, S. 121)</p>
+<p>Unter <strong>Organisationskultur</strong> ‒ synonym wird vielfach der Begriff <strong>Unternehmenskultur</strong> (<em>corporate culture</em>) verwendet ‒ ist die Gesamtheit der im Laufe der Zeit in einer Organisation bewusst oder unbewusst entstandenen und zu einem bestimmten Zeitpunkt wirksamen Wertvorstellungen, Verhaltensvorschriften (<a href="/2020/10/19/d-h-norm/">Normen</a>), Überzeugungen und <a href="/2020/10/10/d-h-werte/">Einstellungen</a> zu verstehen. (Vahs 2015, S. 121)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -38,7 +38,7 @@ wordpressId: "1204"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Eine <strong>Organisationskultur</strong> entsteht dadurch, dass einzelne <a href="https://durchsieben.de/2020/08/31/entscheiden/">Entscheidungen</a> wiederholt getroffen werden und so eine Erwartungshaltung in Bezug auf ähnliche Entscheidungen entsteht, ohne dass dies aber durch eine Entscheidung der Organisation als Entscheidungsprämisse festgelegt wurde. Natürlich werden die nichtentschiedenen Entscheidungsprämissen auch in der Organisation „produziert“, aber sie werden eben „nicht auf bestimmte Entscheidungen zugerechnet“ werden. Man kann deshalb auch „nicht markieren, wie sie entstanden sind.“ „Sie gelten, weil sie immer schon gegolten haben“ (Luhmann 2000, S. 242). „Eine Organisationskultur entsteht wie von selbst.“ (Luhmann 2000, S. 243)</p>
+<p>Eine <strong>Organisationskultur</strong> entsteht dadurch, dass einzelne <a href="/2020/08/31/entscheiden/">Entscheidungen</a> wiederholt getroffen werden und so eine Erwartungshaltung in Bezug auf ähnliche Entscheidungen entsteht, ohne dass dies aber durch eine Entscheidung der Organisation als Entscheidungsprämisse festgelegt wurde. Natürlich werden die nichtentschiedenen Entscheidungsprämissen auch in der Organisation „produziert“, aber sie werden eben „nicht auf bestimmte Entscheidungen zugerechnet“ werden. Man kann deshalb auch „nicht markieren, wie sie entstanden sind.“ „Sie gelten, weil sie immer schon gegolten haben“ (Luhmann 2000, S. 242). „Eine Organisationskultur entsteht wie von selbst.“ (Luhmann 2000, S. 243)</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

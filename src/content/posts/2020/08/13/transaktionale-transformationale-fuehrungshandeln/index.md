@@ -86,7 +86,7 @@ wordpressId: "875"
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Zurück zur Leitartikel <a href="https://durchsieben.de/2020/08/11/was-sind-fuhrungsaufgaben/">Was sind Führungsaufgaben</a>.</p>
+<p>Zurück zur Leitartikel <a href="/2020/08/11/was-sind-fuhrungsaufgaben/">Was sind Führungsaufgaben</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
