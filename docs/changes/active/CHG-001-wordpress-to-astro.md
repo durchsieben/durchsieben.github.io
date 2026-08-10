@@ -62,6 +62,8 @@ Gate: `pnpm build` plus focused route/content/link checks pass locally; no secre
 
 Gate: GitHub Pages deployment succeeds; HTTPS is active; sampled old paths return rendered content at the custom domain; no DNS or WordPress destructive action occurred before that proof.
 
+Operational procedure: [`GITHUB-PAGES.md`](../../../GITHUB-PAGES.md) is the canonical setup, cutover, verification, rollback, and decommissioning runbook. It is intentionally repository-only documentation.
+
 ## Decisions and constraints
 
 - Publish the existing public surface (109 posts, 3 pages); retain drafts in the backup but do not publish them initially.
