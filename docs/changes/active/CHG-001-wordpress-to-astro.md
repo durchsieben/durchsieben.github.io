@@ -34,7 +34,7 @@ Direct operator request: "create wireframes for the homepage, one exemplary blog
 
 Gate: the wireframe `.pen` source and review exports show all five requested screens; WXR and media archives exist with checksums; inventory shows 109 published posts and 3 published pages; every sitemap URL is either a generated legacy route or a documented deliberate exclusion.
 
-### Phase 2 — Create the repository and import pipeline [in-progress]
+### Phase 2 — Create the repository and import pipeline [done]
 
 1. Initialize this directory as the GitHub Pages repository; use the explicit Raphael Bossek identity only for project commits so the surrounding agent environment is not mutated.
 2. Add a reproducible importer that converts the WXR archive to content entries and builds a source-to-destination route manifest.
@@ -43,7 +43,7 @@ Gate: the wireframe `.pen` source and review exports show all five requested scr
 
 Gate: importer runs from a clean checkout using only the recorded backup; content count and route manifest reconciliation pass.
 
-### Phase 3 — Build the Astro frontend [planned]
+### Phase 3 — Build the Astro frontend [in-progress]
 
 1. Create an Astro static site with content collections, an article index, article pages, the existing legal/about pages, RSS, sitemap, and accessible typography.
 2. Add shadcn UI primitives. Retrieve selected Shadcnblocks Pro blocks through the documented API only when `SHADCNBLOCKS_API_KEY` is available to the shell; do not expose it in browser code, source files, Git, or workflow logs.
@@ -73,6 +73,6 @@ Gate: GitHub Pages deployment succeeds; HTTPS is active; sampled old paths retur
 | Phase | Status | Evidence |
 | --- | --- | --- |
 | 1 | done | Five-screen canonical wireframe source/export set passed fresh layout and visual checks. Public API, WXR, and media archive inventories reconcile to 109 published posts, 3 published pages, and 78 attachments; source checksums and the 113-path sitemap route seed passed verification. |
-| 2 | in-progress | Public `forgegod/durchsieben.de` repository initialized on `main`; importer generated 109 posts, 3 pages, 78 local media files, and 113 unique legacy paths from the recorded backups. A clean-checkout rerun remains before closing the phase. |
-| 3 | planned | — |
+| 2 | done | Public `forgegod/durchsieben.de` repository initialized on `main`; the importer generated 109 posts, 3 pages, 78 local media files, and 113 unique legacy paths. A literal fresh Git clone re-imported from the recorded backup and produced no tracked differences. |
+| 3 | in-progress | Astro static-site implementation is next. |
 | 4 | planned | — |
