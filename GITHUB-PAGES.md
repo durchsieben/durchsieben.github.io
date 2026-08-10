@@ -193,6 +193,5 @@ Confirm all of the following:
 
 ## Sources
 
-- `../irigate.github.io/GITHUB-PAGES.md` — operational structure reference.
 - [GitHub: custom-domain management](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - [GitHub: domain verification](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages)
