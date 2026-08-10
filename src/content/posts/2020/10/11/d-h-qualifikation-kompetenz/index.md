@@ -1,5 +1,5 @@
 ---
-title: "📖 d. h. (Schlüssel-)Qualifikation &amp; Kompetenz"
+title: "📖 d. h. (Schlüssel-)Qualifikation & Kompetenz"
 date: "2020-10-11 08:00:00"
 sourcePath: "/2020/10/11/d-h-qualifikation-kompetenz/"
 sourceUrl: "https://durchsieben.de/2020/10/11/d-h-qualifikation-kompetenz/"

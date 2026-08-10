@@ -230,7 +230,7 @@ def run(args: argparse.Namespace) -> dict[str, object]:
         destination = content_path(args.content, f"{kind}s", route)
         destination.parent.mkdir(parents=True, exist_ok=True)
         record = {
-            "title": text(item, "title"),
+            "title": unescape(text(item, "title")),
             "date": text(item, "wp:post_date", namespace="wp"),
             "sourcePath": route,
             "sourceUrl": text(item, "link"),

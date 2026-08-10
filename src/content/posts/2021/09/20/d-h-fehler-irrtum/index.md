@@ -1,5 +1,5 @@
 ---
-title: "📖 d. h. Fehler &amp; Irrtum"
+title: "📖 d. h. Fehler & Irrtum"
 date: "2021-09-20 08:00:00"
 sourcePath: "/2021/09/20/d-h-fehler-irrtum/"
 sourceUrl: "https://durchsieben.de/2021/09/20/d-h-fehler-irrtum/"

@@ -1,5 +1,5 @@
 ---
-title: "📖 d. h. Werte &amp; Einstellungen"
+title: "📖 d. h. Werte & Einstellungen"
 date: "2020-10-10 16:03:06"
 sourcePath: "/2020/10/10/d-h-werte/"
 sourceUrl: "https://durchsieben.de/2020/10/10/d-h-werte/"

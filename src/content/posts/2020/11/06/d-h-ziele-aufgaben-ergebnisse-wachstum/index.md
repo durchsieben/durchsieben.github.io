@@ -1,5 +1,5 @@
 ---
-title: "📖 d. h. Ziele &amp; Aufgaben &amp; Ergebnisse &amp; Wachstum"
+title: "📖 d. h. Ziele & Aufgaben & Ergebnisse & Wachstum"
 date: "2020-11-06 08:00:00"
 sourcePath: "/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/"
 sourceUrl: "https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/"

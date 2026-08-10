@@ -1,5 +1,5 @@
 ---
-title: "📖 d. h. Management (Manager) &amp; Leadership (Leader)"
+title: "📖 d. h. Management (Manager) & Leadership (Leader)"
 date: "2021-08-03 08:00:00"
 sourcePath: "/2021/08/03/d-h-management-manager-leadership-leader/"
 sourceUrl: "https://durchsieben.de/2021/08/03/d-h-management-manager-leadership-leader/"

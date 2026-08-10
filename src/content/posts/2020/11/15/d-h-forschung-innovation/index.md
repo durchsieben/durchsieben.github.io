@@ -1,5 +1,5 @@
 ---
-title: "📖 d. h. Forschung &amp; Innovation"
+title: "📖 d. h. Forschung & Innovation"
 date: "2020-11-15 08:00:00"
 sourcePath: "/2020/11/15/d-h-forschung-innovation/"
 sourceUrl: "https://durchsieben.de/2020/11/15/d-h-forschung-innovation/"

@@ -1,5 +1,5 @@
 ---
-title: "Führungsprinzipien &amp; Führungsstile &amp; Führungsverhalten"
+title: "Führungsprinzipien & Führungsstile & Führungsverhalten"
 date: "2020-08-19 08:00:00"
 sourcePath: "/2020/08/19/fuhrungsprinzipien/"
 sourceUrl: "https://durchsieben.de/2020/08/19/fuhrungsprinzipien/"
