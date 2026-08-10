@@ -55,7 +55,7 @@ Gate: `pnpm build` plus focused route/content/link checks pass locally; no secre
 
 ### Phase 4 — Deploy and controlled cutover [in-progress]
 
-1. Add the official Astro GitHub Pages workflow and deploy to the GitHub Pages URL first.
+1. Add the official Astro GitHub Pages workflow and deploy to the GitHub Pages URL first. Use current Node 24-native Pages actions so a successful deployment does not rely on GitHub's Node 20 compatibility bridge.
 2. Configure `public/CNAME` for `durchsieben.de`, set the GitHub Pages custom domain, and change DNS only after the preview verification gate passes.
 3. Enable HTTPS, verify the apex and `www` domains, and sample legacy article links plus the three pages after propagation. Reserve two days from the controlled DNS update for propagation and certificate issuance before declaring that cutover unsuccessful.
 4. Keep the WordPress site online until the custom-domain and legacy-route verification succeeds; only then decide whether to retire its paid hosting.

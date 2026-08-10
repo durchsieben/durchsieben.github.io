@@ -8,6 +8,7 @@ Owns deployment automation for the static Management÷7 archive.
 
 - `workflows/deploy-pages.yml` validates the static site before publishing its `dist/` artifact through GitHub Pages.
 - The workflow may deploy only to the GitHub Pages preview URL. Custom-domain and DNS actions remain controlled by `docs/changes/active/CHG-001-wordpress-to-astro.md`.
+- Keep Pages actions on current Node 24-native releases; do not rely on GitHub's Node 20 compatibility bridge.
 - Do not add credentials, secrets, or custom-domain values to workflow files.
 
 ## Verification
