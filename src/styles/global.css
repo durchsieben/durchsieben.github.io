@@ -158,7 +158,7 @@ mark { background: var(--highlight); color: var(--ink); padding: 0 0.1em; border
 .hero__intro {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(14rem, 20rem);
-  align-items: end;
+  align-items: start;
   gap: clamp(1rem, 4vw, 4rem);
 }
 .hero__portrait {
