@@ -105,7 +105,7 @@ Configure GitHub before DNS. Reversing that order permits a domain-takeover wind
 
 ## DNS Setup
 
-GitHub documents the authoritative target values. Recheck its documentation immediately before changing the zone:
+The apex and `www` records below implement GitHub's [custom-domain DNS setup](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Recheck that source immediately before changing the zone; it is authoritative when GitHub updates Pages addresses or guidance.
 
 - [Managing a custom domain for GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - [Verifying a custom domain for GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages)
