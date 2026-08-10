@@ -1,0 +1,274 @@
+---
+import type { PostSummary } from '../lib/posts';
+
+interface Props {
+  posts: PostSummary[];
+  topics: { slug: string; label: string; count: number }[];
+  feedTitle: string;
+  feedEyebrow?: string;
+}
+
+const { posts, topics, feedTitle, feedEyebrow } = Astro.props;
+const feedJson = JSON.stringify(posts);
+const topicsJson = JSON.stringify(topics);
+---
+<section class="search" aria-label="Artikel suchen">
+  <label class="search__label" for="post-search">Im Archiv suchen</label>
+  <div class="search__box">
+    <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="7"></circle>
+      <line x1="20" y1="20" x2="16.65" y2="16.65"></line>
+    </svg>
+    <input
+      id="post-search"
+      class="search__input"
+      type="search"
+      placeholder="Begriff, Thema oder den Anfang eines Titels …"
+      autocomplete="off"
+      spellcheck="false"
+      data-search-input
+      data-search-feed="posts"
+    />
+    <button class="search__clear" type="button" data-search-clear hidden>zurücksetzen</button>
+  </div>
+  <p class="search__hint" data-search-hint>
+    {posts.length} Beiträge · neueste zuerst · Filter nach Themen unten
+  </p>
+  <div class="topics" role="group" aria-label="Themenfilter">
+    {topics.map((topic) => (
+      <button
+        type="button"
+        class="topic-pill"
+        data-topic-pill
+        data-topic={topic.slug}
+        aria-pressed="false"
+      >
+        <span>{topic.label}</span>
+        <span class="count">{topic.count}</span>
+      </button>
+    ))}
+  </div>
+</section>
+
+<section class="feed-section" aria-live="polite">
+  <header class="feed-head">
+    <div>
+      {feedEyebrow && <p class="feed-meta">{feedEyebrow}</p>}
+      <h2 data-feed-title>{feedTitle}</h2>
+    </div>
+    <p class="feed-meta" data-feed-count>{posts.length} Beiträge</p>
+  </header>
+  <div class="feed" data-feed-list data-feed-initial={posts.length} id="posts">
+    {posts.map((post) => (
+      <article class="feed__row" data-article-row data-article={post.path}>
+        <div class="feed__col feed__col--left">
+          <p class="feed__meta">
+            <time datetime={post.isoDate} data-article-date={post.isoDate}>{post.displayDate}</time>
+            <span class="dot" aria-hidden="true"></span>
+            <span>{post.minutes} Min Lesedauer</span>
+            <span class="dot" aria-hidden="true"></span>
+            <span>{post.year}</span>
+          </p>
+          <h3 class="feed__title">
+            <a href={post.path} data-article-link>{post.title}</a>
+          </h3>
+        </div>
+        <div class="feed__col feed__col--right">
+          <p class="feed__excerpt" data-article-excerpt>{post.excerpt}</p>
+        </div>
+      </article>
+    ))}
+  </div>
+  <p class="feed-empty" data-feed-empty hidden>Kein Beitrag passt zu deiner Suche.</p>
+</section>
+
+<script type="application/json" id="search-payload" set:html={feedJson}></script>
+<script type="application/json" id="topics-payload" set:html={topicsJson}></script>
+
+<script>
+  type Topic = { slug: string; label: string; count: number };
+  type PostSummary = {
+    path: string;
+    title: string;
+    date: string;
+    isoDate: string;
+    displayDate: string;
+    year: string;
+    excerpt: string;
+    minutes: number;
+    words: number;
+    searchText: string;
+  };
+
+  const payloadEl = document.getElementById('search-payload');
+  const topicEl = document.getElementById('topics-payload');
+  const posts: PostSummary[] = payloadEl ? JSON.parse(payloadEl.textContent ?? '[]') : [];
+  const topics: Topic[] = topicEl ? JSON.parse(topicEl.textContent ?? '[]') : [];
+  const byPath = new Map(posts.map((post) => [post.path, post]));
+
+  const input = document.querySelector<HTMLInputElement>('[data-search-input]');
+  const clearBtn = document.querySelector<HTMLButtonElement>('[data-search-clear]');
+  const hint = document.querySelector<HTMLParagraphElement>('[data-search-hint]');
+  const list = document.querySelector<HTMLElement>('[data-feed-list]');
+  const countEl = document.querySelector<HTMLElement>('[data-feed-count]');
+  const titleEl = document.querySelector<HTMLElement>('[data-feed-title]');
+  const emptyEl = document.querySelector<HTMLElement>('[data-feed-empty]');
+  const feedTitleDefault = titleEl?.textContent?.trim() ?? '';
+  const pills = document.querySelectorAll<HTMLButtonElement>('[data-topic-pill]');
+
+  function escapeHtml(value: string): string {
+    return value.replace(/[&<>"']/g, (char) => {
+      switch (char) {
+        case '&': return '&amp;';
+        case '<': return '&lt;';
+        case '>': return '&gt;';
+        case '"': return '&quot;';
+        case "'": return '&#39;';
+        default: return char;
+      }
+    });
+  }
+
+  function highlight(text: string, terms: string[]): string {
+    if (!terms.length) return escapeHtml(text);
+    const pattern = terms
+      .filter((term) => term.length > 0)
+      .map((term) => term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+      .join('|');
+    if (!pattern) return escapeHtml(text);
+    const safe = escapeHtml(text);
+    return safe.replace(new RegExp(`(${pattern})`, 'gi'), '<mark>$1</mark>');
+  }
+
+  let activeQuery = '';
+  let activeTopic: string | null = null;
+
+  function filterPosts(): PostSummary[] {
+    const query = activeQuery.trim().toLowerCase();
+    const terms = query.split(/\s+/).filter((part) => part.length > 0);
+    return posts.filter((post) => {
+      if (activeTopic && !post.searchText.includes(activeTopic.toLowerCase())) return false;
+      if (!terms.length) return true;
+      return terms.every((term) => post.searchText.includes(term));
+    });
+  }
+
+  function renderFeed(): void {
+    if (!list || !countEl || !emptyEl || !titleEl) return;
+    const filtered = filterPosts();
+    list.replaceChildren();
+    if (!filtered.length) {
+      emptyEl.hidden = false;
+      countEl.textContent = '0 Beiträge';
+      titleEl.textContent = activeQuery || activeTopic ? 'Keine Treffer' : feedTitleDefault;
+      return;
+    }
+    emptyEl.hidden = true;
+    countEl.textContent = `${filtered.length} Beiträge`;
+    titleEl.textContent = activeQuery || activeTopic ? 'Suchergebnisse' : feedTitleDefault;
+
+    const fragment = document.createDocumentFragment();
+    for (const post of filtered) {
+      const row = document.createElement('article');
+      row.className = 'feed__row';
+      row.dataset.article = post.path;
+
+      const left = document.createElement('div');
+      left.className = 'feed__col feed__col--left';
+      const meta = document.createElement('p');
+      meta.className = 'feed__meta';
+      meta.innerHTML =
+        `<time datetime="${post.isoDate}">${escapeHtml(post.displayDate)}</time>` +
+        '<span class="dot" aria-hidden="true"></span>' +
+        `<span>${post.minutes} Min Lesedauer</span>` +
+        '<span class="dot" aria-hidden="true"></span>' +
+        `<span>${escapeHtml(post.year)}</span>`;
+      const title = document.createElement('h3');
+      title.className = 'feed__title';
+      const link = document.createElement('a');
+      link.href = post.path;
+      const titleText = highlight(post.title, [activeQuery.split(/\s+/).filter(Boolean)[0] ?? '']);
+      link.innerHTML = titleText;
+      title.appendChild(link);
+      left.appendChild(meta);
+      left.appendChild(title);
+
+      const right = document.createElement('div');
+      right.className = 'feed__col feed__col--right';
+      const excerpt = document.createElement('p');
+      excerpt.className = 'feed__excerpt';
+      const excerptText = highlight(post.excerpt, [activeQuery.split(/\s+/).filter(Boolean)[0] ?? '']);
+      excerpt.innerHTML = excerptText;
+      right.appendChild(excerpt);
+
+      row.appendChild(left);
+      row.appendChild(right);
+      fragment.appendChild(row);
+    }
+    list.appendChild(fragment);
+  }
+
+  function updateHint(filtered: number): void {
+    if (!hint) return;
+    if (!activeQuery && !activeTopic) {
+      hint.textContent = `${posts.length} Beiträge · neueste zuerst · Filter nach Themen unten`;
+    } else {
+      const parts: string[] = [];
+      if (activeQuery) parts.push(`Suche: „${activeQuery}“`);
+      if (activeTopic) {
+        const topic = topics.find((t) => t.slug === activeTopic);
+        if (topic) parts.push(`Thema: ${topic.label}`);
+      }
+      parts.push(`${filtered} Treffer`);
+      hint.textContent = parts.join(' · ');
+    }
+  }
+
+  function applyFilter(): void {
+    const filtered = filterPosts();
+    renderFeed();
+    updateHint(filtered.length);
+    if (clearBtn) clearBtn.hidden = !activeQuery && !activeTopic;
+  }
+
+  if (input) {
+    input.addEventListener('input', () => {
+      activeQuery = input.value;
+      applyFilter();
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      if (input) input.value = '';
+      activeQuery = '';
+      applyFilter();
+      input?.focus();
+    });
+  }
+
+  pills.forEach((pill) => {
+    pill.addEventListener('click', () => {
+      const slug = pill.dataset.topic ?? '';
+      if (activeTopic === slug) {
+        activeTopic = null;
+        pill.setAttribute('aria-pressed', 'false');
+      } else {
+        pills.forEach((other) => other.setAttribute('aria-pressed', 'false'));
+        activeTopic = slug;
+        pill.setAttribute('aria-pressed', 'true');
+      }
+      applyFilter();
+    });
+  });
+
+  // Expose for tests / debugging.
+  (window as unknown as { __searchState: unknown }).__searchState = {
+    get query() { return activeQuery; },
+    get topic() { return activeTopic; },
+    count: () => filterPosts().length,
+    posts: () => posts,
+    topics: () => topics,
+    byPath: (path: string) => byPath.get(path),
+  };
+</script>

@@ -10,22 +10,37 @@ const { title, description = 'Management÷7 — Management-Wissen für die Praxi
 const currentPath = Astro.url.pathname;
 const navItems = [
   { href: '/', label: 'Start' },
-  { href: '/artikeluebersicht/', label: 'Artikel' },
   { href: '/about/', label: 'Über den Autor' },
   { href: '/impressum/', label: 'Impressum' },
 ];
 const isActive = (href: string) => (href === '/' ? currentPath === href : currentPath.startsWith(href));
 ---
-
 <!doctype html>
 <html lang="de">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#0f1414" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fdfdf9" media="(prefers-color-scheme: light)" />
     <link rel="alternate" type="application/rss+xml" title="Management÷7 RSS" href="/rss.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap"
+      />
+    </noscript>
     <title>{title} | Management÷7</title>
     <script is:inline>
       (() => {
@@ -37,30 +52,49 @@ const isActive = (href: string) => (href === '/' ? currentPath === href : curren
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="/" aria-label="Management÷7 Startseite">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Management÷7</span>
-      </a>
-      <nav class="site-nav" aria-label="Hauptnavigation">
-        {
-          navItems.map((item) => (
-            <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>{item.label}</a>
-          ))
-        }
-      </nav>
-      <button class="theme-toggle" type="button" aria-label="Farbschema wechseln" data-theme-toggle>
-        <span aria-hidden="true"></span>
-      </button>
+      <div class="site-header__inner">
+        <a class="brand" href="/" aria-label="Management÷7 Startseite">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Management<sup>÷7</sup></span>
+        </a>
+        <nav class="site-nav" aria-label="Hauptnavigation">
+          {
+            navItems.map((item) => (
+              <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>{item.label}</a>
+            ))
+          }
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Farbschema wechseln" data-theme-toggle>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <line x1="12" y1="2" x2="12" y2="4" />
+            <line x1="12" y1="20" x2="12" y2="22" />
+            <line x1="4.93" y1="4.93" x2="6.34" y2="6.34" />
+            <line x1="17.66" y1="17.66" x2="19.07" y2="19.07" />
+            <line x1="2" y1="12" x2="4" y2="12" />
+            <line x1="20" y1="12" x2="22" y2="12" />
+            <line x1="4.93" y1="19.07" x2="6.34" y2="17.66" />
+            <line x1="17.66" y1="6.34" x2="19.07" y2="4.93" />
+          </svg>
+        </button>
+      </div>
     </header>
-    <main><slot /></main>
+    <main class="layout">
+      <slot />
+    </main>
     <footer class="site-footer">
-      <p>Managementwissen aus Literatur und Praxis.</p>
-      <nav aria-label="Footer-Navigation">
-        <a href="/artikeluebersicht/">Archiv</a>
-        <a href="/about/">Über den Autor</a>
-        <a href="/rss.xml">RSS</a>
-      </nav>
-      <small>© Raphael Bossek</small>
+      <div class="site-footer__inner">
+        <p>Managementwissen aus Literatur und Praxis.</p>
+        <nav aria-label="Footer-Navigation">
+          <a class="footer-link" href="/about/">Über den Autor</a>
+          <a class="footer-link" href="/impressum/">Impressum</a>
+          <a class="footer-link" href="/rss.xml">RSS</a>
+        </nav>
+        <small>© Raphael Bossek</small>
+      </div>
     </footer>
     <script>
       document.addEventListener('click', (event) => {

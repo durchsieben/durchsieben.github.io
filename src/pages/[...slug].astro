@@ -1,36 +1,57 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+
 export async function getStaticPaths() {
   const entries = [...await getCollection('posts'), ...await getCollection('pages')];
-  const routes = entries.map((entry) => ({ params: { slug: decodeURI(entry.data.sourcePath.replace(/^\//, '').replace(/\/$/, '')) }, props: { entry } }));
+  const routes = entries.map((entry) => ({
+    params: { slug: decodeURI(entry.data.sourcePath.replace(/^\//, '').replace(/\/$/, '')) },
+    props: { entry },
+  }));
   const leadershipTechniques = entries.find((entry) => entry.data.sourcePath === '/2021/08/07/fuehrungstechniken/');
-
   if (!leadershipTechniques) throw new Error('missing Führungstechniken legacy route');
-
   return [
     ...routes,
     { params: { slug: '2021/08/07/🧰-fuhrungstechniken' }, props: { entry: leadershipTechniques } },
   ];
 }
+
 const { entry } = Astro.props;
-const posts = (await getCollection('posts')).sort((a, b) => b.data.date.localeCompare(a.data.date));
 const { Content } = await render(entry);
 const path = entry.data.sourcePath;
-const isArchive = path === '/artikeluebersicht/';
 const isAbout = path === '/about/';
 const isLegal = path === '/impressum/';
+const isArticle = !isAbout && !isLegal;
+const displayDate = isArticle
+  ? new Date(`${entry.data.date.slice(0, 10)}T00:00:00Z`).toLocaleDateString('de-DE', {
+      day: '2-digit',
+      month: 'long',
+      year: 'numeric',
+    })
+  : null;
+const kicker = isAbout ? 'Über den Autor' : isLegal ? 'Rechtliche Hinweise' : 'Beitrag aus dem Archiv';
 ---
-<BaseLayout title={entry.data.title}>
-  {isArchive ? <>
-    <section class="page-head section"><p class="eyebrow">Archiv</p><h1>Artikelübersicht</h1><p class="lead">Alle veröffentlichten Beiträge – für gezieltes Vertiefen statt endloses Scrollen.</p></section>
-    <section class="section content-index"><aside class="index-sidebar"><p class="eyebrow">109 Beiträge</p><p>Von Grundlagen bis zu konkreten Führungsaufgaben.</p></aside><div class="entry-list">{posts.map((post, index) => <article class="entry-card"><p class="meta">{String(index + 1).padStart(3, '0')} · {new Date(post.data.date).toLocaleDateString('de-DE')}</p><h2><a href={post.data.sourcePath}>{post.data.title}</a></h2></article>)}</div></section>
-    <article class="section prose"><Content /></article>
-  </> : <>
-    <header class="page-head section article-head">
-      <p class="eyebrow">{isAbout ? 'Über den Autor' : isLegal ? 'Rechtliche Hinweise' : 'Beitrag aus dem Archiv'}</p>
-      {!isAbout && !isLegal && <><h1>{entry.data.title}</h1><p class="lead">Ein Beitrag aus dem Management÷7-Archiv.</p><p class="meta">{new Date(entry.data.date).toLocaleDateString('de-DE')}</p></>}
-    </header>
-    <article class:list={["section", "prose", { "page-prose": isAbout || isLegal }]}><Content /></article>
-  </>}
+<BaseLayout title={entry.data.title} description={entry.data.title}>
+  {isAbout || isLegal ? (
+    <>
+      <header class="page-head">
+        <p class="hero__eyebrow">{kicker}</p>
+        <h1>{entry.data.title}</h1>
+      </header>
+      <article class="prose page-prose"><Content /></article>
+    </>
+  ) : (
+    <>
+      <header class="article-head">
+        <p class="kicker">{kicker}</p>
+        <h1>{entry.data.title}</h1>
+        <p class="byline">
+          {displayDate}
+          <span class="dot" aria-hidden="true">·</span>
+          <a href="/">← Zurück zum Archiv</a>
+        </p>
+      </header>
+      <article class="prose"><Content /></article>
+    </>
+  )}
 </BaseLayout>

@@ -1,52 +1,17 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-const posts = (await getCollection('posts')).sort((a, b) => b.data.date.localeCompare(a.data.date));
-const featured = posts.find((post) => post.data.sourcePath.includes('kompetenzen-und-schlusselqualifikationen')) ?? posts[0];
-const recent = posts.slice(0, 4);
+import SearchAndFeed from '../components/SearchAndFeed.astro';
+import { newestFirst, topics } from '../lib/posts';
+
+const posts = await newestFirst();
+const topicList = topics(posts);
+const lead = `${posts.length} kuratierte Beiträge zu Führung, Organisation und Entscheidung. Lesen statt scrollen – wie in einem Magazin, aber ruhig.`;
 ---
-<BaseLayout title="Management-Wissen für die Praxis">
-  <section class="hero section">
-    <p class="eyebrow">Managementwissen für die Praxis</p>
+<BaseLayout title="Startseite" description={lead}>
+  <section class="hero">
+    <p class="hero__eyebrow">Management÷7 · Archiv</p>
     <h1>Zusammenhänge verstehen. Klarer führen.</h1>
-    <p class="lead">Eine kuratierte Sammlung von 109 Beiträgen zu Führung, Organisation und Management – zum Nachdenken, Einordnen und Anwenden.</p>
-    <div class="action-row">
-      <a class="button" href="/artikeluebersicht/">Artikel entdecken</a>
-      <a class="text-link" href="/about/">Über den Autor</a>
-    </div>
-  </section>
-
-  <section class="section split-overview">
-    <div>
-      <p class="eyebrow">Worum es geht</p>
-      <h2>Lesbar zuerst, Komplexität danach.</h2>
-    </div>
-    <div class="feature-list">
-      <article><h3>Führung</h3><p>Aufgaben, Verantwortung und Wirkung von Führung klar einordnen.</p></article>
-      <article><h3>Organisation</h3><p>Teams, Kultur und Zusammenarbeit als gestaltbare Systeme verstehen.</p></article>
-      <article><h3>Entscheiden</h3><p>Ziele, Werte und die Qualität von Entscheidungen reflektieren.</p></article>
-    </div>
-  </section>
-
-  <section class="section index-feed" aria-labelledby="featured-post">
-    <div class="section-heading">
-      <div><p class="eyebrow">Ausgewählt</p><h2 id="featured-post">Ein Einstieg ins Archiv.</h2></div>
-      <a class="text-link" href="/artikeluebersicht/">Alle Artikel</a>
-    </div>
-    <article class="featured-entry">
-      <p class="meta">{new Date(featured.data.date).toLocaleDateString('de-DE', { day: '2-digit', month: 'long', year: 'numeric' })}</p>
-      <h3><a href={featured.data.sourcePath}>{featured.data.title}</a></h3>
-      <a class="text-link" href={featured.data.sourcePath}>Beitrag lesen</a>
-    </article>
-  </section>
-
-  <section class="section index-feed" aria-labelledby="recent-posts">
-    <div class="section-heading">
-      <div><p class="eyebrow">Neu im Archiv</p><h2 id="recent-posts">Weiterlesen.</h2></div>
-      <a class="text-link" href="/rss.xml">RSS abonnieren</a>
-    </div>
-    <div class="note-list">
-      {recent.map((post) => <article class="note-row"><time datetime={post.data.date}>{new Date(post.data.date).toLocaleDateString('de-DE')}</time><h3><a href={post.data.sourcePath}>{post.data.title}</a></h3></article>)}
-    </div>
+    <p class="lead">{lead}</p>
+    <SearchAndFeed posts={posts} topics={topicList} feedTitle="Neueste Beiträge" feedEyebrow="Aktuell" />
   </section>
 </BaseLayout>
