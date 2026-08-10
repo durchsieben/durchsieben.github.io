@@ -216,9 +216,15 @@ def run(args: argparse.Namespace) -> dict[str, object]:
     args.routes.parent.mkdir(parents=True, exist_ok=True)
     manifest = {
         "source": {
-            "wxr": wxr.as_posix(),
-            "mediaArchive": media_archive.as_posix(),
-            "sitemapRoutes": sitemap_routes_path.as_posix(),
+            "wxr": {"file": wxr.name, "sha256": hashlib.sha256(wxr.read_bytes()).hexdigest()},
+            "mediaArchive": {
+                "file": media_archive.name,
+                "sha256": hashlib.sha256(media_archive.read_bytes()).hexdigest(),
+            },
+            "sitemapRoutes": {
+                "file": sitemap_routes_path.name,
+                "sha256": hashlib.sha256(sitemap_routes_path.read_bytes()).hexdigest(),
+            },
         },
         "counts": {"posts": counts["post"], "pages": counts["page"], "media": len(media)},
         "routes": sorted(routes, key=lambda route: route["sourcePath"]),

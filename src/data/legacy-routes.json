@@ -1,8 +1,17 @@
 {
   "source": {
-    "wxr": "backup/wordpress/management.WordPress.2026-08-10.xml",
-    "mediaArchive": "backup/wordpress/media-export-4925442-from-0-to-2313.tar",
-    "sitemapRoutes": "backup/wordpress/sitemap-route-seed.json"
+    "wxr": {
+      "file": "management.WordPress.2026-08-10.xml",
+      "sha256": "bdb15cc43271871252ace46e436de39979e8911045477262ac6b4eba8d2daca4"
+    },
+    "mediaArchive": {
+      "file": "media-export-4925442-from-0-to-2313.tar",
+      "sha256": "5acd70062b5dc058cebd0fcd37db62555b81abd1ce59344f974f28ac047854cc"
+    },
+    "sitemapRoutes": {
+      "file": "sitemap-route-seed.json",
+      "sha256": "b60930821dc498c20bca45f29de534e24bb4ce5c554306d6381604d13fa97f10"
+    }
   },
   "counts": {
     "posts": 109,
