@@ -4,6 +4,7 @@ date: "2021-07-26 08:00:00"
 sourcePath: "/2021/07/26/d-h-team/"
 sourceUrl: "https://durchsieben.de/2021/07/26/d-h-team/"
 wordpressId: "1006"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Als <strong>Team </strong>wird eine formelle <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Arbeit</a>sgruppe dann bezeichnet, wenn sie besondere Merkmale aufweist. (Staehle/Conrad/Sydow 1999, S.270)</p>

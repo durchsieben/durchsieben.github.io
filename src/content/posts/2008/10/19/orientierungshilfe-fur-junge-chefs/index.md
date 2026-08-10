@@ -4,6 +4,7 @@ date: "2008-10-19 08:00:49"
 sourcePath: "/2008/10/19/orientierungshilfe-fur-junge-chefs/"
 sourceUrl: "https://durchsieben.de/2008/10/19/orientierungshilfe-fur-junge-chefs/"
 wordpressId: "75"
+status: "publish"
 ---
 Der Umgang mit Mitarbeitern muss geübt sein. Hier ein paar unverbindliche Tipps für junge Chefs.
 <p style="text-align:right;"><strong>Der Bewahrer</strong></p>

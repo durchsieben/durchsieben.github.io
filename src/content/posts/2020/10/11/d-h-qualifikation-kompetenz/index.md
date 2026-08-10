@@ -4,6 +4,7 @@ date: "2020-10-11 08:00:00"
 sourcePath: "/2020/10/11/d-h-qualifikation-kompetenz/"
 sourceUrl: "https://durchsieben.de/2020/10/11/d-h-qualifikation-kompetenz/"
 wordpressId: "1025"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Schlüssel<strong>qualifikationen</strong> können nicht wie fachliche <span style="text-decoration:underline;">Fähigkeiten</span> erworben bzw. erlernt, sondern nur durch die Auseinandersetzung mit konkreten <span style="text-decoration:underline;">Aufgaben</span>stellungen entwickelt werden („learning by doing“). (Hintz 2018, S.15)</p>

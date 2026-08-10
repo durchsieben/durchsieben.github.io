@@ -4,6 +4,7 @@ date: "2020-10-30 08:00:00"
 sourcePath: "/2020/10/30/d-h-stelle-position-status-rolle/"
 sourceUrl: "https://durchsieben.de/2020/10/30/d-h-stelle-position-status-rolle/"
 wordpressId: "985"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Als besonders leistungsfähiger Ansatz zur Erklärung der gegenseitigen Anpassungsprozesse Individuum – Organisation hat sich die soziologische Rollentheorie bewährt. (Staehle/Conrad/Sydow 1999, S.271)</p>

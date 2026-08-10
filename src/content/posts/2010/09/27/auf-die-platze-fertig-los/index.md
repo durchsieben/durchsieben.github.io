@@ -4,6 +4,7 @@ date: "2010-09-27 08:00:56"
 sourcePath: "/2010/09/27/auf-die-platze-fertig-los/"
 sourceUrl: "https://durchsieben.de/2010/09/27/auf-die-platze-fertig-los/"
 wordpressId: "456"
+status: "publish"
 ---
 <p style="padding-left:30px;">Für Erfolg im Job brachen wir mehr als Glück und Talent. Wichtig ist vor allem Volition -- jene Willenskraft, mit der wir unsere Ziele erst erreichen. Inzwischen wissen Psychologen: Der Tatendrang lässt sich gezielt trainieren.</p>
 Spaziergänge am Strand, Schwimmen im Meer, Abendessen in Restaurants: Der Juli bestand für Georg Albes vor allem aus Müßiggang. Vier Wochen lang gönnte sich der Direktor der Personalberatung Robert Half eine berufliche Auszeit, die er mit Frau und Tochter auf Mallorca verbrachte. Vor allein genoss es Albes, dort endlich einmal komplett „off" zu sein. Keine Anrufe, keine E-Mails, keine Konferenzen. Herrlich.<!--more-->

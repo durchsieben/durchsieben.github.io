@@ -4,6 +4,7 @@ date: "2021-09-28 08:00:00"
 sourcePath: "/2021/09/28/team-dysfunktion-5-fehlende-ergebnis-orientierung/"
 sourceUrl: "https://durchsieben.de/2021/09/28/team-dysfunktion-5-fehlende-ergebnis-orientierung/"
 wordpressId: "1827"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Die schlimmste Dysfunktion eines <a href="/2021/07/26/d-h-team/">Teams</a> ist die Neigung seiner Mitglieder, andere Zeile zu verfolgen als die gemeinsamen Ziele der Gruppe. (Lencioni 2014, S.175)</p>

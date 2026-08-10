@@ -4,6 +4,7 @@ date: "2008-10-23 08:00:29"
 sourcePath: "/2008/10/23/junger-chef-alterer-mitarbeiter/"
 sourceUrl: "https://durchsieben.de/2008/10/23/junger-chef-alterer-mitarbeiter/"
 wordpressId: "66"
+status: "publish"
 ---
 Demografischer Wandel und ein ausgeprägter Sinn für Jugendlichkeit führen immer häufiger in Unternehmen zu dieser Konstelation: junger Chef, älterer Mitarbeiter. Spannungen vorprogrammiert falls die junge Führungskraft unvorbereitet in die Situation gedrängt wird. Laut einer Studie der Unternehmensberatung Capgemini aus dem Jahr 2007 sind die Generationsunterschiede im puncto Führungsstile, Arbeitswerte und Arbeitsweisen zu groß. Ältere Mitarbeiter wollen eher persönlich, oder über das Telefon angesprochen werden. Während junge Chefs gerne ihre Mitarbeiter schon per E-Mail oder SMS steuern.<!--more-->
 <p style="text-align:right;"><strong>Der Kontrolleur</strong></p>

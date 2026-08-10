@@ -4,6 +4,7 @@ date: "2021-09-22 08:00:00"
 sourcePath: "/2021/09/22/team-dysfunktion-1-fehlendes-vertrauen/"
 sourceUrl: "https://durchsieben.de/2021/09/22/team-dysfunktion-1-fehlendes-vertrauen/"
 wordpressId: "1749"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Vertrauen ist die Grundlage eines funktionierenden, zusammenhaltenden Teams. Ohne Vertrauen ist Teamarbeit so gut wie unmöglich. (Lencioni 2014, S. 157)</p>

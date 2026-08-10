@@ -4,6 +4,7 @@ date: "2021-09-24 08:00:00"
 sourcePath: "/2021/09/24/team-dysfunktion-3-fehlendes-engagement/"
 sourceUrl: "https://durchsieben.de/2021/09/24/team-dysfunktion-3-fehlendes-engagement/"
 wordpressId: "1759"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Wenn es um Teams geht, ist Engagement die Summe zweier Werte: Klarheit und Zustimmung. Gute Teams treffen klare und rasche Entscheidungen und setzen sie dann unter vollständiger Zustimmung aller Teammitglieder um, auch derjenigen, die erst gegen die Entscheidung gestimmt hatten. Wenn die Teilnehmer aus einer Besprechung gehen, dann tun sie das in der Gewissheit, dass niemand im Team mehr heimlich Zweifel daran hegt, ob er die beschlossene Maßnahmen mittragen kann. (Lencioni 2014, S. 167)</p>

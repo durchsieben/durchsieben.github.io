@@ -4,6 +4,7 @@ date: "2020-11-11 08:00:00"
 sourcePath: "/2020/11/11/d-h-agile/"
 sourceUrl: "https://durchsieben.de/2020/11/11/d-h-agile/"
 wordpressId: "1145"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>"Die höchste Priorität", wie es in den <a href="https://agilemanifesto.org/iso/de/principles.html">agilen Prinzipien</a> heißt, "ist die Zufriedenheit des Kunden". (Beck et al. 2001) Wortwörtlich: "Unsere höchste Priorität ist es, den Kunden durch frühe und kontinuierliche Auslieferung wertvoller <em>Software</em> zufrieden zu stellen." (<a href="https://agilemanifesto.org/iso/de/principles.html">https://agilemanifesto.org/iso/de/principles.html</a>)</p>

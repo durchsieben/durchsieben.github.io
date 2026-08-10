@@ -46,25 +46,38 @@ def local_target(path: str) -> Path:
     return DIST / normalized.strip("/")
 
 
+def content_files(kind: str) -> list[Path]:
+    return sorted((ROOT / "src/content" / kind).rglob("*.md"))
+
+
 def main() -> int:
     if not DIST.is_dir():
         raise SystemExit("dist/ is missing; run pnpm build first")
 
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    expected_counts = {"posts": 109, "pages": 3, "media": 78}
-    if manifest["counts"] != expected_counts:
-        raise SystemExit(f"unexpected import counts: {manifest['counts']}")
+    expected_counts = manifest["counts"]
+    expected_keys = {"posts", "drafts", "pages", "media"}
+    if set(expected_counts) != expected_keys or any(not isinstance(expected_counts[key], int) for key in expected_keys):
+        raise SystemExit(f"invalid import counts: {expected_counts}")
+
+    actual_counts = {
+        "posts": len(content_files("posts")),
+        "drafts": len(content_files("drafts")),
+        "pages": len(content_files("pages")),
+        "media": len([path for path in (ROOT / "public/media").rglob("*") if path.is_file()]),
+    }
+    if actual_counts != expected_counts:
+        raise SystemExit(f"content count mismatch; expected={expected_counts}, actual={actual_counts}")
 
     routes = manifest["routes"]
     source_paths = {route["sourcePath"] for route in routes}
-    if len(routes) != 113 or len(source_paths) != 113:
-        raise SystemExit("expected exactly 113 unique legacy routes")
+    if len(routes) != expected_counts["posts"] + expected_counts["pages"] + 1 or len(source_paths) != len(routes):
+        raise SystemExit("route manifest does not match retained released content")
 
     missing_routes = [path for path in sorted(source_paths) if not output_for(path).is_file()]
     missing_content = [route["contentFile"] for route in routes if not (ROOT / route["contentFile"]).is_file()]
-    media = [path for path in (ROOT / "public/media").rglob("*") if path.is_file()]
-    if missing_routes or missing_content or len(media) != expected_counts["media"]:
-        raise SystemExit(json.dumps({"missingRoutes": missing_routes, "missingContent": missing_content, "media": len(media)}, ensure_ascii=False))
+    if missing_routes or missing_content:
+        raise SystemExit(json.dumps({"missingRoutes": missing_routes, "missingContent": missing_content}, ensure_ascii=False))
 
     broken: list[tuple[str, str]] = []
     for page in DIST.rglob("*.html"):
@@ -83,7 +96,7 @@ def main() -> int:
     if broken:
         raise SystemExit(json.dumps({"brokenLocalLinks": broken}, ensure_ascii=False))
 
-    print(json.dumps({"routes": len(routes), "posts": 109, "pages": 3, "media": len(media), "localLinks": "PASS"}))
+    print(json.dumps({"routes": len(routes), **expected_counts, "localLinks": "PASS"}))
     return 0
 
 

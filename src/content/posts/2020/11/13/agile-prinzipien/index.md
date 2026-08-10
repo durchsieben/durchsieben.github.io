@@ -4,6 +4,7 @@ date: "2020-11-13 08:00:00"
 sourcePath: "/2020/11/13/agile-prinzipien/"
 sourceUrl: "https://durchsieben.de/2020/11/13/agile-prinzipien/"
 wordpressId: "1234"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Agile wird modernisiert. Dank der Lean- und Agile-Pioniere und -Praktiker haben wir jetzt einfachere, sicherere und schnellere Wege, um großartige Ergebnisse zu erzielen. Wir nennen diese neuen Ansätze "Modern Agile", weil sie sich weit über die frühen agilen Methoden hinaus entwickelt haben.</p>

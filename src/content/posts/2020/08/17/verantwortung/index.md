@@ -4,6 +4,7 @@ date: "2020-08-17 08:00:00"
 sourcePath: "/2020/08/17/verantwortung/"
 sourceUrl: "https://durchsieben.de/2020/08/17/verantwortung/"
 wordpressId: "892"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Das Zentrum bildet die Verantwortung der <a href="/2020/08/11/was-sind-fuhrungsaufgaben/">Führungskraft</a> für ihr Tun und ihre Unterlassungen. (Pfister/Neumann 2019, S.61)</p>

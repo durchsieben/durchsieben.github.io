@@ -4,6 +4,7 @@ date: "2008-11-24 08:00:22"
 sourcePath: "/2008/11/24/was-wissenschaftler-uber-das-lernen-herausgefunden-haben/"
 sourceUrl: "https://durchsieben.de/2008/11/24/was-wissenschaftler-uber-das-lernen-herausgefunden-haben/"
 wordpressId: "201"
+status: "publish"
 ---
 Lernen bedeutet nicht nur das Speichern von Fakten, sondern auch das Sammeln, Bewerten und Verknüpfen von Erfahrungen. Doch wie funktioniert Lernen? Wie lässt sich effizienter lernen? Bisher gibt es keine umfassende Theorie des Lernens. Stattdessen haben Neurobiologen, Psychologen, Pädagogen, Betreibswirtscahftler und Informatiker verschiedene Aspekte des Wissenserwerbs entschlüsselt.<!--more-->
 <p style="text-align:right;"><strong>Die Hirnforscher</strong></p>

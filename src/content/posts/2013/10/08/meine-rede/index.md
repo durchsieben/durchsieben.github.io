@@ -4,6 +4,7 @@ date: "2013-10-08 07:30:44"
 sourcePath: "/2013/10/08/meine-rede/"
 sourceUrl: "https://durchsieben.de/2013/10/08/meine-rede/"
 wordpressId: "662"
+status: "publish"
 ---
 <p style="padding-left:30px;">So schön tiefsinnige Gespräche sein können: Wer Karriere machen will, kommt nicht ohne Small Talk aus. Die besten Tipps für eine kurzweilige und erfolgreiche Unterhaltung.</p>
 Vor einigen Jahren war Angela Merkel auf Staatsbesuch in einem afrikanischen Land. Der Präsident erwartete sie mit seiner Limousine am Flughafen, während der Fahrt saßen die Politiker schweigend nebeneinander. Dann entstand ein denkwürdiger Dialog:

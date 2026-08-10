@@ -4,6 +4,7 @@ date: "2010-07-21 08:00:44"
 sourcePath: "/2010/07/21/den-affen-loswerden/"
 sourceUrl: "https://durchsieben.de/2010/07/21/den-affen-loswerden/"
 wordpressId: "367"
+status: "publish"
 ---
 <p style="padding-left:30px;">Wenn Mitarbeiter Probleme beim Chef abladen, kommt der nicht mehr zu seinen eigentlichen Aufgaben. Acht Strategien versprechen Abhilfe gegen dieses "Monkey Business".</p>
 "Guten Morgen Chef. Haben Sie mal eine Minute Zeit? Wir haben da ein Problem." Der Mitarbeiter erzählt -- und der Manager merkt, dass die Sache zu komplex ist, um gleich eine Entscheidung  zu treffen. Seine (typische) Antwort: "Ich denk' mal drüber nach und melde mich."<!--more-->

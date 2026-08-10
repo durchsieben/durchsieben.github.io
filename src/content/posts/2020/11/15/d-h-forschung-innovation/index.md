@@ -4,6 +4,7 @@ date: "2020-11-15 08:00:00"
 sourcePath: "/2020/11/15/d-h-forschung-innovation/"
 sourceUrl: "https://durchsieben.de/2020/11/15/d-h-forschung-innovation/"
 wordpressId: "1166"
+status: "publish"
 ---
 <!-- wp:quote -->
 <blockquote class="wp-block-quote"><p><strong>Forschung</strong> ist die Umwandlung von Geld in Wissen, <strong>Innovation</strong> ist die Umwandlung von Wissen in Geld.</p><cite>Dr. Oberholz, Alfred (1952), Vorsitzender Verband der Chem. Industrie; Quelle: Kölner Stadt-Anzeiger, "Worte der Woche"</cite></blockquote>

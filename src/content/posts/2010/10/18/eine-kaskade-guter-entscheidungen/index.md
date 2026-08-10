@@ -4,6 +4,7 @@ date: "2010-10-18 08:00:48"
 sourcePath: "/2010/10/18/eine-kaskade-guter-entscheidungen/"
 sourceUrl: "https://durchsieben.de/2010/10/18/eine-kaskade-guter-entscheidungen/"
 wordpressId: "530"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Manager, die zwischen Strategie und Umsetzung deutlich trennen, geben ihren Untergebenen genau festgelegte Strategien vor, die diese mechanisch befolgen sollen. Führungskräfte sollten stattdessen das Konzept der Entscheidungskaskade verfolgen.</p>

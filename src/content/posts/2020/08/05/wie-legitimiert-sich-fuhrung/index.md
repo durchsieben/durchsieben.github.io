@@ -4,6 +4,7 @@ date: "2020-08-05 08:00:00"
 sourcePath: "/2020/08/05/wie-legitimiert-sich-fuhrung/"
 sourceUrl: "https://durchsieben.de/2020/08/05/wie-legitimiert-sich-fuhrung/"
 wordpressId: "850"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Führung legitimiert sich über Ziele. Ohne Ziele geht es nicht. Haben Führungskräfte kein Ziel, ist Führung illegitim. Sinn eines <a href="/2021/08/07/fuehrungstechniken/">Management by Objectives (MbO)</a> ist es, Ziele zu vereinbaren und Hilfestellungen aufzuzeigen, wie man zu diesen Zielen kommen kann, um dem Mitarbeiter dann selber zu überlassen, wie er diese Ziele erreicht. Gemeinsame Zielfindungen sind verpflichtender als einseitige Zielvorgaben. (Bolten 2013, S.22)</p>

@@ -4,6 +4,7 @@ date: "2020-10-12 08:00:00"
 sourcePath: "/2020/10/12/grundverstandnis-der-fuhrungsaufgabe/"
 sourceUrl: "https://durchsieben.de/2020/10/12/grundverstandnis-der-fuhrungsaufgabe/"
 wordpressId: "975"
+status: "publish"
 ---
 <!-- wp:quote -->
 <blockquote class="wp-block-quote"><p>Nur wenige Führungskräfte sehen ein, dass sie letztlich nur eine einzige Person führen können und auch müssen, und diese Person sind sie selbst.</p><cite>Drucker 2002</cite></blockquote>

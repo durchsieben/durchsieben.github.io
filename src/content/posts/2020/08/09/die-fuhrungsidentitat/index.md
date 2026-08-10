@@ -4,6 +4,7 @@ date: "2020-08-09 08:00:00"
 sourcePath: "/2020/08/09/die-fuhrungsidentitat/"
 sourceUrl: "https://durchsieben.de/2020/08/09/die-fuhrungsidentitat/"
 wordpressId: "859"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Kernproblem vieler Vorgesetzter ist der Widerspruch zwischen ihren (häufig deklarierten) Führungsabsichten und deren tatsächlicher Umsetzung. <a href="/2020/08/25/fuer-ziele-sorgen/">Zielsetzung</a> und Mitarbeiterüberzeugung sind wesentliche Erfolgsfaktoren oder Ursachen für Misserfolge. (Bolten 2013, S.2)</p>

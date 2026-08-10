@@ -4,6 +4,7 @@ date: "2010-10-22 08:00:53"
 sourcePath: "/2010/10/22/wie-gut-sind-sie-im-halten-und-motivieren-von-mitarbeitern/"
 sourceUrl: "https://durchsieben.de/2010/10/22/wie-gut-sind-sie-im-halten-und-motivieren-von-mitarbeitern/"
 wordpressId: "543"
+status: "publish"
 ---
 <p style="padding-left:30px;">Der folgende Test hilft Ihnen, sich im Bereich Führung und Motivation selbst einzuschätzen. Finden Sie heraus, wie gut Ihre Einstellungen und Ihr Handeln dazu geeignet sind, um Mitarbeiter zu halten und zu motivieren.</p>
 Der 5-Minuten-Test funktioniert mit Noten. Bearbeiten Sie Frage für Frage und vergeben Sie jeweils eine Note. Wenn Sie denken, dass Sie ausgezeichnet sind, geben Sie sich die Note 1. Sind Sie der Auffassung, dass Sie massive Defizite haben, geben Sie sich die Note 4:<!--more-->

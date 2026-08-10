@@ -4,6 +4,7 @@ date: "2008-09-21 23:11:36"
 sourcePath: "/2008/09/21/telekommunikation-im-abwartstrend/"
 sourceUrl: "https://durchsieben.de/2008/09/21/telekommunikation-im-abwartstrend/"
 wordpressId: "22"
+status: "publish"
 ---
 Nicht besonders ermutigend sind die Nachrichten vom Branchenvergand Bitkom. Umsatzrückgänge von 40% werden in Deutschland von McKinsey prognostiziert, falls es bei den Wettbewerbsbedingungen der EU-Kommission bleibe. Statt 34 Milliarden in 2006 nur noch eine Wertschöpfung von 20 Millarden Euro sind eine folge des andauernden Preiskapfs.
 <ul>

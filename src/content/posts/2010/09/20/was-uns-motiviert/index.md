@@ -4,6 +4,7 @@ date: "2010-09-20 08:00:16"
 sourcePath: "/2010/09/20/was-uns-motiviert/"
 sourceUrl: "https://durchsieben.de/2010/09/20/was-uns-motiviert/"
 wordpressId: "370"
+status: "publish"
 ---
 <p style="padding-left:30px;">Hohes Gehalt, nette Kollegen oder eine anspruchsvolle Tätigkeit -- eine groß angelegte Studie zeigt, unter welchen Bedingungen Menschen bereit sind, sich besonders zu engagieren.</p>
 Die heftig geführte Debatte um Managergehälter und die Höhe von Bonuszahlungen legt den Schluss nahe, Geld sei der entscheidende Hebel, um Menschen zu hohen Leistungen anzutreiben. Ist das wirklich so?<!--more--> Oder gibt es doch andere, wichtigere Faktoren? Um diese Frage zu beantworten, wurde in Deutschland eine breit angelegte Erhebung initiiert -- auch weil umfassende Studien zum Thema Motivation hierzulande Mangelware sind.

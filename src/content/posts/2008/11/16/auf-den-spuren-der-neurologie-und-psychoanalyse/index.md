@@ -4,6 +4,7 @@ date: "2008-11-16 08:00:01"
 sourcePath: "/2008/11/16/auf-den-spuren-der-neurologie-und-psychoanalyse/"
 sourceUrl: "https://durchsieben.de/2008/11/16/auf-den-spuren-der-neurologie-und-psychoanalyse/"
 wordpressId: "182"
+status: "publish"
 ---
 Sigmund Freud und seine Nachfolger waren jehrelang fest davon überzeugt, dass die Entwicklung des Gehirns in der Kindheit oder im frühen Jugendalter beendet sei. Zwar ist das neuronale Entwicklungspotenzial in dieser Lebensspanne tatsächlich am höchsten; doch inzwischen wissen wir, dass sich die eigene geistige Leistungsfähigkeit auch während des Alterungsprozesses erhalten, ja sogar noch weiter steigern lässt.
 

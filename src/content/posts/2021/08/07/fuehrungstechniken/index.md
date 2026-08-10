@@ -4,6 +4,7 @@ date: "2021-08-07 08:00:00"
 sourcePath: "/2021/08/07/fuehrungstechniken/"
 sourceUrl: "https://durchsieben.de/2021/08/07/fuehrungstechniken/"
 wordpressId: "1038"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Zu den wichtigsten Führungstechniken gehören in der Außenorientierung die <strong>Management-by</strong>-Techniken und in der Innenorientierung das <strong>Eisenhower-Prinzip</strong>. (Fischer/Braun 2019, S.182)</p>

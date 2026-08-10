@@ -4,6 +4,7 @@ date: "2008-10-15 08:00:23"
 sourcePath: "/2008/10/15/wie-bewerben-sich-erfahrene-fach-und-fuhrungskrafte/"
 sourceUrl: "https://durchsieben.de/2008/10/15/wie-bewerben-sich-erfahrene-fach-und-fuhrungskrafte/"
 wordpressId: "85"
+status: "publish"
 ---
 Während jungen Schulabgängern alle Wege offen sind, stehen Arbeitnehmer mit 20 oder mehr Jahren Berufserfahrung vor ganz anderen Herrausfoderungen. Die Zeugnisse von langjährigen Mitarbeitern spiegeln nicht den aktuellen Wissensstand oder Ausrichtung wieder. Hier muss und kann nur das Arbeitszeugnis die Fähigkeiten herausstellen. Leider können diese mit einem druck frischen Diplom, Bachelor- oder Master- Abschluss inklusive Benoten nicht mithalten.
 

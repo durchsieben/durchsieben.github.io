@@ -4,6 +4,7 @@ date: "2020-08-25 08:00:00"
 sourcePath: "/2020/08/25/fuer-ziele-sorgen/"
 sourceUrl: "https://durchsieben.de/2020/08/25/fuer-ziele-sorgen/"
 wordpressId: "924"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Der Hauptzweck einer Organisation („primary task“), sei es die Entwicklung, Herstellung und Vertreibung von Produkten oder das zur Verfügung stellen von Dienstleistungen, dient à priori zur Befriedigung von Kunden<a href="/2020/11/04/d-h-bedurfnisse/">bedürfnissen</a>. Dieser Leistungsaspekt ist der Fokus und das übergeordnete <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ziel</a> und bildet den Ansatzpunkt in der <a href="/2020/10/12/grundverstandnis-der-fuhrungsaufgabe/">Führung</a> von Mitarbeitenden. (Spisak/Della Picca 2017, S.64)</p>

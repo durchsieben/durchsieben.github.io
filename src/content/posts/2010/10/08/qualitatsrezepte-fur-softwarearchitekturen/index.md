@@ -4,6 +4,7 @@ date: "2010-10-08 08:00:48"
 sourcePath: "/2010/10/08/qualitatsrezepte-fur-softwarearchitekturen/"
 sourceUrl: "https://durchsieben.de/2010/10/08/qualitatsrezepte-fur-softwarearchitekturen/"
 wordpressId: "468"
+status: "publish"
 ---
 <p style="padding-left:30px;">Manch ein Softwaresystem bietet alle geforderten Funktionen und stellt den Kunden dennoch nicht zufrieden. Und dies nur deshalb, weil der Architekt nichtfunktionale Anforderungen wie Geschwindigkeit oder die Sicherheit der Anwendung bei der Planung vernachlässigt hat. Konkrete Strategien und Taktiken können das verhindern.</p>
 Bob, der Softwarearchitekt, wirkt seit Stunden deprimiert und nachdenklich. Als ihn seine Kollegen daraufhin ansprechen, erläutert er die Ursache seiner schlechten Laune.<!--more--> Schon wieder ist ein wichtiges Kundenprojekt in Schieflage geraten. Und erneut waren nicht die funktionalen Anforderungen der Hauptgrund, sondern die nichtfunktionalen Qualitäten. Das System ist schlicht zu langsam, hat diverse Sicherheitslücken und stürzt beim kleinsten Problem ab.

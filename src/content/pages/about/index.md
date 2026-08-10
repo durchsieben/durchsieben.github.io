@@ -4,6 +4,7 @@ date: "2008-09-21 11:48:31"
 sourcePath: "/about/"
 sourceUrl: "https://durchsieben.de/about/"
 wordpressId: "2"
+status: "publish"
 ---
 <!-- wp:heading {"level":1} -->
 <h1 id="raphael-bossek">Raphael Bossek</h1>

@@ -4,6 +4,7 @@ date: "2020-08-15 08:00:00"
 sourcePath: "/2020/08/15/kommunikation/"
 sourceUrl: "https://durchsieben.de/2020/08/15/kommunikation/"
 wordpressId: "885"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Kommunikation dient als Transmissionsriemen. (Pfister/Neumann 2019, S.61)</p>

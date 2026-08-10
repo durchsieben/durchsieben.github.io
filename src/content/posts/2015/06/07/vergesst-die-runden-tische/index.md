@@ -4,6 +4,7 @@ date: "2015-06-07 13:41:01"
 sourcePath: "/2015/06/07/vergesst-die-runden-tische/"
 sourceUrl: "https://durchsieben.de/2015/06/07/vergesst-die-runden-tische/"
 wordpressId: "690"
+status: "publish"
 ---
 Von Vince Ebert, <a href="http://www.vince-ebert.de">http://www.vince-ebert.de</a>
 <p style="padding-left:30px;">Ich kann mir nicht helfen, aber wenn in letzter Zeit eine bedeutende Führungskraft ein Interview gibt, dann hört sich das so an, als hätte sie sich auf den Kirchentag verirrt.</p>

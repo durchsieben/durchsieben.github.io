@@ -4,6 +4,7 @@ date: "2020-10-19 08:00:00"
 sourcePath: "/2020/10/19/d-h-norm/"
 sourceUrl: "https://durchsieben.de/2020/10/19/d-h-norm/"
 wordpressId: "1008"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Eine <strong>Norm </strong>ist eine Zielvorstellung oder Richtschnur des Handelns; sie stellt eine Verhaltensanforderung an einen <a href="/2020/10/30/d-h-stelle-position-status-rolle/">Rolle</a>ninhaber dar. (Staehle/Conrad/Sydow 1999, S.277)</p>

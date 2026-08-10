@@ -4,6 +4,7 @@ date: "2010-07-12 10:19:19"
 sourcePath: "/2010/07/12/imitationen-sind-wertvoller-als-innovationen/"
 sourceUrl: "https://durchsieben.de/2010/07/12/imitationen-sind-wertvoller-als-innovationen/"
 wordpressId: "277"
+status: "publish"
 ---
 <p style="padding-left:30px;">Die Studie -- Oded Shenkar bewertete Forschungen über bedeutende Innovationen und Durchbrüche in acht wissenschaftlichen Disziplinen. Er identifizierte Imitationen generell als erste Quelle des Fortschritts -- eine Erkenntnis, die für viele Manager und Wissenschaftler neu ist. Shenkar stellte zudem fest, dass gute Imitationen schwierig sind und Intelligenz und Vorstellungsvermögen erfordern.</p>
 <p style="padding-left:30px;">Die These -- Imitationen werden zu gering geschätzt, behauptet Professor Shenkar. Gute Kopien können mehr Einfluss auf das Wachstum haben als Innovationen. Sie sind keine gedankenlosen Wiederholungen, sondern intelligente Anpassungen guter Ideen an den Markt.<!--more--></p>

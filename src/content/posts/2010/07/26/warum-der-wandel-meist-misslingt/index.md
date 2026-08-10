@@ -4,6 +4,7 @@ date: "2010-07-26 08:00:57"
 sourcePath: "/2010/07/26/warum-der-wandel-meist-misslingt/"
 sourceUrl: "https://durchsieben.de/2010/07/26/warum-der-wandel-meist-misslingt/"
 wordpressId: "373"
+status: "publish"
 ---
 <p style="padding-left:30px;">So richtig zufrieden ist mit Veränderungsprojekten kaum jemand. Jedes vierte gilt als Fehlschlag, die Produktivität sinkt, und die Fluktuation in der Belegschaft steigt. Eine aktuelle Untersuchung zeigt, dass die Probleme in vielen Fällen bereits auf der zweiten Führungsebene beginnen.</p>
 Abgesehen von der Geschäftsleitung, glaubt die Mehrheit der Manager nicht mehr an den Sinn und Erfolg von Veränderungsprojekten. Die bisher dem mittleren Management und der Belegschaft zugeschriebene Veräderungsresistenz hat inzwischen das Senior Management erreicht.<!--more-->

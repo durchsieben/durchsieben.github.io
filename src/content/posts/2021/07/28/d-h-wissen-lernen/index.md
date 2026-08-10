@@ -4,6 +4,7 @@ date: "2021-07-28 08:00:00"
 sourcePath: "/2021/07/28/d-h-wissen-lernen/"
 sourceUrl: "https://durchsieben.de/2021/07/28/d-h-wissen-lernen/"
 wordpressId: "1416"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Die Lehr-Lern-Forschung boomt. Hirnforschung, Psychologie und Pädagogik erbringen fortlaufend neue Erkenntnisse darüber, wie Lehren und Lernen funktioniert. Hier kann es freilich nicht darum gehen, diese Ergebnisse umfassend darzustellen und zu diskutieren. Vielmehr wollen wir uns darauf beschränken, einige wenige, aber für die Gestaltung und Durchführung von Lernprozessen überaus wichtige und – wie wir finden – hilfreiche Punkte zu beleuchten. Wir haben die Punkte in einer „REWÜ“ zusammengefasst (vgl. Medina 2014).</p>

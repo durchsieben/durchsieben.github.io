@@ -4,6 +4,7 @@ date: "2008-11-08 08:00:17"
 sourcePath: "/2008/11/08/wie-steuern-sie-ihre-wachstumsinitiativen/"
 sourceUrl: "https://durchsieben.de/2008/11/08/wie-steuern-sie-ihre-wachstumsinitiativen/"
 wordpressId: "152"
+status: "publish"
 ---
 Mithilfe der folgenden zehn Checkpunkte können Sie ermitteln, wie Ihr Unternehmen Wachstumsinitiativen managt. Bei den ersten fünf Punkten geht es um die inhaltliche Steuerung, bei den folgenden fünf um die Prozesssteuerung.<!--more--> Bitte beurteilen Sie (auf einer Skala von 1 = trifft kaum zu bis 6 = tifft überwiegend zu), inwieweit die Aussagen für Ihr Unternehmen gelten. Dann addieren Sie die Punktzahlen für jden Aussageblock und tragen die beiden Summen als Koordinaten in die Vierfeldermatrix ein. Sie erkennen dann Ihren Stuerungsansatz.
 

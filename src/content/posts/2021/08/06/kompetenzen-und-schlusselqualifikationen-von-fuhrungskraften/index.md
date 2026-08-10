@@ -4,6 +4,7 @@ date: "2021-08-06 08:00:00"
 sourcePath: "/2021/08/06/kompetenzen-und-schlusselqualifikationen-von-fuhrungskraften/"
 sourceUrl: "https://durchsieben.de/2021/08/06/kompetenzen-und-schlusselqualifikationen-von-fuhrungskraften/"
 wordpressId: "1053"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Von einer Führungskraft wird erwartet, dass sie (Hintz 2018, S.15)</p>

@@ -4,6 +4,7 @@ date: "2020-09-04 08:00:00"
 sourcePath: "/2020/09/04/fur-zusammenarbeit-sorgen/"
 sourceUrl: "https://durchsieben.de/2020/09/04/fur-zusammenarbeit-sorgen/"
 wordpressId: "953"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Organisationen haben erkannt, dass das Freischalten von <a href="/2020/11/11/d-h-agile/">Agilität</a> mehr als nur die Skalierung einer Vielzahl von Scrum-Teams erfordert. Die Organisationstheorie geht auf die 1940er Jahre zurück und war von der Idee geprägt, dass eine Organisation am besten verstanden werden kann, wenn man jedes ihrer Teile sorgfältig studiert - ähnlich wie eine Maschine. (Hesselberg 2019)</p>

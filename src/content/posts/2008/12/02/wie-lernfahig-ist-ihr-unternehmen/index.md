@@ -4,6 +4,7 @@ date: "2008-12-02 08:00:54"
 sourcePath: "/2008/12/02/wie-lernfahig-ist-ihr-unternehmen/"
 sourceUrl: "https://durchsieben.de/2008/12/02/wie-lernfahig-ist-ihr-unternehmen/"
 wordpressId: "217"
+status: "publish"
 ---
 Das Diagnoseinstrument soll Ihnen helfen zu bestimmen, wie gut Ihr Unternehmen als lernende Organisation abschneidet. Sie finden eine interaktive Version dieses Tools unter <a href="http://los.hbs.edu" target="_blank">http://los.hbs.edu</a> (in englischer Sprache).
 <p style="text-align:right;">Wie Sie den Test durchführen</p>

@@ -168,7 +168,19 @@ def source_path(item: ET.Element) -> str:
     return parsed.path or "/"
 
 
-def content_path(root: Path, kind: str, route: str) -> Path:
+def source_reference(item: ET.Element) -> str:
+    value = text(item, "link")
+    parsed = urlparse(value)
+    if parsed.scheme not in {"http", "https"} or parsed.netloc != "durchsieben.de":
+        raise ValueError(f"unsupported source URL: {value}")
+    return (parsed.path or "/") + (f"?{parsed.query}" if parsed.query else "")
+
+
+def content_path(root: Path, kind: str, route: str, wordpress_id: str) -> Path:
+    if kind == "drafts":
+        if not wordpress_id.isdecimal():
+            raise ValueError(f"unsafe WordPress ID: {wordpress_id}")
+        return root / kind / wordpress_id / "index.md"
     parts = [unquote(segment) for segment in route.strip("/").split("/") if segment]
     if not parts:
         parts = ["index"]
@@ -184,7 +196,7 @@ def frontmatter(record: dict[str, str]) -> str:
     return "\n".join(lines)
 
 
-def published_items(root: ET.Element) -> Iterable[ET.Element]:
+def released_items(root: ET.Element) -> Iterable[ET.Element]:
     for item in root.findall("./channel/item"):
         kind = text(item, "wp:post_type", namespace="wp")
         status = text(item, "wp:status", namespace="wp")
@@ -192,28 +204,85 @@ def published_items(root: ET.Element) -> Iterable[ET.Element]:
             yield item
 
 
+def draft_items(root: ET.Element) -> Iterable[ET.Element]:
+    for item in root.findall("./channel/item"):
+        if text(item, "wp:post_type", namespace="wp") == "post" and text(item, "wp:status", namespace="wp") == "draft":
+            yield item
+
+
+def snapshot_ids(path: Path) -> set[str]:
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    records = payload.get("posts")
+    if not isinstance(records, list):
+        raise ValueError(f"public API snapshot has no posts list: {path}")
+    ids = {str(record.get("ID", "")) for record in records}
+    if "" in ids or len(ids) != len(records):
+        raise ValueError(f"public API snapshot has missing or duplicate IDs: {path}")
+    return ids
+
+
+def reconcile_public_api(root: ET.Element, inventory_path: Path) -> None:
+    inventory = json.loads(inventory_path.read_text(encoding="utf-8"))
+    sources = inventory.get("sources")
+    if not isinstance(sources, dict):
+        raise ValueError("public API inventory has no sources")
+
+    def source_file(name: str) -> Path:
+        source = sources.get(name)
+        if not isinstance(source, dict) or not isinstance(source.get("path"), str):
+            raise ValueError(f"public API inventory has no {name} source")
+        recorded_path = Path(source["path"])
+        if recorded_path.is_absolute() or ".." in recorded_path.parts:
+            raise ValueError(f"unsafe public API source path: {recorded_path}")
+        path = inventory_path.parent / recorded_path.name
+        if not path.is_file():
+            raise ValueError(f"public API source is missing or outside backup: {path}")
+        return path
+
+    snapshot_posts = snapshot_ids(source_file("posts-page-1")) | snapshot_ids(source_file("posts-page-2"))
+    snapshot_pages = snapshot_ids(source_file("pages"))
+    released_posts = {
+        text(item, "wp:post_id", namespace="wp")
+        for item in released_items(root)
+        if text(item, "wp:post_type", namespace="wp") == "post"
+    }
+    released_pages = {
+        text(item, "wp:post_id", namespace="wp")
+        for item in released_items(root)
+        if text(item, "wp:post_type", namespace="wp") == "page"
+    }
+    if snapshot_posts != released_posts or snapshot_pages != released_pages:
+        raise ValueError(
+            "WXR/public API mismatch; "
+            f"posts missing={sorted(snapshot_posts - released_posts)}, unexpected={sorted(released_posts - snapshot_posts)}, "
+            f"pages missing={sorted(snapshot_pages - released_pages)}, unexpected={sorted(released_pages - snapshot_pages)}"
+        )
+
+
 def run(args: argparse.Namespace) -> dict[str, object]:
     wxr = args.backup / "management.WordPress.2026-08-10.xml"
     media_archive = args.backup / "media-export-4925442-from-0-to-2313.tar"
     sitemap_routes_path = args.sitemap_routes or args.backup / "sitemap-route-seed.json"
-    if not wxr.is_file() or not media_archive.is_file() or not sitemap_routes_path.is_file():
-        raise FileNotFoundError("expected WXR, media archive, and sitemap route seed")
+    public_api_inventory = args.backup / "public-api-inventory.json"
+    if not wxr.is_file() or not media_archive.is_file() or not sitemap_routes_path.is_file() or not public_api_inventory.is_file():
+        raise FileNotFoundError("expected WXR, media archive, public API inventory, and sitemap route seed")
     if args.content.exists() or args.routes.exists():
         raise FileExistsError("content or route output already exists; import into a clean checkout")
 
     root = ET.parse(wxr).getroot()
     media = archived_media(media_archive)
     attachments = attachment_map(root, media)
+    reconcile_public_api(root, public_api_inventory)
     sitemap_routes = json.loads(sitemap_routes_path.read_text(encoding="utf-8"))
     expected_paths = {route["path"] for route in sitemap_routes["routes"]}
-    imported_paths = {source_path(item) for item in published_items(root)} | {"/"}
+    imported_paths = {source_path(item) for item in released_items(root)} | {"/"}
     if expected_paths != imported_paths:
         missing = sorted(expected_paths - imported_paths)
         unexpected = sorted(imported_paths - expected_paths)
         raise ValueError(f"WXR/sitemap route mismatch; missing={missing}, unexpected={unexpected}")
     unresolved_media = {
         url
-        for item in published_items(root)
+        for item in [*released_items(root), *draft_items(root)]
         for url in rewrite_media(text(item, "content:encoded", namespace="content"), attachments)[1]
     }
     if unresolved_media:
@@ -223,25 +292,33 @@ def run(args: argparse.Namespace) -> dict[str, object]:
         raise ValueError("media archive changed between validation and extraction")
     args.content.mkdir(parents=True)
     routes: list[dict[str, str]] = [{"sourcePath": "/", "contentFile": "src/pages/index.astro", "kind": "homepage"}]
-    counts = {"post": 0, "page": 0}
+    counts = {"post": 0, "draft": 0, "page": 0}
 
-    for item in published_items(root):
+    for item in [*released_items(root), *draft_items(root)]:
         kind = text(item, "wp:post_type", namespace="wp")
+        status = text(item, "wp:status", namespace="wp")
         route = source_path(item)
         content, _ = rewrite_media(text(item, "content:encoded", namespace="content"), attachments)
         content = rewrite_internal_urls(content, expected_paths)
-        destination = content_path(args.content, f"{kind}s", route)
+        destination_kind = "drafts" if status == "draft" else f"{kind}s"
+        wordpress_id = text(item, "wp:post_id", namespace="wp")
+        destination = content_path(args.content, destination_kind, route, wordpress_id)
         destination.parent.mkdir(parents=True, exist_ok=True)
         record = {
             "title": unescape(text(item, "title")),
             "date": text(item, "wp:post_date", namespace="wp"),
-            "sourcePath": route,
+            "sourcePath": source_reference(item) if status == "draft" else route,
             "sourceUrl": text(item, "link"),
-            "wordpressId": text(item, "wp:post_id", namespace="wp"),
+            "wordpressId": wordpress_id,
+            "status": status,
         }
-        destination.write_text(frontmatter(record) + "\n" + content.rstrip() + "\n", encoding="utf-8")
-        routes.append({"sourcePath": route, "contentFile": destination.as_posix(), "kind": kind})
-        counts[kind] += 1
+        body = content.rstrip()
+        destination.write_text(frontmatter(record) + (f"\n{body}\n" if body else "\n"), encoding="utf-8")
+        if status == "publish":
+            routes.append({"sourcePath": route, "contentFile": destination.as_posix(), "kind": kind})
+            counts[kind] += 1
+        else:
+            counts["draft"] += 1
 
     args.routes.parent.mkdir(parents=True, exist_ok=True)
     manifest = {
@@ -256,7 +333,7 @@ def run(args: argparse.Namespace) -> dict[str, object]:
                 "sha256": hashlib.sha256(sitemap_routes_path.read_bytes()).hexdigest(),
             },
         },
-        "counts": {"posts": counts["post"], "pages": counts["page"], "media": len(media)},
+        "counts": {"posts": counts["post"], "drafts": counts["draft"], "pages": counts["page"], "media": len(media)},
         "routes": sorted(routes, key=lambda route: route["sourcePath"]),
         "media": [
             {"sourceUrl": attachment.source_url, "archivePath": attachment.archive_path, "publicUrl": attachment.public_url}

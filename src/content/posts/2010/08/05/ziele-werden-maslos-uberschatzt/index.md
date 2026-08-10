@@ -4,6 +4,7 @@ date: "2010-08-05 08:00:33"
 sourcePath: "/2010/08/05/ziele-werden-maslos-uberschatzt/"
 sourceUrl: "https://durchsieben.de/2010/08/05/ziele-werden-maslos-uberschatzt/"
 wordpressId: "415"
+status: "publish"
 ---
 <em>brand eins_Sie empfehlen Unternehmen, auf Pläne und Budgets zu verzichten, denn Planung sei zwecklos. Warum?</em>
 

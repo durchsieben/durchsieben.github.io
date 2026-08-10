@@ -4,6 +4,7 @@ date: "2011-03-19 17:52:41"
 sourcePath: "/2011/03/19/agiles-manifest-individuen-und-interaktionen/"
 sourceUrl: "https://durchsieben.de/2011/03/19/agiles-manifest-individuen-und-interaktionen/"
 wordpressId: "591"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Bei Individuen und Interaktionen handelt es sich um den ersten Wert, der einem beim Lesen des <a href="http://agilemanifesto.org/principles.html">Agilen Manifests</a> ins Auge springt. Von daher wird er auch vermutlich am häufigsten diskutiert und mit den unterschiedlichsten Dingen in Verbindung gebracht. Bis man bei den anderen Werten ankommt, hat mein sein Pulver ja meist schon verschossen oder ist des Lesens müde. Von daher werde ich mich auch in diesem Artikel voll auf diesen ersten Wert konzentrieren.</p>

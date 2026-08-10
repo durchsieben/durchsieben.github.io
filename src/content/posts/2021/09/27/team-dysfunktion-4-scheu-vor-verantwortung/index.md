@@ -4,6 +4,7 @@ date: "2021-09-27 08:00:00"
 sourcePath: "/2021/09/27/team-dysfunktion-4-scheu-vor-verantwortung/"
 sourceUrl: "https://durchsieben.de/2021/09/27/team-dysfunktion-4-scheu-vor-verantwortung/"
 wordpressId: "1796"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Verantwortung ist ein Schlagwort, dessen Bedeutung durch übermäßige Verwendung unscharf geworden ist, ähnlich wie Empowerment oder Qualität. Im Hinblick auf Teamwork bezieht sich Verantwortung jedoch ganz konkret auf die Bereitschaft der Teammitglieder, Kollegen in Bezug auf Leistungen und Verhaltensweisen zu Rechenschaft zu ziehen, die dem Team schaden könnten. (Lencioni 2014, S. 172)</p>

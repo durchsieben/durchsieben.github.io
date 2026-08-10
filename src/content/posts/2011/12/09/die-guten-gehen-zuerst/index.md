@@ -4,6 +4,7 @@ date: "2011-12-09 09:46:15"
 sourcePath: "/2011/12/09/die-guten-gehen-zuerst/"
 sourceUrl: "https://durchsieben.de/2011/12/09/die-guten-gehen-zuerst/"
 wordpressId: "649"
+status: "publish"
 ---
 <p style="padding-left:30px;">Über die Bedeutung von Vertrauen und Transparenz in Unternehmen.</p>
 "Reisende soll man nicht aufhalten" grummelt der Chef, als er schon wieder die Kündigung eines wichtigen Mitarbeiters auf den Tisch bekommt. Und er klingt irgendwie gekränkt dabei.<!--more--> In den letzten 10, 12 Jahren hatten wir Gelegenheit, uns mit Tausenden von Mitarbeitern und Hunderten von Führungskräften intensiv zu unterhalten. In diesen Gesprächen haben wir gelernt, dass es die GUTEN Mitarbeiter sind, die ihr Unternehmen verlassen. Sie tun das eher als die durchschnittlichen oder die leistungsschwachen, und wir haben gelernt, dass es dafür ein spezifisches Ursachen-Sammelsurium gibt.

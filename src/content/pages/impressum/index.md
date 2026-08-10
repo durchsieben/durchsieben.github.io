@@ -4,6 +4,7 @@ date: "2010-07-25 11:42:16"
 sourcePath: "/impressum/"
 sourceUrl: "https://durchsieben.de/impressum/"
 wordpressId: "412"
+status: "publish"
 ---
 <h2>Angaben gemäß § 5 TMG</h2>
 Raphael Bossek

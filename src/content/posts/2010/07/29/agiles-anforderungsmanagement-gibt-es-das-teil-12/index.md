@@ -4,6 +4,7 @@ date: "2010-07-29 21:16:53"
 sourcePath: "/2010/07/29/agiles-anforderungsmanagement-gibt-es-das-teil-12/"
 sourceUrl: "https://durchsieben.de/2010/07/29/agiles-anforderungsmanagement-gibt-es-das-teil-12/"
 wordpressId: "384"
+status: "publish"
 ---
 <p style="padding-left:30px;">Die einen schwören darauf, die anderen stellen sie infrage -- Scrum-Projekte habe auf jeden Fall eigene Regeln. Requirements Engineering steht dabei nicht nur nicht an vorderster Stelle, die Frage ist auch, inwieweit agile Teams überhaupt eine Anforderungsanalyse durchführen.</p>
 Agile Verfahren wie Scrum beinhalten kaum Requirements Engineering. Scrum verwendet eine einfache priorisierte Feature-Liste (Product Backlog genannt), und die wesentliche RE-Techniken sind Benutzergeschichten sowie die kontinuierliche direkte Kommunikation der Anforderungsbeteiligten. Viel mehr braucht Scrum nicht, damit Projekte erfolgreich laufen. Dies als Rrequirements Engineering (RE) zu bezeichnen wäre etwas übertrieben. Gibt es also überhaupt ein agiles RE? Und falls ja, was ist das?<!--more-->

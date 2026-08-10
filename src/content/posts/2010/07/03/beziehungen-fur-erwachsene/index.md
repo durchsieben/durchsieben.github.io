@@ -4,6 +4,7 @@ date: "2010-07-03 13:27:24"
 sourcePath: "/2010/07/03/beziehungen-fur-erwachsene/"
 sourceUrl: "https://durchsieben.de/2010/07/03/beziehungen-fur-erwachsene/"
 wordpressId: "282"
+status: "publish"
 ---
 <p style="padding-left:30px;">Sind wir nicht alle irgendwie Netzwerker? Kooperiert nicht längst jeder mit jedem? Und kann man das Beziehung nennen -- oder doch nur ein schlampiges Verhältnis?</p>
 <p style="text-align:right;"><strong>Das schlampige Verhältnis</strong></p>

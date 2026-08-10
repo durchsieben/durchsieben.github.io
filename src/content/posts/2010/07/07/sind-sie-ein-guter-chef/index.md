@@ -4,6 +4,7 @@ date: "2010-07-07 07:47:13"
 sourcePath: "/2010/07/07/sind-sie-ein-guter-chef/"
 sourceUrl: "https://durchsieben.de/2010/07/07/sind-sie-ein-guter-chef/"
 wordpressId: "314"
+status: "publish"
 ---
 <p style="padding-left:30px;">Manche Vorgesetzte ersticken jede Kreativität ihrer Mitarbeiter im Keim -- andere motivieren ihre Teams zu Höchstleistungen. Testen Sie Ihre Führungsqualitäten.</p>
 Manche Vorgesetzte schaffen es, die Intelligenz und Kompetenz ihres Teams vollständig zu untergraben. Weil sie selbst immer als die Cleversten und Kompetentesten dastehen wollen, neigen solche Manager dazu, ihre Mitarbeiter zu blockieren -- und ersticken damit sämtliche guten Ideen im Keim. Sicherlich finden Sie solche Leute auch in Ihrem Unternehmen.<!--more--> Nehmen Sie zum Beispiel die Marketingleiterin, die ihrem Team jede Woche neue Verkaufsziele und Werbekampagnen vorgibt und es auf diese Weise zwingt, ständig mit ihren Gedankengängen Schritt zu halten -- statt eigene Ideen zu entwickeln und selbstständige Beiträge zu leisten. Oder den Produktentwicklungsleister, der 4000 Spitzen-Softwareingenieure in seiner Belegschaft hat, bei Konferenzen aber trotzdem immer nur auf ein paar Leute hört, weil er meint, dass die anderen "sowieso nicht drauf haben". Solche Chefs -- wir bezeichnen sie als "Verhinderer" -- unterfordern ihre Mitarbeiter und lassen deren Talent und Kreativität ungenutzt.

@@ -4,6 +4,7 @@ date: "2010-07-01 14:48:33"
 sourcePath: "/2010/07/01/telefon-im-bett/"
 sourceUrl: "https://durchsieben.de/2010/07/01/telefon-im-bett/"
 wordpressId: "268"
+status: "publish"
 ---
 Sie sind überall, jene kontemplativ analogen Menschen, die erst über den iPhone-Hype lästern. Die dann aber doch zuschlagen und anschließend allen auf die Nerven gehen: kein Tag vergeht, ohne dass sie beim Mittagessen Zwischenberichte über die coolsten Programme (vulgo: "Apps") abliefern. Nie fehlen die Mitleidsbekundungen in Richtung Palm-Fans oder Missionierungsversuche bei Blackberry-Nutzern ("die hässlichen Tasten").<!--more--> Und immer wird die Unterhaltung mit aktuellen Erfolgsgeschichten abgerundet wie etwa "schau her, so leicht finde ich Geldautomaten/Bahnverbindungen/Freunde/Feinde/Wasauchimmer in meiner Umgebung. Wie konnte ich nur so lange ohne das Gerät leben?".
 

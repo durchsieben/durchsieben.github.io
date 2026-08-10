@@ -4,6 +4,7 @@ date: "2020-08-21 08:00:00"
 sourcePath: "/2020/08/21/fuhrung-ist-kooperativ/"
 sourceUrl: "https://durchsieben.de/2020/08/21/fuhrung-ist-kooperativ/"
 wordpressId: "904"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p><strong>Kooperative Führung</strong> beschreibt die Einbeziehung von Mitarbeitern in Entscheidungsprozesse, die Diskussionen erlauben und sachliche Unterstützung erwarten. Man ist bemüht, sich gegenseitig Vertrauen entgegenzubringen und sich zu unterstützen. Ergebnisse sollten gemeinsam getragen werden und nicht bei Misserfolg nur vom Mitarbeiter und bei Erfolg nur vom Vorgesetzten. (Bolten 2013, S.38)</p>

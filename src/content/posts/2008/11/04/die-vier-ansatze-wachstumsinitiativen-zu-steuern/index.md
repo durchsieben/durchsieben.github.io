@@ -4,6 +4,7 @@ date: "2008-11-04 08:00:53"
 sourcePath: "/2008/11/04/die-vier-ansatze-wachstumsinitiativen-zu-steuern/"
 sourceUrl: "https://durchsieben.de/2008/11/04/die-vier-ansatze-wachstumsinitiativen-zu-steuern/"
 wordpressId: "127"
+status: "publish"
 ---
 Um Expansionsprojekte zu steuern, gibt es zwei zentralle Stellhebel. Die verantwortlichen Topmanager können zum einen den Prozess der Initiative im Detail steuern oder nur die Richtung vorgeben; zum anderen können sie die Inhalte des Vorhabens genau definieren oder nur Rahmenbedingungen setzen. Kombiniert ergeben sich so vier Ansätze.<!--more-->
 <p style="text-align:right;"><strong>Dirigieren</strong></p>

@@ -8,11 +8,16 @@ const entrySchema = z.object({
   sourcePath: z.string(),
   sourceUrl: z.string().url(),
   wordpressId: z.string(),
+  status: z.enum(['draft', 'publish']),
 });
 
 export const collections = {
   posts: defineCollection({
     loader: glob({ base: './src/content/posts', pattern: '**/*.md' }),
+    schema: entrySchema,
+  }),
+  drafts: defineCollection({
+    loader: glob({ base: './src/content/drafts', pattern: '**/*.md' }),
     schema: entrySchema,
   }),
   pages: defineCollection({

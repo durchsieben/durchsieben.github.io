@@ -4,6 +4,7 @@ date: "2021-09-23 08:00:00"
 sourcePath: "/2021/09/23/team-dysfunktion-2-scheu-vor-konflikten/"
 sourceUrl: "https://durchsieben.de/2021/09/23/team-dysfunktion-2-scheu-vor-konflikten/"
 wordpressId: "1755"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Alle guten und dauerhaften Beziehungen brauchen konstruktive Auseinandersetzungen, wenn sie wachsen und gedeihen sollen. Das gilt für Ehen, für Eltern-Kind-Beziehungen, für Freundschaften und mit Sicherheit auch fürs Geschäft. (Lencioni 2014, S. 163)</p>

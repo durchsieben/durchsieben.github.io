@@ -4,6 +4,7 @@ date: "2013-09-29 09:51:06"
 sourcePath: "/2013/09/29/so-dammen-sie-die-e-mail-flut-ein/"
 sourceUrl: "https://durchsieben.de/2013/09/29/so-dammen-sie-die-e-mail-flut-ein/"
 wordpressId: "656"
+status: "publish"
 ---
 <p style="padding-left:30px;">Mit einem einfachen Ansatz können Sie in Ihrem Unternehmen eine effizientere Kommunikationskultur etablieren.</p>
 Wir verbringen einen großen Teil unserer Arbeitszeit damit, die E-Mails abzuarbeiten, die in unserem Posteingangsordner aufgelaufen sind. Das liegt vor allem daran, dass wir die Anzahl der Nachrichten, die bei uns eingehen, nicht kontrollieren können. Allerdings können wir darüber entscheiden, wie viele E-Mails wir selbst verschicken. Diese Erkenntnis scheint auf den ersten Blick banal zu sein. Doch wir konnten sie dazu nutzen, den E-Mail-Verkehr in einem Unternehmen deutlich zu reduzieren: Als die Führungskräfte weniger Nachrichten verschickten, taten es ihnen die anderen Mitarbeiter gleich.<!--more-->

@@ -4,6 +4,7 @@ date: "2020-08-11 08:00:00"
 sourcePath: "/2020/08/11/was-sind-fuhrungsaufgaben/"
 sourceUrl: "https://durchsieben.de/2020/08/11/was-sind-fuhrungsaufgaben/"
 wordpressId: "867"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Die Führungsaufgaben beschreiben, was eine Führungskraft zu tun hat (für <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ziele</a> sorgen, organisieren etc.) oder besser, wofür sie zu sorgen hat. (Pfister/Neumann 2019, S.61)</p>

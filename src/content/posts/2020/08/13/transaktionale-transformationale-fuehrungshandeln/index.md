@@ -4,6 +4,7 @@ date: "2020-08-13 08:00:00"
 sourcePath: "/2020/08/13/transaktionale-transformationale-fuehrungshandeln/"
 sourceUrl: "https://durchsieben.de/2020/08/13/transaktionale-transformationale-fuehrungshandeln/"
 wordpressId: "875"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Das WIE der AusFÜHRUNG wird durch die Unternehmenskultur, die Werte und Normen der Organisation bestimmt. (Pfister/Neumann 2019, S.61)</p>

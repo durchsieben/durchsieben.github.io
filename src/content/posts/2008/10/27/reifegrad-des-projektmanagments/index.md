@@ -4,6 +4,7 @@ date: "2008-10-27 08:00:54"
 sourcePath: "/2008/10/27/reifegrad-des-projektmanagments/"
 sourceUrl: "https://durchsieben.de/2008/10/27/reifegrad-des-projektmanagments/"
 wordpressId: "107"
+status: "publish"
 ---
 Die meisten Unternehmen heute setzten Projektmanagement- Methoden ein, um Produkte zu entwickeln und Prozesse zu verbessern. Gleichzeitig scheitern immer noch viele Projekte. Um hier Abhilfe zu schaffen, ist es in einem ersten Schritt notwendig, den Reifegrad des Unternehmens bezüglicher seiner Projektmanagment-Kompetenz zu ermitteln und darauf aufbauend ein ganzheitliches Konzept zur Verbesserung der Optimierung des Projektmanagments zu entwickeln.
 

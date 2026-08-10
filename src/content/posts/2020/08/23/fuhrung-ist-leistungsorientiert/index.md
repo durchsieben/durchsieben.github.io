@@ -4,6 +4,7 @@ date: "2020-08-23 08:00:00"
 sourcePath: "/2020/08/23/fuhrung-ist-leistungsorientiert/"
 sourceUrl: "https://durchsieben.de/2020/08/23/fuhrung-ist-leistungsorientiert/"
 wordpressId: "909"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Was die Definition von Zweck und Aufgabe des Unternehmens betrifft, so gibt es dafür nur einen einzigen Brennpunkt, einen Ausgangspunkt: Es ist der Kunde. Der Kunde definiert das Unternehmen. (Drucker 2009, S.163)</p>

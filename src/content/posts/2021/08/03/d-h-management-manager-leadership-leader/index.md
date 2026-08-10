@@ -4,6 +4,7 @@ date: "2021-08-03 08:00:00"
 sourcePath: "/2021/08/03/d-h-management-manager-leadership-leader/"
 sourceUrl: "https://durchsieben.de/2021/08/03/d-h-management-manager-leadership-leader/"
 wordpressId: "981"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>In der Führungsforschung haben <em>Zaleznik</em> (1977) und <em>Drucker</em> (2001) zwei unterschiedliche Führungs<a href="/2020/10/30/d-h-stelle-position-status-rolle/">rollen</a> definiert, die bei der Gestaltung von Führungsbeziehungen Wirkung zeigen. Sie unterscheiden zwischen „Manager“ und „Leader“, welche auf verschiedenen Führungsverständnissen basieren. Beide <a href="/2020/10/30/d-h-stelle-position-status-rolle/">Rollen</a> sind sowohl in Forschung und Praxis zu finden. Die zwei <a href="/2020/10/30/d-h-stelle-position-status-rolle/">Rollen</a> führen inhaltlich unterschiedliche Aufgaben aus. (Spisak/Della Picca 2017, S.58)</p>

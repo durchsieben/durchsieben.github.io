@@ -4,6 +4,7 @@ date: "2013-10-29 10:30:02"
 sourcePath: "/2013/10/29/fur-kinder-laien-und-vorstande/"
 sourceUrl: "https://durchsieben.de/2013/10/29/fur-kinder-laien-und-vorstande/"
 wordpressId: "671"
+status: "publish"
 ---
 <p style="padding-left:30px;">In deutschen Führungsetagen macht sich ein Trend zur Vereinfachung breit. Vorstandsvorlagen sind methodisch und analytisch auf niedrigem Niveau. Das kann zu fatalen Fehlern führen.</p>
 Keine Frage: Es ist rational, sich in einer immer komplexeren Welt nicht in jeden Sachverhalt bis ins letzte Detail einzuarbeiten und als Entscheider zwischendurch auch mal auf Sicht zu fahren. Böse Überraschungen gibt es nur dann, wenn diejenigen, die den Durchblick haben sollten, einen vorab nicht über mögliche Hindernisse und Gefahren informieren. Doch was in der Fliegerei zur Grundausbildung von Piloten und Kopiloten gehört, scheint in der Wirtschaft in Vergessenheit geraten zu sein: <!--more-->Das Niveau vieler Vorstandspräsentationen oder Entscheidungsvorlagen ist mitunter so niedrig, dass einem, was die Qualität der strategischen Planung vieler Unternehmen angeht, bange werden kann. Der Gleichmut jener, die auf Basis dieser Vorlagen Entscheidungen treffen sollen, ist erschreckend. Viel zu wenige Führungskräfte äußern den Wunsch, von ihren Mitarbeitern und Beratern fundierter, umfassender oder neutraler informiert zu werden.

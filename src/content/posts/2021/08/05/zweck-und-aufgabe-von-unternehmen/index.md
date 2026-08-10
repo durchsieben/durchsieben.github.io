@@ -4,6 +4,7 @@ date: "2021-08-05 08:00:00"
 sourcePath: "/2021/08/05/zweck-und-aufgabe-von-unternehmen/"
 sourceUrl: "https://durchsieben.de/2021/08/05/zweck-und-aufgabe-von-unternehmen/"
 wordpressId: "1154"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Was die Definition von Zweck und Aufgabe des Unternehmens betrifft, so gibt es dafür nur einen einzigen Brennpunkt, einen Ausgangspunkt: Es ist der Kunde. Der Kunde definiert das Unternehmen. (Drucker 2009, S.163)</p>

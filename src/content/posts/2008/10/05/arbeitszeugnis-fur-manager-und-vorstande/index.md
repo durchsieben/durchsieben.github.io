@@ -4,6 +4,7 @@ date: "2008-10-05 11:31:36"
 sourcePath: "/2008/10/05/arbeitszeugnis-fur-manager-und-vorstande/"
 sourceUrl: "https://durchsieben.de/2008/10/05/arbeitszeugnis-fur-manager-und-vorstande/"
 wordpressId: "34"
+status: "publish"
 ---
 Was die Gewerbeordnung für Angestellte vorschreibt ist auch für Manager und Vorstände gültig. Das Arbeitszeugniss muss jedoch nicht nur "wohlwollend" formuliert sein, sondern muss sich in der Leistungsbeurteilung deutlich von der "einfacher" Leute unterscheiden:<!--more-->
 <ul>

@@ -4,6 +4,7 @@ date: "2008-11-28 08:00:50"
 sourcePath: "/2008/11/28/die-drei-bausteine-der-lernenden-organisation/"
 sourceUrl: "https://durchsieben.de/2008/11/28/die-drei-bausteine-der-lernenden-organisation/"
 wordpressId: "208"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Die Organisationsforschung hat in den vergangenen zwei Jahrzehnten drei wesentliche Faktoren ermittelt, die für organisationales Lernen und Anpassungsfähigkeit wichtig sind:</p>

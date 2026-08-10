@@ -4,6 +4,7 @@ date: "2021-09-20 08:00:00"
 sourcePath: "/2021/09/20/d-h-fehler-irrtum/"
 sourceUrl: "https://durchsieben.de/2021/09/20/d-h-fehler-irrtum/"
 wordpressId: "1029"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Ein <strong>Fehler </strong>ist etwas, von dem man wusste, dass es falsch ist. Ein <strong>Irrtum </strong>ist etwas, von dem man nicht wusste, was richtig ist, und das sich später als falsch herausstellt. (Oestereich/Schröder 2017, S. 151)</p>

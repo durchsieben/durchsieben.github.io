@@ -4,6 +4,7 @@ date: "2015-10-12 14:00:00"
 sourcePath: "/2015/10/12/werden-sie-zum-verkaeufer-ihrer-ideen/"
 sourceUrl: "https://durchsieben.de/2015/10/12/werden-sie-zum-verkaeufer-ihrer-ideen/"
 wordpressId: "807"
+status: "publish"
 ---
 <p style="padding-left:30px;">Eine gute Idee zu haben reicht allein nicht aus. Sie müssen sie auch zur richtigen Zeit bei den richtigen Leuten auf die richtige Weise vortragen. Sieben Taktiken helfen Ihnen, das Interesse Ihrer Vorgesetzten zu wecken.</p>
 Wir fanden heraus, dass erfolgreiche Ideenverkäufer sorgfältig darauf achten, dass Methode, Ort und Zeitpunkt beim Vortragen ihrer Ideen und Bedenken stimmen. Sie nutzen dabei ihre rhetorischen Fähigkeiten, ihr politisches Fingerspitzengefühl und gute zwischenmenschliche Verbindungen, um Führungskräfte zu überzeugen. Vor allem wenden sie häufiger die speziellen sieben Taktiken an als jene, die mit ihren Anliegen scheitern:

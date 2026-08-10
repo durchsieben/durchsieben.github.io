@@ -4,6 +4,7 @@ date: "2014-07-14 10:00:27"
 sourcePath: "/2014/07/14/im-grunde-ganz-simpel/"
 sourceUrl: "https://durchsieben.de/2014/07/14/im-grunde-ganz-simpel/"
 wordpressId: "682"
+status: "publish"
 ---
 <p style="padding-left:30px;">Über die bindungsunwiliige Generation Y und den demografischen Wandel kann man klagen - oder beides für sich nutzen. Ein Weckruf für die vielerorts vernachlässigten Grundprinzipien guter Personalarbeit.</p>
 Stellen Sie sich folgendes Szenario vor: Frau S., 52, ist seit 30 Jahren bei „ihrer" Bank. Sie ist immer gern zur Arbeit gegangen, doch in den letzten Jahren war irgendwie die Luft raus, vielleicht auch, weil viele ihrer Aufgaben durch die Digitalisierung weggefallen sind. Ihr Vorgesetzter sucht das Gespräch. Doch statt gemeinsam mit ihr herauszuarbeiten, woran es hapert, übernimmt er dabei die Führung. Der Versuch ist gut gemeint, doch im Anschluss an diesen Termin sind beide Seiten frustriert: Frau S., weil sie das Gefühl hat, dass es nur darum ging, ihr mehr Arbeit aufzudrücken, ihr Chef, weil die Kollegin so negativ und wenig begeisterungsfähig war.

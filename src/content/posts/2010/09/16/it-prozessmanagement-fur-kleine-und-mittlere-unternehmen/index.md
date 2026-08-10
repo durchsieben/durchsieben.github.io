@@ -4,6 +4,7 @@ date: "2010-09-16 08:00:36"
 sourcePath: "/2010/09/16/it-prozessmanagement-fur-kleine-und-mittlere-unternehmen/"
 sourceUrl: "https://durchsieben.de/2010/09/16/it-prozessmanagement-fur-kleine-und-mittlere-unternehmen/"
 wordpressId: "405"
+status: "publish"
 ---
 <p style="padding-left:30px;">Viele kleine und mittelre unternehmen haben ihre IT-Abläufe nicht im Griff, oftmals geht es drunter und drüber. Und die angebotenen Prozessmodellierungsmodelle sind entweder zu klobrig oder zu simpel. Wer CMMI- und IT-Grundsatzaspekte geschickt kombiniert, kann einen großen Schritt nach vorn machen.</p>
 Ein gängiges Szenario: Der technisch versierte Chef eines keleinen Unternehmens freut sich über nichts mehr als darüber, immer nah am Puls der Zeit zu sein. Zum Glück hat er einen fähigen Admin, der sich von Fall zu Fall das nötige Wissen aneignet und alle Neuerungen und Erweiterungen der Unternehmens-IT schnell umsetzt.<!--more--> Sobald eine neue Idee realisiert ist und funktioniert, freuen sich beide und wenden sich neuen Projekten zu. Die Mitarbeiter jedoch, vielleicht weniger technikbegeistert, sind trotz der schönen neuen IT-Welt undankbar und maulen nur herum.

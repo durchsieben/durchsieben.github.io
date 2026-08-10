@@ -4,6 +4,7 @@ date: "2021-09-21 08:00:00"
 sourcePath: "/2021/09/21/5-dysfunktionen-eines-teams/"
 sourceUrl: "https://durchsieben.de/2021/09/21/5-dysfunktionen-eines-teams/"
 wordpressId: "1746"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Nicht die Finanzen. Nicht die Strategie. Nicht die Technik. Es bleibt die Teamarbeit, den größten Wettbewerbsvorsprung verschafft, sowohl aufgrund ihrer Schlagkraft als auch aufgrund ihrer Seltenheit. (Lencioni 2014, S. 9)</p>

@@ -4,6 +4,7 @@ date: "2011-07-02 17:37:03"
 sourcePath: "/2011/07/02/der-wert-von-ideen/"
 sourceUrl: "https://durchsieben.de/2011/07/02/der-wert-von-ideen/"
 wordpressId: "605"
+status: "publish"
 ---
 <p style="padding-left:30px;">Haben Sie auch schon einmal darüber gebrütet, ob eine bestimmte Idee von Ihnen es wirklich wert ist, umgesetzt zu werden? Falls ja, befinden Sie sich in bester Gesellschaft.</p>
 Vorhersagen darüber ob ein innovativer Einfall realitätstauglich ist oder nicht, sind in der Regel reine Spekularion. Daher gibt es im Management durchaus Methoden, mit denen das Potenzial einer Innovation bereits im Vorfeld ausgelotet werden kann. Hier ein illustrativer und rechnerischer Ansatz im Schnelldurchgang:<!--more-->

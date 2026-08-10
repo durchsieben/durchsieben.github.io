@@ -4,6 +4,7 @@ date: "2020-08-27 08:00:00"
 sourcePath: "/2020/08/27/organisieren/"
 sourceUrl: "https://durchsieben.de/2020/08/27/organisieren/"
 wordpressId: "935"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>In jeder Art von <a href="/2020/10/12/grundverstandnis-der-fuhrungsaufgabe/">Führung</a> ist immer ein Stück <a href="/2020/08/19/fuhrungsprinzipien/">Delegation</a> enthalten. Deshalb ist auch immer ein gewisses Maß an Selbstorganisation gefordert. Je mehr delegiert wird, desto besser muss das „Selbstmanagement“ der Delegierten sein. Je stärker delegiert wird, desto stärker gewinnen Selbststeuerung und Eigenverantwortung an Bedeutung. Wird ein bestimmtes Aufgabengebiet übertragen, so erwarten die Mitarbeiter, dass ihre Vorgesetzten ihnen vertrauen und (möglichst) völlige Freiheit im Handeln gewähren. (Bolten 2013, S.120)</p>

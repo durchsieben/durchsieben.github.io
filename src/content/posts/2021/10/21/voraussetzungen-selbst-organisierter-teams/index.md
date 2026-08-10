@@ -4,6 +4,7 @@ date: "2021-10-21 08:00:00"
 sourcePath: "/2021/10/21/voraussetzungen-selbst-organisierter-teams/"
 sourceUrl: "https://durchsieben.de/2021/10/21/voraussetzungen-selbst-organisierter-teams/"
 wordpressId: "1218"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>"Die besten Architekturen, Anforderungen und Entwürfe entstehen", wie es in den <a href="https://agilemanifesto.org/iso/de/principles.html">agilen Prinzipien</a> heißt, "durch selbst-organisierte Teams". Diese Behauptung wirft eine Frage auf: Wie sehen solche Teams aus? Welche Form der Führung brauchen sie? Und wie kann diese so umgesetzt werden, dass sie Selbstorganisation fördert? (Kaltenecker 2018, S. vii)</p>

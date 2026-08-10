@@ -4,6 +4,7 @@ date: "2020-10-10 16:03:06"
 sourcePath: "/2020/10/10/d-h-werte/"
 sourceUrl: "https://durchsieben.de/2020/10/10/d-h-werte/"
 wordpressId: "998"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p><strong>Werte </strong>bündeln unausgesprochene Erwartungen an ein bestimmtes Handeln, gekoppelt mit qualitativen Bewertungen (gut, schlecht u.a.) und deutlichen Emotionen. <strong>Werte </strong>beziehen sich auf Vergangenes und dienen in der Gegenwart als unbewusster Ratgeber für zukünftiges Verhalten. (Oestereich/Schröder 2017, S.234)</p>

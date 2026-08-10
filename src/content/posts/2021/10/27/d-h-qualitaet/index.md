@@ -4,6 +4,7 @@ date: "2021-10-27 08:00:00"
 sourcePath: "/2021/10/27/d-h-qualitaet/"
 sourceUrl: "https://durchsieben.de/2021/10/27/d-h-qualitaet/"
 wordpressId: "1919"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Die DIN/EN/ISO 8402:1995 und die ISO/IEC 9126-1:2001 definieren Qualität in recht ähnlichem Wortlaut als „Gesamtheit von Eigenschaften und von Merkmalen eines Produkts oder einer Leistung, die sich auf die Erfüllung vordefinierter Anforderungen beziehen.“ Beide Standards bzw. Normen sind zwar veraltet, bilden jedoch teilweise die Grundlage für die ISO/IEC 25010:2011, welche Qualität wie folgt definiert: (entnommen aus Broy/Kuhrmann 2021, S. 53)</p>

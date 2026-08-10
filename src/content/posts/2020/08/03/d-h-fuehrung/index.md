@@ -4,6 +4,7 @@ date: "2020-08-03 22:24:07"
 sourcePath: "/2020/08/03/d-h-fuehrung/"
 sourceUrl: "https://durchsieben.de/2020/08/03/d-h-fuehrung/"
 wordpressId: "841"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Der Begriff der Führung wird in der Literatur in vielfältiger, z. T. widersprüchlicher Weise definiert und kontrovers diskutiert. Als gemeinsamer Nenner schält sich dabei heraus, dass Führung als ein irgendwie gearteter Versuch der Einflussnahme oder Einwirkung auf das Verhalten anderer Personen verstanden wird. (Berthel/Becker 2007, S.108)</p>

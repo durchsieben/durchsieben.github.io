@@ -4,6 +4,7 @@ date: "2015-10-08 09:30:00"
 sourcePath: "/2015/10/08/aufgabe-eines-kommunikationsdienstleiters/"
 sourceUrl: "https://durchsieben.de/2015/10/08/aufgabe-eines-kommunikationsdienstleiters/"
 wordpressId: "802"
+status: "publish"
 ---
 Die Aufgabe eines Kommunikationsdienstleiters morgen aber auch schon heute ist einzig und allein dafür zu sorgen, dass Menschen die relevantesten, substantiellsten und werthaltigsten Erlebnisse und Verbindungen zu unterschiedlichen Produkten oder Dienstleistungen haben. Wenn man das schafft, hat man auch mit einem Schlag eine nachweisbare und nachvollziehbare Erfolgskontrolle. Alles andere ist leider Gerede von Gestern.
 

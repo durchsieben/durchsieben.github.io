@@ -4,6 +4,7 @@ date: "2013-10-22 09:30:30"
 sourcePath: "/2013/10/22/personalfuhrung-fur-anfanger/"
 sourceUrl: "https://durchsieben.de/2013/10/22/personalfuhrung-fur-anfanger/"
 wordpressId: "666"
+status: "publish"
 ---
 <p style="padding-left:30px;">Managerinnen und Manager in der Linie müssen immer häufiger die Aufgaben der Personalabteilung übernehmen. Ein Schnellkurs vermittelt das nötige Grundwissen.</p>
 Es ist ein globaler Trend, der inzwischen seit fast einem Jahrzehnt voranschreitet: Die Zuständigkeit für das Talentmanagement in Unternehmen verschiebt sich immer mehr von der Personalabteilung hin zu den verantwortlichen Führungskräften.

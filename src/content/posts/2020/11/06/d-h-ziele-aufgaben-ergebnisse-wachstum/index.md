@@ -4,6 +4,7 @@ date: "2020-11-06 08:00:00"
 sourcePath: "/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/"
 sourceUrl: "https://durchsieben.de/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/"
 wordpressId: "989"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p><strong>Ziel</strong>setzungen drücken eine Einschätzung von Faktoren aus, die größtenteils außerhalb des Unternehmens liegen und nicht unter seiner Kontrolle stehen. Die Welt steht nicht still. (Drucker 2009, S.170)</p>

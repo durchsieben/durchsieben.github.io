@@ -4,6 +4,7 @@ date: "2021-10-17 08:00:00"
 sourcePath: "/2021/10/17/potenziale-entfalten/"
 sourceUrl: "https://durchsieben.de/2021/10/17/potenziale-entfalten/"
 wordpressId: "949"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p><em>Zukunftsorientierte Beurteilungskriterien</em> reflektieren das Potenzial, d. h. den erwarteten zukünftigen Beitrag von Führungskräften bzw. Mitarbeitern zur Erreichung der <a href="/2020/08/25/fuer-ziele-sorgen/">Unternehmensziele</a>. <em>Vergangenheitsorientierte Beurteilungskriterien</em> erfassen die Leistungen einer oder mehrerer Perioden vor dem Beurteilungszeitpunkt. (entnommen aus Stock-Homburg/Groß 2019, S. 433)</p>

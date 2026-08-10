@@ -4,6 +4,7 @@ date: "2020-08-31 08:00:00"
 sourcePath: "/2020/08/31/entscheiden/"
 sourceUrl: "https://durchsieben.de/2020/08/31/entscheiden/"
 wordpressId: "943"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Der Duden definiert das Verb "entscheiden" als "<em>in Bezug auf etwas den Ausschlag geben</em>" oder "<em>nach Prüfen, Vergleichen oder kurzem Besinnen in einem Entschluss seine Wahl auf jemanden, etwas festlegen</em>". (<a href="https://www.duden.de/rechtschreibung/entscheiden">https://www.duden.de/rechtschreibung/entscheiden</a>) Hier ist auch die Erklärung des Englischen Verbs "to decide" hilfreich. Merriam-Webster schreibt "<em>to make a final choice or judgment about</em>" oder "<em>to select as a course of action</em>" (<a href="https://www.merriam-webster.com/dictionary/decide">https://www.merriam-webster.com/dictionary/decide</a>). Wir entscheiden also zwischen Optionen ‒ treffen eine Wahl ‒ mit einer Absicht oder Erwartung.</p>

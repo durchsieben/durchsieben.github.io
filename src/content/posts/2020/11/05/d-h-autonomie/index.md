@@ -4,6 +4,7 @@ date: "2020-11-05 08:00:00"
 sourcePath: "/2020/11/05/d-h-autonomie/"
 sourceUrl: "https://durchsieben.de/2020/11/05/d-h-autonomie/"
 wordpressId: "1247"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Unter <strong>Autonomie</strong> versteht man die Möglichkeit und <span style="text-decoration:underline;">Fähigkeit</span>, sich von eigenen, sozial akzeptierten inneren Maßstäben und <a href="/2020/10/10/d-h-werte/">Werten</a> leiten zu lassen; Gestaltungsraum und Gestaltungsfreiheit. (Spisak/Della Picca, Moreno 2017, S.20)</p>

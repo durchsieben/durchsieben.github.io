@@ -4,6 +4,7 @@ date: "2011-03-06 23:00:11"
 sourcePath: "/2011/03/06/so-bringen-sie-ihre-ideen-durch/"
 sourceUrl: "https://durchsieben.de/2011/03/06/so-bringen-sie-ihre-ideen-durch/"
 wordpressId: "585"
+status: "publish"
 ---
 <p style="padding-left:30px;">Das hat schon jeder erlebt: In nur einer Konferenz zerschellt Ihre brillante Idee an der Mauer aus Gegnern und Bedenkenträgern. Change-Management-Expert John P. Kotter verrät, wie Sie auf Einwände richtig reagieren und Ihrem Konzept Geltung verschaffen.</p>
 <p style="text-align:right;"><strong>Warum scheitern so viele gute Ideen von talentierten Leuten, die die besten Absichten hatten?</strong><!--more--></p>

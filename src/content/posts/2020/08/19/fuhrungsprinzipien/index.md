@@ -4,6 +4,7 @@ date: "2020-08-19 08:00:00"
 sourcePath: "/2020/08/19/fuhrungsprinzipien/"
 sourceUrl: "https://durchsieben.de/2020/08/19/fuhrungsprinzipien/"
 wordpressId: "898"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p><strong>Führungsprinzipien</strong> beschreiben, welche Haltung eingenommen werden sollte, um <a href="/2021/08/03/d-h-management-manager-leadership-leader/">wirksam</a> – also effektiv – zu sein. Die Prinzipien sind als Ganzheit zu sehen, die bei allen <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Aufgaben</a> zu berücksichtigen sind. In der Ausführung der <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Aufgaben</a> wird sichtbar, wie die Prinzipien realisiert werden (Anm.: <a href="/2020/10/19/d-h-norm/">Norm</a>). (Pfister/Neumann 2019, S.61)</p>

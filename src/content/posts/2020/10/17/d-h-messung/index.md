@@ -4,6 +4,7 @@ date: "2020-10-17 08:00:00"
 sourcePath: "/2020/10/17/d-h-messung/"
 sourceUrl: "https://durchsieben.de/2020/10/17/d-h-messung/"
 wordpressId: "1020"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Eine quantitativ ausgedrückte Verringerung der Unsicherheit auf der Grundlage einer oder mehrerer Beobachtungen. (Hubbard 2014, S.31)</p>

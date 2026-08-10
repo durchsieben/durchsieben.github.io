@@ -4,6 +4,7 @@ date: "2014-02-15 18:59:33"
 sourcePath: "/2014/02/15/der-wichtigste-job-des-ceo/"
 sourceUrl: "https://durchsieben.de/2014/02/15/der-wichtigste-job-des-ceo/"
 wordpressId: "677"
+status: "publish"
 ---
 <p style="padding-left:30px;">Lassen Sie sich von den Qualifikationen Ihrer Führungskräfte nicht blenden. Was zählt, ist ihr Verhalten. Wirken Sie darauf ein.</p>
 Jeder, der Ergebnisverantwortung für eine große Organisation hat, schätzt den Wert effektiv arbeitender Führungskräfte. Die meisten investieren daher gern in die Entwicklung solcher Leistungsträger. Doch selbst ein flüchtiger Blick in die Managementliteratur zeigt, dass kein Konsens darüber besteht, wie genau man hierbei vorgeht. Als unser Unternehmen stetig wuchs und wir neue Talente im Management brauchten, mussten wir deshalb selbst einen Weg finden.

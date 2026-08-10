@@ -4,6 +4,7 @@ date: "2021-09-29 08:00:00"
 sourcePath: "/2021/09/29/d-h-produktivitaet/"
 sourceUrl: "https://durchsieben.de/2021/09/29/d-h-produktivitaet/"
 wordpressId: "1934"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Der Begriff der <strong>Produktivität</strong> wurde von dem französischen Forscher <em>Quesnay</em> bereits 1766 in einer wissenschaftlichen Publikation verwendet und steht für einen möglichst optimalen Ressourceneinsatz zur Erreichung gegebener <a href="/2020/11/06/d-h-ziele-aufgaben-ergebnisse-wachstum/">Ziele</a>. (Weber 2021, S. 11)</p>

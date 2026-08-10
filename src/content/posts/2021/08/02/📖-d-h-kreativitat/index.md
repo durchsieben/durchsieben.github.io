@@ -4,6 +4,7 @@ date: "2021-08-02 08:00:00"
 sourcePath: "/2021/08/02/%f0%9f%93%96-d-h-kreativitat/"
 sourceUrl: "https://durchsieben.de/2021/08/02/%f0%9f%93%96-d-h-kreativitat/"
 wordpressId: "1170"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Kreativität basiert nach <em>Amabile/Khaire</em> (2008) auf drei Säulen: <a href="/2020/10/11/d-h-qualifikation-kompetenz/">Fachwissen</a>, <span style="text-decoration:underline;">Kreativitätstechniken</span> und <a href="/2020/10/17/d-h-motivation/">Motivation</a>.</p>

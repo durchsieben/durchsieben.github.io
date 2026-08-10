@@ -4,6 +4,7 @@ date: "2020-10-17 15:30:18"
 sourcePath: "/2020/10/17/d-h-motivation/"
 sourceUrl: "https://durchsieben.de/2020/10/17/d-h-motivation/"
 wordpressId: "1003"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p><strong>Motivation </strong>ist die Aktivierung zielorientierten Verhaltens; Motivation ist immer situativ. <a href="/2020/08/19/fuhrungsprinzipien/">Situative Führung</a> bedeutet, möglichst genau auf die Situation und den Mitarbeiterindividuell einzugehen – und zwar immer auch auf die Motivation seiner Handlungen. Motivationale Führung zeichnet sich dadurch aus, jemanden zu etwas zuführen, ihm beratend zur Seite zu stehen und zu versuchen, ihn zu motivieren. (Bolten 2013, S.63)</p>

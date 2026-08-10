@@ -4,6 +4,7 @@ date: "2008-11-20 08:00:12"
 sourcePath: "/2008/11/20/zehn-ubungen-fur-ihr-gehirn/"
 sourceUrl: "https://durchsieben.de/2008/11/20/zehn-ubungen-fur-ihr-gehirn/"
 wordpressId: "195"
+status: "publish"
 ---
 <p style="text-align:right;"><strong>Management by walking around</strong></p>
 Allein das Herumlaufen wirkt anregend auf das Gehirn. Daher haben wir oft ein Aha-Erlebnis, wenn wir beim Lösen eines Problems innerlich blockiert sind, dann einfach aufstehen und uns in ein anderes Umfeld begeben.

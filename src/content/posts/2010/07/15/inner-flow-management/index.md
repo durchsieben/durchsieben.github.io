@@ -4,6 +4,7 @@ date: "2010-07-15 09:00:51"
 sourcePath: "/2010/07/15/inner-flow-management/"
 sourceUrl: "https://durchsieben.de/2010/07/15/inner-flow-management/"
 wordpressId: "349"
+status: "publish"
 ---
 <p style="padding-left:30px;">Im Gegensatz zum klassischen Management, begenet der <em>Inner Flow Management</em>-Anwender der Komplexität mit der effizienten Integration von "Diversity" (Vielfalt), statt diese zu reduzieren und somit blinde Flecken im Management zu produzieren.</p>
 Der Name <em>Inner Flow Management</em> (IFM) geht aus den englischsprachigen Begriffen "Inner" (innerlich), "Flow" (fließen, Bewegung) und "Management" (führen, organisieren) hervor. Diese drei Begriffe definieren in ihrem integralen Zusammenspiel einen der großen Unterschiede zwischen konventionellen und ganzheitlichen Management.<!--more--> Sie stehen für die Integration des einzelnen Individuums mit seinen inneren Werten, Ideen und Visionen in einer flexiblen, pragmatischen und offenen Managementstruktur, die dem leben dienen will, die die Vielfalt an Lösungschancen integrieren möchte, statt diese auszugrenzen, um die Arbeit scheinbar zu erleichtern aber in Folge auf anderen Ebenen Krisen und Systemfehler auszulösen.

@@ -4,6 +4,7 @@ date: "2021-10-19 08:00:00"
 sourcePath: "/2021/10/19/d-h-teamfahigkeit/"
 sourceUrl: "https://durchsieben.de/2021/10/19/d-h-teamfahigkeit/"
 wordpressId: "2151"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Der Begriff "Teamfähigkeit" wird hauptsächlich im Arbeitsleben benutzt und beschreibt die Fähigkeit einer Person, im Team zu arbeiten. Synonyme Beschreibungen sind die Fähigkeit und Bereitschaft, sich als Teamspieler zu zeigen, teamorientiert zu sein, sich gut in Teams einzufügen und gern in Teams zu arbeiten. (Seelheim/Witte 2014)</p>

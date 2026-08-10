@@ -4,6 +4,7 @@ date: "2010-10-12 08:00:45"
 sourcePath: "/2010/10/12/mehr-vertrauen-bitte/"
 sourceUrl: "https://durchsieben.de/2010/10/12/mehr-vertrauen-bitte/"
 wordpressId: "523"
+status: "publish"
 ---
 <p style="padding-left:30px;">Manche Manager schreiben ihren Mitarbeitern alles bis ins Detail vor und geben ihnen das Gefühl, unwichtig zu sein. Ein Verhalten, das das ganze Unternehmen lähmen kann.</p>
 Stellen Sie sich vor, Sie stürmen auf ein Ziel zu und werden ruckartig von warnenden Stimmen ausgebremst: „Die Abläufe erlauben es nicht.“ „Es wird Monate dauern, es auszuführen." ,,Stellen Sie mehr Alternativen vor. “ Oder was noch schlimmer ist:<!--more--> Sie bitten um Unterstützung und erhalten nicht einmal eine Antwort. Sie verfluchen die engstirnigen Bürokraten für das verbale Ausbremsen. Und fragen sich, ob Sie vielleicht jemandem einen Gefallen tun oder an Strippen ziehen sollten, um die Dinge wieder in Gang zu setzen. Aber wenn Sie jetzt auf Vetternwirtschaft setzen, halten Sie das Problem nur länger am Leben: Einen teuflischen Kreislauf von Machtlosigkeit, der die Effektivität einer Organisation untergräbt.

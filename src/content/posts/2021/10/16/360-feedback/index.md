@@ -4,6 +4,7 @@ date: "2021-10-16 08:00:00"
 sourcePath: "/2021/10/16/360-feedback/"
 sourceUrl: "https://durchsieben.de/2021/10/16/360-feedback/"
 wordpressId: "2095"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Das 360°-Feedback zählt heutzutage in vielen Unternehmen zum Standard. Diese Methode können Führungs- und Fachkräfte nutzen, um Fähigkeiten und Potenziale ihrer Mitarbeiter zu beurteilen und weiterzuentwickeln. Das 360°-Feedback geht deutlich über den Umfang der traditionellen Mitarbeitergespräche hinaus, da nicht nur die Einschätzungen des Vorgesetzten, sondern auch die Rückmeldungen anderer Mitarbeiter berücksichtigt werden. (Pastoors et al. 2019, S.154)</p>

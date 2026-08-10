@@ -4,6 +4,7 @@ date: "2008-11-12 08:00:26"
 sourcePath: "/2008/11/12/steuern-sie-ihre-wachstumsinitiativen-richtig/"
 sourceUrl: "https://durchsieben.de/2008/11/12/steuern-sie-ihre-wachstumsinitiativen-richtig/"
 wordpressId: "162"
+status: "publish"
 ---
 Mir dem ersten fragebogen konnten Sie herausfinden, mit welchem Ansatz Ihr Unternehmen derzeit Wachstumsinitiativen steuert. Mit dem folgenden Fragen können Sie nun überprüfen, ob dieser Ansatz zu Ihrer Firmenkultur und den Wettbewerbsbedingungen passt. Entsprechen Ihre Antworten eher einen anderen Ansatz als dem momentan verfolgten, sollten Sie über Änderungen bei der Prozess- und Inhaltssteuerung nachdenken.<!--more-->
 <ol>

@@ -4,6 +4,7 @@ date: "2015-10-03 20:57:26"
 sourcePath: "/2015/10/03/machtverlust-von-marketingabteilungen/"
 sourceUrl: "https://durchsieben.de/2015/10/03/machtverlust-von-marketingabteilungen/"
 wordpressId: "788"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Die Marketingabteilung leistet den größten Beitrag zum Unternehmenserfolg, doch gerade sie verliert an Einfluss.</p>

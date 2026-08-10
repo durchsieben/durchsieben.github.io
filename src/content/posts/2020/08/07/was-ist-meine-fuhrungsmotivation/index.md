@@ -4,6 +4,7 @@ date: "2020-08-07 08:00:00"
 sourcePath: "/2020/08/07/was-ist-meine-fuhrungsmotivation/"
 sourceUrl: "https://durchsieben.de/2020/08/07/was-ist-meine-fuhrungsmotivation/"
 wordpressId: "854"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Führungsmotivation unterscheidet sich zwischen einzelnen Personen, dennoch kann sich diese durch Führungserfahrung und Training verändern. Chan und Drasgow (2001) nehmen an, dass sowohl die Fähigkeiten zur Führung als auch das Führungsverhalten erlernt werden können und dass sich Führungsmotivation verändern kann. Führungsmotivation selbst beinhaltet drei Dimensionen: (Furtner/Baldegger 2016, S.103f)</p>

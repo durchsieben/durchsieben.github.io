@@ -4,6 +4,7 @@ date: "2015-10-05 08:30:00"
 sourcePath: "/2015/10/05/effizienter-forschen/"
 sourceUrl: "https://durchsieben.de/2015/10/05/effizienter-forschen/"
 wordpressId: "700"
+status: "publish"
 ---
 <p style="padding-left:30px;">Viele Unternehmen setzen in der Forschung und Entwicklung ineffiziente Anreizsystem ein. Sie provozieren Verteilungskämpfe, wo Kooperation nötig wäre, und demotivieren, wo sie individuelle Leistung belohnen sollten. Zwei einfache Formeln können Abhilfe schaffen.</p>
 Ein großes Problem vieler for­schungsintensiver Unternehmen besteht darin, ihre Mittel effizient auf verschiedene Entwicklungsprojek­te aufzuteilen. Auf den ersten Blick scheint es eine simple Lösung zu geben:<!--more--> in wertsteigernde Projekte investieren und verlustträchtige Investitionen ver­meiden. Doch das lässt sich nicht so einfach umsetzen. Dafür sind zwei Faktoren ausschlaggebend, die bei fast al­len Vorhaben in der Forschung und Entwicklung (F&E) eine Rolle spielen. Zum einen ist es so gut wie unmöglich, die besten Projekte vorab zu identifi­zieren, da fast jedes mit erheblichen Unsicherheiten verbunden ist. Zum anderen kommt es immer wieder zu erbitterten Kämpfen um Ressourcen zwischen den Managern der einzelnen Vorhaben. Die Informationen, die sie dem Topmanagement zur Verfügung stellen, sind meist geschönt, weil sie angesichts der harten Konkurrenz um ihre Budgets fürchten müssen.

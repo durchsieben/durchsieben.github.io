@@ -4,6 +4,7 @@ date: "2010-10-04 09:00:38"
 sourcePath: "/2010/10/04/systematisches-softwaredesign-in-der-nussschale/"
 sourceUrl: "https://durchsieben.de/2010/10/04/systematisches-softwaredesign-in-der-nussschale/"
 wordpressId: "498"
+status: "publish"
 ---
 <p style="padding-left:30px;">Der Erfolg eines Softwareprojekts steht und fällt mit der Architektur eines Systems. Nicht immer führen anfängliche schnelle Erfolge zu einer stabilen Software. Mit welchen Herausforderungen sich ein Softwarearchitekt initial und im Laufe des Projekts konfrontiert sieht, lässt sich am Beispiel des fiktiven Bob nachvollziehen.</p>
 Nach seiner Umschulung zum Softwareentwickler steht Bob, der Baumeister, vor der ersten großen Herausforderung. Zusammen mit anderen Leidensgenossen soll er die Softwarearchitektur für einen Webshop erstellen. Was er zunächst für ein lächerlich einfaches Projekt hielt, erweist sich auf dem zweiten Blick als ganz und gar nicht trivial.<!--more--> Vor ihm steht bedrohlich ein weißes, bislang gähnend leeres Flip-Chart. Es scheint sehnsüchtig darauf zu warten, dass Bob es mit architektonischen Entwürfen füllt.

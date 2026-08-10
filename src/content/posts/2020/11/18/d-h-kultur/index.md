@@ -4,6 +4,7 @@ date: "2020-11-18 09:00:00"
 sourcePath: "/2020/11/18/d-h-kultur/"
 sourceUrl: "https://durchsieben.de/2020/11/18/d-h-kultur/"
 wordpressId: "1204"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Der Begriff <strong>Kultur</strong> selbst hat seine Wurzeln in der anthropologischen Forschung wie beispielsweise jener Forschungsbeitrag von <em>Kluckhohn/Strodtbeck</em> (1961) zeigt, der sich auf die Erforschung von amerikanisch-indianischen Völkern fokussiert. Die AutorInnen unterscheiden Kulturen anhand von ihren <a href="/2020/10/10/d-h-werte/">Werten</a>, <a href="/2020/10/10/d-h-werte/">Einstellungen</a> und Bräuchen. (Herget/Strobl 2018, S.40)</p>

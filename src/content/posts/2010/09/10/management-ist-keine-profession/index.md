@@ -4,6 +4,7 @@ date: "2010-09-10 10:57:14"
 sourcePath: "/2010/09/10/management-ist-keine-profession/"
 sourceUrl: "https://durchsieben.de/2010/09/10/management-ist-keine-profession/"
 wordpressId: "419"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p>Viele fordern, dass ausgebildete Manager hohen Berufsstandards genügen sollten, ähnlich wie Ärzte oder Juristen. Doch das ist nicht möglich. Etliche Fähigkeiten von Führungskräften lassen sich nicht an Business Schools vermitteln, sie müssen durch Erfahrung erworben werden.</p>

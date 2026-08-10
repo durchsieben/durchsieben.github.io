@@ -4,6 +4,7 @@ date: "2020-11-04 08:00:00"
 sourcePath: "/2020/11/04/d-h-bedurfnisse/"
 sourceUrl: "https://durchsieben.de/2020/11/04/d-h-bedurfnisse/"
 wordpressId: "1032"
+status: "publish"
 ---
 <!-- wp:paragraph -->
 <p><strong>Bedürfnisse </strong>sind den <span style="text-decoration:underline;">Motiven</span> rangmäßig vorgeordnet; als physiologische Ungleichgewichte (Hunger, Durst etc.) bezeichnen sie ein generelles Mangelgefühl und fungieren als person-interne Reize, die einen Menschen in allgemeinen Handlungsbereitschaft versetzen. (Staehle/Conrad/Sydow 1999, S.166)</p>
