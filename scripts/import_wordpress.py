@@ -7,7 +7,6 @@ import argparse
 import hashlib
 import json
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path, PurePosixPath
 from shutil import copyfileobj
@@ -215,7 +214,6 @@ def run(args: argparse.Namespace) -> dict[str, object]:
 
     args.routes.parent.mkdir(parents=True, exist_ok=True)
     manifest = {
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
         "source": {
             "wxr": wxr.as_posix(),
             "mediaArchive": media_archive.as_posix(),
