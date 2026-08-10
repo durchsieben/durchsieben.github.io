@@ -53,7 +53,7 @@ Gate: importer runs from a clean checkout using only the recorded backup; conten
 
 Gate: `pnpm build` plus focused route/content/link checks pass locally; no secret is tracked or emitted.
 
-### Phase 4 — Deploy and controlled cutover [planned]
+### Phase 4 — Deploy and controlled cutover [in-progress]
 
 1. Add the official Astro GitHub Pages workflow and deploy to the GitHub Pages URL first.
 2. Configure `public/CNAME` for `durchsieben.de`, set the GitHub Pages custom domain, and change DNS only after the preview verification gate passes.
@@ -77,4 +77,4 @@ Gate: GitHub Pages deployment succeeds; HTTPS is active; sampled old paths retur
 | 1 | done | Five-screen canonical wireframe source/export set passed fresh layout and visual checks. Public API, WXR, and media archive inventories reconcile to 109 published posts, 3 published pages, and 78 attachments; source checksums and the 113-path sitemap route seed passed verification. |
 | 2 | done | Public `forgegod/durchsieben.de` repository initialized on `main`; the importer generated 109 posts, 3 pages, 78 local media files, and 113 unique legacy paths. A literal fresh Git clone re-imported from the recorded backup and produced no tracked differences. |
 | 3 | done | Native Astro frontend implements the five approved page structures without React, Tailwind, shadcn, or Shadcnblocks. `pnpm check`, `pnpm build`, and `pnpm verify` passed: 113 generated routes, 109 posts, 3 pages, 78 media assets, and no broken local links. The importer canonicalizes stale former-host links to preserved paths before output. |
-| 4 | planned | — |
+| 4 | in-progress | GitHub Pages is not enabled yet; preview deployment is being configured without DNS changes. |
