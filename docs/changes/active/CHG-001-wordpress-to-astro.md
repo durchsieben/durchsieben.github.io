@@ -67,7 +67,7 @@ Gate: GitHub Pages deployment succeeds; HTTPS is active; sampled old paths retur
 - Publish the existing public surface (109 posts, 3 pages); retain drafts in the backup but do not publish them initially.
 - GitHub Pages requires static output. Exact generated legacy paths are the compatibility mechanism; Astro's static redirect output is not an HTTP 301/308 service.
 - `durchsieben.de` is an apex domain. Cutover requires GitHub Pages custom-domain configuration plus appropriate DNS records, which is a user-visible external change and is deferred to Phase 4.
-- The public `forgegod/durchsieben.de` repository was created with explicit operator approval. GitHub Pages and DNS remain deferred to Phase 4.
+- The public deployment target is `durchsieben/durchsieben.github.io` over SSH. The initial `forgegod/durchsieben.de` repository remains an historical migration checkpoint; GitHub Pages and DNS remain deferred to Phase 4.
 - The operator removed the shadcn and Shadcnblocks requirement during Phase 3. The site remains dependency-light and static; interactive UI work requires a separate explicit request.
 
 ## Verification ledger
@@ -75,6 +75,6 @@ Gate: GitHub Pages deployment succeeds; HTTPS is active; sampled old paths retur
 | Phase | Status | Evidence |
 | --- | --- | --- |
 | 1 | done | Five-screen canonical wireframe source/export set passed fresh layout and visual checks. Public API, WXR, and media archive inventories reconcile to 109 published posts, 3 published pages, and 78 attachments; source checksums and the 113-path sitemap route seed passed verification. |
-| 2 | done | Public `forgegod/durchsieben.de` repository initialized on `main`; the importer generated 109 posts, 3 pages, 78 local media files, and 113 unique legacy paths. A literal fresh Git clone re-imported from the recorded backup and produced no tracked differences. |
+| 2 | done | Initial public `forgegod/durchsieben.de` migration checkpoint initialized on `main`; the importer generated 109 posts, 3 pages, 78 local media files, and 113 unique legacy paths. A literal fresh Git clone re-imported from the recorded backup and produced no tracked differences. |
 | 3 | done | Native Astro frontend implements the five approved page structures without React, Tailwind, shadcn, or Shadcnblocks. `pnpm check`, `pnpm build`, and `pnpm verify` passed: 113 generated routes, 109 posts, 3 pages, 78 media assets, and no broken local links. The importer canonicalizes stale former-host links to preserved paths before output. |
-| 4 | in-progress | GitHub Pages is not enabled yet; preview deployment is being configured without DNS changes. |
+| 4 | in-progress | Deployment target moved to `durchsieben/durchsieben.github.io` over SSH. GitHub Pages is enabled, but the initial workflow run failed before install because `setup-node` attempted pnpm cache discovery before Corepack enabled pnpm; the workflow now uses the dependency-free setup order and awaits a rerun. No custom domain or DNS change has occurred. |
