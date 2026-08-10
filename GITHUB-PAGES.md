@@ -14,6 +14,7 @@ Recheck every value before making a provider change.
 | Apex DNS | `durchsieben.de` resolves to WordPress A records `192.0.78.24` and `192.0.78.25`; authoritative nameservers are WordPress.com. | Replace only at the approved cutover with all four GitHub Pages A records. |
 | `www` DNS | `www.durchsieben.de` CNAME points to the apex. | Point directly to `durchsieben.github.io`. |
 | Custom domain | Not configured in repository Pages settings. | Verify the domain for the `durchsieben` organization, then configure `durchsieben.de`. |
+| DNS propagation | No cutover DNS change is visible: public resolvers still return the WordPress apex records and `www` points to the apex. | Reserve a two-day observation window after the approved DNS update. |
 | WordPress | Still live. | Keep it live until custom-domain verification passes. |
 
 ## Control Surfaces
@@ -123,7 +124,7 @@ At the WordPress.com DNS provider, replace the existing website records with the
 
 Optional IPv6 requires all four records alongside the A records: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, and `2606:50c0:8003::153`. Do not add partial IPv6 coverage.
 
-Do not create wildcard DNS records. Do not remove MX, TXT, mail, domain-verification, or unrelated subdomain records. DNS propagation can take up to 24 hours.
+Do not create wildcard DNS records. Do not remove MX, TXT, mail, domain-verification, or unrelated subdomain records. GitHub documents propagation of up to 24 hours; reserve two days after this cutover's DNS update before treating incomplete global resolution or HTTPS issuance as a failure.
 
 ## Local Validation And Deployment
 
@@ -150,7 +151,7 @@ A manual dispatch must execute both jobs. A `skipped` build or deploy job is a f
 
 ## Post-Cutover Verification
 
-Wait for DNS propagation, then run:
+Start these checks immediately after the DNS update and repeat them during the two-day propagation window:
 
 ```bash
 dig durchsieben.de +noall +answer -t A

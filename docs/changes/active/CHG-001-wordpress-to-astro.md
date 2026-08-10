@@ -57,10 +57,10 @@ Gate: `pnpm build` plus focused route/content/link checks pass locally; no secre
 
 1. Add the official Astro GitHub Pages workflow and deploy to the GitHub Pages URL first.
 2. Configure `public/CNAME` for `durchsieben.de`, set the GitHub Pages custom domain, and change DNS only after the preview verification gate passes.
-3. Enable HTTPS, verify the apex and `www` domains, and sample legacy article links plus the three pages after propagation.
+3. Enable HTTPS, verify the apex and `www` domains, and sample legacy article links plus the three pages after propagation. Reserve two days from the controlled DNS update for propagation and certificate issuance before declaring that cutover unsuccessful.
 4. Keep the WordPress site online until the custom-domain and legacy-route verification succeeds; only then decide whether to retire its paid hosting.
 
-Gate: GitHub Pages deployment succeeds; HTTPS is active; sampled old paths return rendered content at the custom domain; no DNS or WordPress destructive action occurred before that proof.
+Gate: GitHub Pages deployment succeeds; after the two-day DNS propagation window, HTTPS is active and sampled old paths return rendered content at the custom domain; no DNS or WordPress destructive action occurred before that proof.
 
 Operational procedure: [`GITHUB-PAGES.md`](../../../GITHUB-PAGES.md) is the canonical setup, cutover, verification, rollback, and decommissioning runbook. It is intentionally repository-only documentation.
 
@@ -79,4 +79,4 @@ Operational procedure: [`GITHUB-PAGES.md`](../../../GITHUB-PAGES.md) is the cano
 | 1 | done | Five-screen canonical wireframe source/export set passed fresh layout and visual checks. Public API, WXR, and media archive inventories reconcile to 109 published posts, 3 published pages, and 78 attachments; source checksums and the 113-path sitemap route seed passed verification. |
 | 2 | done | Initial public `forgegod/durchsieben.de` migration checkpoint initialized on `main`; the importer generated 109 posts, 3 pages, 78 local media files, and 113 unique legacy paths. A literal fresh Git clone re-imported from the recorded backup and produced no tracked differences. |
 | 3 | done | Native Astro frontend implements the five approved page structures without React, Tailwind, shadcn, or Shadcnblocks. `pnpm check`, `pnpm build`, and `pnpm verify` passed: 113 generated routes, 109 posts, 3 pages, 78 media assets, and no broken local links. The importer canonicalizes stale former-host links to preserved paths before output. |
-| 4 | in-progress | Preview deployment at `https://durchsieben.github.io/` passed. The `686105d` workflow run completed both build and deploy successfully; HTTP 200 checks passed for the homepage, a dated article, and all three published pages. `durchsieben/durchsieben.github.io` is the SSH deployment target. No custom domain or DNS change has occurred. |
+| 4 | in-progress | Preview deployment at `https://durchsieben.github.io/` passed. The `686105d` workflow run completed both build and deploy successfully; HTTP 200 checks passed for the homepage, a dated article, and all three published pages. `durchsieben/durchsieben.github.io` is the SSH deployment target. Pages currently reports no configured custom domain; public DNS still routes to WordPress. No DNS change has occurred, and the plan reserves two days for propagation after the controlled update. |
