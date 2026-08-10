@@ -10,7 +10,7 @@ wordpressId: "2"
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"left","id":709,"linkDestination":"custom","style":{"color":[]}} -->
-<div class="wp-block-image"><figure class="alignleft"><a href="/media/2015/10/img_1359.jpg"><img src="/media/2015/10/img_1359.jpg" alt="IMG_1359" class="wp-image-709" /></a></figure></div>
+<div class="wp-block-image"><figure class="alignleft"><a href="/images/raphael-bossek-portrait.png"><img src="/images/raphael-bossek-portrait.png" alt="IMG_1359" class="wp-image-709" /></a></figure></div>
 <!-- /wp:image -->
 
 <!-- wp:columns -->

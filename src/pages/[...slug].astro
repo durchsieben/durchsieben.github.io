@@ -34,11 +34,11 @@ const kicker = isAbout ? 'Über den Autor' : isLegal ? 'Rechtliche Hinweise' : '
 <BaseLayout title={entry.data.title} description={entry.data.title}>
   {isAbout || isLegal ? (
     <>
-      <header class="page-head">
+      <header class={`page-head${isAbout ? ' about-page-head' : ''}`}>
         <p class="hero__eyebrow">{kicker}</p>
         <h1>{entry.data.title}</h1>
       </header>
-      <article class="prose page-prose"><Content /></article>
+      <article class={`prose page-prose${isAbout ? ' about-prose' : ''}`}><Content /></article>
     </>
   ) : (
     <>

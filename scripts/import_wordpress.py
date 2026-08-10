@@ -22,6 +22,9 @@ NAMESPACES = {
 }
 MEDIA_URL_PATTERN = re.compile(r"https?://durchsieben\.de/wp-content/uploads/[^\"'<>\s)]+")
 INTERNAL_URL_PATTERN = re.compile(r"https?://(?:www\.)?durchsieben\.de(?P<path>/[^\"'<>\s)]*)")
+CURATED_MEDIA_URLS = {
+    "2015/10/img_1359.jpg": "/images/raphael-bossek-portrait.png",
+}
 
 
 @dataclass(frozen=True)
@@ -126,7 +129,7 @@ def rewrite_media(content: str, attachments: dict[str, Attachment]) -> tuple[str
         if attachment is None:
             unresolved.append(source_url)
             return source_url
-        return attachment.public_url
+        return CURATED_MEDIA_URLS.get(attachment.archive_path, attachment.public_url)
 
     rewritten = MEDIA_URL_PATTERN.sub(replace, unescape(content))
     return "\n".join(line.rstrip() for line in rewritten.splitlines()), unresolved
