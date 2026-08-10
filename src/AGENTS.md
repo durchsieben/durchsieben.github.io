@@ -15,7 +15,7 @@ Owns deterministic WordPress-derived content and the legacy-route manifest used 
 - Rewrite only the imported content and route data through `../scripts/import_wordpress.py`; do not hand-edit imported source URLs or route paths.
 - `lib/posts.ts` is the single helper for post summaries, sort order (newest first), plain-text extraction, reading time, and topic generation. Pages and components use it instead of re-implementing sort or text extraction.
 - `components/` holds Astro UI components (`SearchAndFeed.astro`). Pages compose them; do not duplicate feed/search markup in individual pages.
-- The homepage renders the entire archive (newest first) plus a client-side search and topic filter; a separate `/artikeluebersicht/` archive page is no longer maintained and the old inline article list in the catch-all route is removed.
+- The homepage hero pairs the archive introduction with the transparent Raphael Bossek portrait at `public/images/raphael-bossek-portrait.png` before rendering the entire archive (newest first) with its client-side search and topic filter; a separate `/artikeluebersicht/` archive page is no longer maintained and the old inline article list in the catch-all route is removed.
 
 ## Verification
 

@@ -9,9 +9,20 @@ const lead = `${posts.length} kuratierte Beiträge zu Führung, Organisation und
 ---
 <BaseLayout title="Startseite" description={lead}>
   <section class="hero">
-    <p class="hero__eyebrow">Management÷7 · Archiv</p>
-    <h1>Zusammenhänge verstehen. Klarer führen.</h1>
-    <p class="lead">{lead}</p>
+    <div class="hero__intro">
+      <div class="hero__copy">
+        <p class="hero__eyebrow">Management÷7 · Archiv</p>
+        <h1>Zusammenhänge verstehen. Klarer führen.</h1>
+        <p class="lead">{lead}</p>
+      </div>
+      <img
+        class="hero__portrait"
+        src="/images/raphael-bossek-portrait.png"
+        alt="Raphael Bossek"
+        width="1280"
+        height="1645"
+      />
+    </div>
     <SearchAndFeed posts={posts} topics={topicList} feedTitle="Neueste Beiträge" feedEyebrow="Aktuell" />
   </section>
 </BaseLayout>

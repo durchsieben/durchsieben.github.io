@@ -155,6 +155,21 @@ mark { background: var(--highlight); color: var(--ink); padding: 0 0.1em; border
   padding-block: clamp(2.5rem, 6vw, 4rem) clamp(1.5rem, 4vw, 2.5rem);
   border-bottom: 1px solid var(--rule);
 }
+.hero__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 20rem);
+  align-items: end;
+  gap: clamp(1rem, 4vw, 4rem);
+}
+.hero__portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  justify-self: end;
+  align-self: end;
+  pointer-events: none;
+  user-select: none;
+}
 .hero__eyebrow {
   display: inline-flex;
   align-items: center;
@@ -509,6 +524,8 @@ mark { background: var(--highlight); color: var(--ink); padding: 0 0.1em; border
   html { font-size: 16.5px; }
   .site-header__inner { grid-template-columns: 1fr auto; }
   .site-nav { grid-column: 1 / -1; grid-row: 2; justify-content: flex-start; overflow-x: auto; white-space: nowrap; padding-bottom: 0.25rem; }
+  .hero__intro { grid-template-columns: 1fr; gap: 1rem; }
+  .hero__portrait { width: min(58vw, 15rem); }
   .feed__row { grid-template-columns: 1fr; gap: 1rem; }
   .feed__col--right { border-left: 0; padding-left: 0; border-top: 1px solid var(--rule); padding-top: 1rem; }
   .prose { font-size: 1.1rem; }
