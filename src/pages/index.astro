@@ -3,10 +3,50 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const posts = (await getCollection('posts')).sort((a, b) => b.data.date.localeCompare(a.data.date));
 const featured = posts.find((post) => post.data.sourcePath.includes('kompetenzen-und-schlusselqualifikationen')) ?? posts[0];
+const recent = posts.slice(0, 4);
 ---
 <BaseLayout title="Management-Wissen für die Praxis">
-  <section class="hero hero-home"><div class="hero-copy"><p class="eyebrow">Management erklärt</p><h1>Denken, führen,<br />besser entscheiden.</h1><p>Eine kuratierte Sammlung fundierter Perspektiven zu Führung, Organisation und Management.</p><a class="button" href="/artikeluebersicht/">Artikel entdecken</a></div><div class="hero-visual"><span>[Editoriales Bild: Management &amp; Zusammenarbeit]</span><a class="feature-card" href={featured.data.sourcePath}><p class="eyebrow">Hervorgehobener Beitrag</p><h2>{featured.data.title}</h2><small>{new Date(featured.data.date).toLocaleDateString('de-DE', { day: '2-digit', month: 'long', year: 'numeric' })} · Führung</small><strong>Beitrag lesen →</strong></a></div></section>
-  <section class="intro-grid"><div><p class="kicker">Worum es geht</p><h2>Management wird besser, wenn Begriffe klarer und Zusammenhänge sichtbar werden.</h2></div><p>109 veröffentlichte Beiträge ordnen Erkenntnisse aus Literatur und Praxis – für die eigene Reflexion und die Arbeit mit Teams.</p></section>
-  <section><p class="kicker">Themenbereiche</p><h2 class="section-title">Orientierung für komplexe Führungsaufgaben.</h2><div class="topic-grid"><a href="/artikeluebersicht/" class="topic-card"><small>01</small><h3>Führung</h3><p>Aufgaben, Verantwortung und Wirkung.</p><span>Artikel ansehen →</span></a><a href="/artikeluebersicht/" class="topic-card inverse"><small>02</small><h3>Organisation</h3><p>Teams, Kultur und Zusammenarbeit.</p><span>Artikel ansehen →</span></a><a href="/artikeluebersicht/" class="topic-card"><small>03</small><h3>Entscheiden</h3><p>Ziele, Werte und die Qualität von Entscheidungen.</p><span>Artikel ansehen →</span></a></div></section>
-  <section class="reading"><p class="kicker">Neu im Archiv</p><h2>Weiterlesen</h2><ul>{posts.slice(0, 3).map((post) => <li><a href={post.data.sourcePath}>{post.data.title}</a><time>{new Date(post.data.date).toLocaleDateString('de-DE')}</time><span>→</span></li>)}</ul></section>
+  <section class="hero section">
+    <p class="eyebrow">Managementwissen für die Praxis</p>
+    <h1>Zusammenhänge verstehen. Klarer führen.</h1>
+    <p class="lead">Eine kuratierte Sammlung von 109 Beiträgen zu Führung, Organisation und Management – zum Nachdenken, Einordnen und Anwenden.</p>
+    <div class="action-row">
+      <a class="button" href="/artikeluebersicht/">Artikel entdecken</a>
+      <a class="text-link" href="/about/">Über den Autor</a>
+    </div>
+  </section>
+
+  <section class="section split-overview">
+    <div>
+      <p class="eyebrow">Worum es geht</p>
+      <h2>Lesbar zuerst, Komplexität danach.</h2>
+    </div>
+    <div class="feature-list">
+      <article><h3>Führung</h3><p>Aufgaben, Verantwortung und Wirkung von Führung klar einordnen.</p></article>
+      <article><h3>Organisation</h3><p>Teams, Kultur und Zusammenarbeit als gestaltbare Systeme verstehen.</p></article>
+      <article><h3>Entscheiden</h3><p>Ziele, Werte und die Qualität von Entscheidungen reflektieren.</p></article>
+    </div>
+  </section>
+
+  <section class="section index-feed" aria-labelledby="featured-post">
+    <div class="section-heading">
+      <div><p class="eyebrow">Ausgewählt</p><h2 id="featured-post">Ein Einstieg ins Archiv.</h2></div>
+      <a class="text-link" href="/artikeluebersicht/">Alle Artikel</a>
+    </div>
+    <article class="featured-entry">
+      <p class="meta">{new Date(featured.data.date).toLocaleDateString('de-DE', { day: '2-digit', month: 'long', year: 'numeric' })}</p>
+      <h3><a href={featured.data.sourcePath}>{featured.data.title}</a></h3>
+      <a class="text-link" href={featured.data.sourcePath}>Beitrag lesen</a>
+    </article>
+  </section>
+
+  <section class="section index-feed" aria-labelledby="recent-posts">
+    <div class="section-heading">
+      <div><p class="eyebrow">Neu im Archiv</p><h2 id="recent-posts">Weiterlesen.</h2></div>
+      <a class="text-link" href="/rss.xml">RSS abonnieren</a>
+    </div>
+    <div class="note-list">
+      {recent.map((post) => <article class="note-row"><time datetime={post.data.date}>{new Date(post.data.date).toLocaleDateString('de-DE')}</time><h3><a href={post.data.sourcePath}>{post.data.title}</a></h3></article>)}
+    </div>
+  </section>
 </BaseLayout>

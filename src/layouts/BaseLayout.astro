@@ -1,6 +1,74 @@
 ---
 import '../styles/global.css';
-interface Props { title: string; description?: string }
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
 const { title, description = 'Management÷7 — Management-Wissen für die Praxis.' } = Astro.props;
+const currentPath = Astro.url.pathname;
+const navItems = [
+  { href: '/', label: 'Start' },
+  { href: '/artikeluebersicht/', label: 'Artikel' },
+  { href: '/about/', label: 'Über den Autor' },
+  { href: '/impressum/', label: 'Impressum' },
+];
+const isActive = (href: string) => (href === '/' ? currentPath === href : currentPath.startsWith(href));
 ---
-<!doctype html><html lang="de"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><meta name="description" content={description} /><link rel="alternate" type="application/rss+xml" title="Management÷7 RSS" href="/rss.xml" /><link rel="sitemap" href="/sitemap-index.xml" /><title>{title} | Management÷7</title></head><body><header class="site-header"><div><a class="brand" href="/"><i></i>Management÷7</a><nav aria-label="Hauptnavigation"><a href="/artikeluebersicht/">Artikel</a><a href="/artikeluebersicht/">Themen</a><a href="/about/">Über den Autor</a><a href="/impressum/">Impressum</a><a class="accent" href="/artikeluebersicht/">Suche</a></nav></div></header><main><slot /></main><footer class="site-footer"><div><section><strong>Management÷7</strong><p>Wir durchsieben die Märchen und Mythen des Managements.</p><small>© Raphael Bossek · Inhalte mit Quellenangaben</small></section><nav><a href="/artikeluebersicht/">Artikelübersicht</a><a href="/about/">Über den Autor</a><a href="/impressum/">Impressum</a></nav></div></footer></body></html>
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="alternate" type="application/rss+xml" title="Management÷7 RSS" href="/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <title>{title} | Management÷7</title>
+    <script is:inline>
+      (() => {
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = stored || (prefersDark ? 'dark' : 'light');
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Management÷7 Startseite">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Management÷7</span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        {
+          navItems.map((item) => (
+            <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>{item.label}</a>
+          ))
+        }
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Farbschema wechseln" data-theme-toggle>
+        <span aria-hidden="true"></span>
+      </button>
+    </header>
+    <main><slot /></main>
+    <footer class="site-footer">
+      <p>Managementwissen aus Literatur und Praxis.</p>
+      <nav aria-label="Footer-Navigation">
+        <a href="/artikeluebersicht/">Archiv</a>
+        <a href="/about/">Über den Autor</a>
+        <a href="/rss.xml">RSS</a>
+      </nav>
+      <small>© Raphael Bossek</small>
+    </footer>
+    <script>
+      document.addEventListener('click', (event) => {
+        if (!(event.target instanceof Element) || !event.target.closest('[data-theme-toggle]')) return;
+        const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        localStorage.setItem('theme', next);
+      });
+    </script>
+  </body>
+</html>
