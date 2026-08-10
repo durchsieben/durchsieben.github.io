@@ -36,7 +36,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--content", type=Path, default=Path("src/content"))
     parser.add_argument("--media", type=Path, default=Path("public/media"))
     parser.add_argument("--routes", type=Path, default=Path("src/data/legacy-routes.json"))
-    parser.add_argument("--sitemap-routes", type=Path, default=Path("backup/wordpress/sitemap-route-seed.json"))
+    parser.add_argument("--sitemap-routes", type=Path)
     return parser.parse_args()
 
 
@@ -166,7 +166,8 @@ def published_items(root: ET.Element) -> Iterable[ET.Element]:
 def run(args: argparse.Namespace) -> dict[str, object]:
     wxr = args.backup / "management.WordPress.2026-08-10.xml"
     media_archive = args.backup / "media-export-4925442-from-0-to-2313.tar"
-    if not wxr.is_file() or not media_archive.is_file() or not args.sitemap_routes.is_file():
+    sitemap_routes_path = args.sitemap_routes or args.backup / "sitemap-route-seed.json"
+    if not wxr.is_file() or not media_archive.is_file() or not sitemap_routes_path.is_file():
         raise FileNotFoundError("expected WXR, media archive, and sitemap route seed")
     if args.content.exists() or args.routes.exists():
         raise FileExistsError("content or route output already exists; import into a clean checkout")
@@ -174,7 +175,7 @@ def run(args: argparse.Namespace) -> dict[str, object]:
     root = ET.parse(wxr).getroot()
     media = archived_media(media_archive)
     attachments = attachment_map(root, media)
-    sitemap_routes = json.loads(args.sitemap_routes.read_text(encoding="utf-8"))
+    sitemap_routes = json.loads(sitemap_routes_path.read_text(encoding="utf-8"))
     expected_paths = {route["path"] for route in sitemap_routes["routes"]}
     imported_paths = {source_path(item) for item in published_items(root)} | {"/"}
     if expected_paths != imported_paths:
@@ -217,7 +218,7 @@ def run(args: argparse.Namespace) -> dict[str, object]:
         "source": {
             "wxr": wxr.as_posix(),
             "mediaArchive": media_archive.as_posix(),
-            "sitemapRoutes": args.sitemap_routes.as_posix(),
+            "sitemapRoutes": sitemap_routes_path.as_posix(),
         },
         "counts": {"posts": counts["post"], "pages": counts["page"], "media": len(media)},
         "routes": sorted(routes, key=lambda route: route["sourcePath"]),
