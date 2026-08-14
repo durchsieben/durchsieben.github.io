@@ -6,16 +6,17 @@ This repository-only runbook owns GitHub Pages setup, custom-domain cutover, ver
 
 Recheck every value before making a provider change.
 
-| Surface | Observed 2026-08-10 | Required state |
+| Surface | Observed 2026-08-14 | Required state |
 | --- | --- | --- |
 | Repository | Public `durchsieben/durchsieben.github.io`; local `origin` is `git@github.com:durchsieben/durchsieben.github.io.git`. | Retain the organization repository and SSH remote. |
-| Pages publishing | GitHub Actions, `build_type: workflow`; preview at `https://durchsieben.github.io/`; HTTPS enforcement enabled. | Retain workflow publishing. |
-| Preview evidence | Run `31379076437` built and deployed successfully. Homepage, a dated article, and the three published pages returned HTTP 200. | Re-run the full workflow after deployment changes. |
-| Apex DNS | `durchsieben.de` resolves to WordPress A records `192.0.78.24` and `192.0.78.25`; authoritative nameservers are WordPress.com. | Replace only at the approved cutover with all four GitHub Pages A records. |
-| `www` DNS | `www.durchsieben.de` CNAME points to the apex. | Point directly to `durchsieben.github.io`. |
-| Custom domain | Not configured in repository Pages settings. | Verify the domain for the `durchsieben` organization, then configure `durchsieben.de`. |
-| DNS propagation | No cutover DNS change is visible: public resolvers still return the WordPress apex records and `www` points to the apex. | Reserve a two-day observation window after the approved DNS update. |
-| WordPress | Still live. | Keep it live until custom-domain verification passes. |
+| Pages publishing | GitHub Actions, `build_type: workflow`; preview at `https://durchsieben.github.io/`; HTTPS enforcement awaits certificate issuance. | Retain workflow publishing. |
+| Preview evidence | Run `31787326962` built and deployed successfully after the custom-domain setting. | Re-run the full workflow after deployment changes. |
+| Apex DNS | Route 53 zone `Z03582351MM4IIT5YIPP2` serves all four GitHub Pages A and four IPv6 records. The `.de` delegation was changed to the Route 53 nameservers. | Keep all four GitHub Pages A records; do not add partial IPv6 coverage. |
+| `www` DNS | Route 53 `www` CNAME points directly to `durchsieben.github.io`. | Retain the direct CNAME. |
+| Mail DNS | Apex MX points directly to `mx.durch7.de`; SPF is `v=spf1 mx -all`. | Preserve this mail routing during website changes. |
+| Custom domain | Repository Pages custom domain is `durchsieben.de`; certificate issuance is pending. | Enable HTTPS only after GitHub exposes a certificate. |
+| DNS propagation | Major public resolvers serve Route 53; the prior WordPress delegation may persist in resolver caches for its remaining TTL. | Observe for two days after the cutover. |
+| WordPress | Website DNS no longer routes to WordPress. | Retain WordPress hosting until GitHub certificate and route verification complete. |
 
 ## Control Surfaces
 
@@ -112,7 +113,7 @@ The apex and `www` records below implement GitHub's [custom-domain DNS setup](ht
 - [Verifying a custom domain for GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages)
 - [Securing a GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)
 
-At the WordPress.com DNS provider, replace the existing website records with these values:
+The Route 53 hosted zone now contains these website records:
 
 | Name | Type | Value | Notes |
 | --- | --- | --- | --- |

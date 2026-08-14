@@ -12,6 +12,8 @@ Direct operator request: "I wan to backup my wordpress page at https://durchsieb
 
 Direct operator request: "create wireframes for the homepage, one exemplary blog post, and the 3 published pages using the https://www.shadcnblocks.com/template/apex for Astro"
 
+Direct operator request: "migrate from WordPress to Route 53 completely ASAP and migrate to GitHub Pages; MX should be done by mx.durch7.de"
+
 ## Discovery evidence
 
 - The WordPress dashboard shows 109 published posts, 28 drafts, and 3 published pages.
@@ -56,7 +58,7 @@ Gate: `pnpm build` plus focused route/content/link checks pass locally; no secre
 ### Phase 4 — Deploy and controlled cutover [in-progress]
 
 1. Add the official Astro GitHub Pages workflow and deploy to the GitHub Pages URL first. Use current Node 24-native Pages actions so a successful deployment does not rely on GitHub's Node 20 compatibility bridge.
-2. Configure `public/CNAME` for `durchsieben.de`, set the GitHub Pages custom domain, and change DNS only after the preview verification gate passes.
+2. Configure `public/CNAME` for `durchsieben.de`, set the GitHub Pages custom domain, and change DNS only after the preview verification gate passes. Preserve the apex MX route directly to `mx.durch7.de`.
 3. Enable HTTPS, verify the apex and `www` domains, and sample legacy article links plus the three pages after propagation. Reserve two days from the controlled DNS update for propagation and certificate issuance before declaring that cutover unsuccessful.
 4. Keep the WordPress site online until the custom-domain and legacy-route verification succeeds; only then decide whether to retire its paid hosting.
 
@@ -79,4 +81,4 @@ Operational procedure: [`GITHUB-PAGES.md`](../../../GITHUB-PAGES.md) is the cano
 | 1 | done | Five-screen canonical wireframe source/export set passed fresh layout and visual checks. Public API, WXR, and media archive inventories reconcile to 109 published posts, 3 published pages, and 78 attachments; source checksums and the 113-path sitemap route seed passed verification. |
 | 2 | done | Initial public `forgegod/durchsieben.de` migration checkpoint initialized on `main`; the importer generated 109 posts, 3 pages, 78 local media files, and 113 unique legacy paths. A literal fresh Git clone re-imported from the recorded backup and produced no tracked differences. |
 | 3 | done | Native Astro frontend implements the five approved page structures without React, Tailwind, shadcn, or Shadcnblocks. `pnpm check`, `pnpm build`, and `pnpm verify` passed: 113 generated routes, 109 posts, 3 pages, 78 media assets, and no broken local links. The importer canonicalizes stale former-host links to preserved paths before output. |
-| 4 | in-progress | Preview deployment at `https://durchsieben.github.io/` passed. The `686105d` workflow run completed both build and deploy successfully; HTTP 200 checks passed for the homepage, a dated article, and all three published pages. `durchsieben/durchsieben.github.io` is the SSH deployment target. Pages currently reports no configured custom domain; public DNS still routes to WordPress. No DNS change has occurred, and the plan reserves two days for propagation after the controlled update. |
+| 4 | in-progress | `pnpm check`, `pnpm build`, and `pnpm verify` passed locally. Run `31787326962` completed both Pages build and deployment successfully. GitHub Pages now has custom domain `durchsieben.de`; Route 53 zone `Z03582351MM4IIT5YIPP2` has the GitHub apex/IPv6 records, direct `www` CNAME, and direct MX to `mx.durch7.de`. Route 53 Domains registrar operation `8853789d-3b7d-4e74-83f4-1611b9b9e453` changed the `.de` delegation to Route 53. Major public resolvers confirm the new delegation. GitHub's certificate is still pending, so HTTPS enforcement and final endpoint verification remain open. |
