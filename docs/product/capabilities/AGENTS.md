@@ -12,4 +12,4 @@ Owns current, falsifiable user-visible behaviour contracts.
 
 ## Child DOX Index
 
-No child documentation scopes yet.
+- `CAP-001-static-site-and-route-compatibility.md` — static site, preserved routes, homepage listing window.
