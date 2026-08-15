@@ -55,10 +55,26 @@ Not applicable on this host:
 
 Gate: `pnpm check` 0 errors / 0 warnings; `pnpm build` 114 pages; `pnpm verify` `{"routes": 113, "posts": 109, "drafts": 28, "pages": 3, "media": 78, "localLinks": "PASS"}`. `dist/index.html` inlines CSS (no BaseLayout stylesheet link), has no `source-serif-4-latin-700` reference, serves `/favicon.ico`, and light `--accent` is `oklch(0.45 0.135 145)`. Local mobile Lighthouse (`http://127.0.0.1:4321/`): P 100 / A 100 / BP 100 / SEO 100; FCP/LCP 1.5s; TBT 0; CLS 0; 75 KiB; 0 contrast failures; 0 render-blocking resources.
 
+### Phase 4 — PageSpeed 8u4nr2vhig [done]
+
+Direct operator request: apply remaining findings from https://pagespeed.web.dev/analysis/https-durchsieben-de/8u4nr2vhig?form_factor=mobile. Production already reports P 100 / A 100 / BP 100; SEO 91 from a robots.txt fetch timeout; Agentic Browsing 2/3 from an llms.txt fetch timeout.
+
+1. Stop idle `/search-index.json` prefetch. Fetch only on first search, topic filter, or `Weitere Beiträge`. Removes the 20 KiB JSON from the first-load critical path.
+2. Publish `public/llms.txt` (H1 + summary + key links) so the agentic-browsing audit has a real file instead of a 404/timeout.
+3. Keep `public/robots.txt` as the static Allow-all + sitemap file. Verify it in `pnpm verify`. The PSI mobile timeout is a gather-phase fetch flake (desktop pass; live file is 73 bytes / 200 / ~80 ms); no content change.
+
+Not applicable on this host:
+
+- Long cache lifetimes for hashed `/_astro/*.woff2` — GitHub Pages still fixes `Cache-Control: max-age=600`. Clearing that unscored audit needs a CDN in front, not `_headers`.
+- Dropping the two first-paint Source Serif files — would clear the cache diagnostic and shorten the font chain, but it changes the editorial face. Out of scope unless requested.
+
+Gate: `pnpm check` 0 errors / 0 warnings; `pnpm build` 114 pages; `pnpm verify` `{"routes": 113, "posts": 109, "drafts": 28, "pages": 3, "media": 78, "localLinks": "PASS", "crawlerFiles": "PASS"}`. Homepage script has no `requestIdleCallback` / idle `loadIndex()`. `dist/llms.txt` has an H1 and `https://durchsieben.de`. `dist/robots.txt` is `User-agent: *` / `Allow: /` / sitemap on the apex.
+
 ## Verification
 
 - `pnpm check` — 0 errors, 0 warnings, 0 hints
 - `pnpm build` — 114 pages
-- `pnpm verify` — `{"routes": 113, "posts": 109, "drafts": 28, "pages": 3, "media": 78, "localLinks": "PASS"}`
+- `pnpm verify` — `{"routes": 113, "posts": 109, "drafts": 28, "pages": 3, "media": 78, "localLinks": "PASS", "crawlerFiles": "PASS"}`
 - Homepage HTML inlines critical CSS; no weight-700 serif asset in `dist/`; `dist/favicon.ico` and `dist/favicon.svg` present
+- Homepage script does not idle-prefetch `/search-index.json`; `dist/robots.txt` and `dist/llms.txt` verify
 - Local mobile Lighthouse: P 100 / A 100 / BP 100 / SEO 100
