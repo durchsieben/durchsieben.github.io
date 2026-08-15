@@ -37,9 +37,28 @@ Direct operator request: implement the remaining performance suggestions (pagina
 
 Gate: `pnpm check` 0 errors / 0 warnings; `pnpm build` 114 pages; `pnpm verify` `{"routes": 113, "posts": 109, "drafts": 28, "pages": 3, "media": 78, "localLinks": "PASS"}`. `dist/index.html` is 33 KB / 7 KB gzip, contains 20 article rows, and has no `fonts.googleapis.com`. Local mobile Lighthouse: performance 100, FCP 1.4s, LCP 1.4s, TBT 20ms, 94 KiB.
 
+### Phase 3 — PageSpeed follow-ups [done]
+
+Direct operator request: apply remaining recommendations from https://pagespeed.web.dev/analysis/https-durchsieben-de/zig4iileyb where applicable. Production already reports P 100 / A 96 / BP 100 / SEO 100.
+
+1. Raise light-mode accent/muted contrast so brand `sup`, nav, eyebrow, and feed-more pass WCAG AA; make the sticky header opaque so translucent glass no longer undercuts contrast.
+2. Inline the global stylesheet (`build.inlineStylesheets: 'always'`) to remove the render-blocking `/_astro/BaseLayout.*.css` request (~110 ms PSI estimate).
+3. Drop the Source Serif 4 weight-700 face; map bold chrome (brand, labels) to 600 so first paint pulls two serif files instead of three.
+4. Ship `favicon.svg` + `favicon.ico` so browsers stop logging a console 404 on `/favicon.ico` (Best Practices).
+
+Not applicable on this host:
+
+- Long cache lifetimes for hashed `/_astro/*` assets — GitHub Pages fixes `Cache-Control: max-age=600`; no `_headers` or custom asset headers without a CDN in front.
+- Extra `preconnect` origins — first-party only; PSI reports no candidates.
+- DOM-size reduction — 328 nodes / depth 9 is well under Lighthouse thresholds; feed page size stays at 20.
+- Stopping idle `/search-index.json` prefetch — intentional warm cache after first paint; score is already 100 and first interaction must stay snappy.
+
+Gate: `pnpm check` 0 errors / 0 warnings; `pnpm build` 114 pages; `pnpm verify` `{"routes": 113, "posts": 109, "drafts": 28, "pages": 3, "media": 78, "localLinks": "PASS"}`. `dist/index.html` inlines CSS (no BaseLayout stylesheet link), has no `source-serif-4-latin-700` reference, serves `/favicon.ico`, and light `--accent` is `oklch(0.45 0.135 145)`. Local mobile Lighthouse (`http://127.0.0.1:4321/`): P 100 / A 100 / BP 100 / SEO 100; FCP/LCP 1.5s; TBT 0; CLS 0; 75 KiB; 0 contrast failures; 0 render-blocking resources.
+
 ## Verification
 
 - `pnpm check` — 0 errors, 0 warnings, 0 hints
 - `pnpm build` — 114 pages
 - `pnpm verify` — `{"routes": 113, "posts": 109, "drafts": 28, "pages": 3, "media": 78, "localLinks": "PASS"}`
-- Local mobile Lighthouse (`http://127.0.0.1:4321/`): P 100 / A 96 / BP 100 / SEO 100
+- Homepage HTML inlines critical CSS; no weight-700 serif asset in `dist/`; `dist/favicon.ico` and `dist/favicon.svg` present
+- Local mobile Lighthouse: P 100 / A 100 / BP 100 / SEO 100
