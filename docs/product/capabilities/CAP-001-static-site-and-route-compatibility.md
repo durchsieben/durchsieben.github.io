@@ -8,7 +8,8 @@ Management÷7 is a static Astro site published at `https://durchsieben.de` throu
 
 - Released and draft WordPress articles are represented as repository-owned Markdown plus locally stored media assets. The WXR export is the full-content source; recorded public API JSON snapshots reconcile released post/page IDs before import.
 - The 109 released WordPress posts and 3 published pages are rendered by the static site. The 28 restored draft posts remain source content only: they have no generated route, archive entry, or RSS item.
-- The homepage lists the newest 20 posts in the initial HTML. Remaining archive rows and title/excerpt search load from `/search-index.json` on demand. Without JavaScript the listing stops at those 20 posts; every released article still has its own preserved route.
+- The homepage lists the newest 20 posts in the initial HTML. Remaining archive rows and title/excerpt search load from `/search-index.json` on first search, topic filter, or `Weitere Beiträge`. Without JavaScript the listing stops at those 20 posts; every released article still has its own preserved route.
+- `/robots.txt` allows all crawlers and names the apex sitemap. `/llms.txt` is a short Markdown overview of the site for agents.
 - `scripts/remove_wordpress_articles.py` removes a retained released or draft article by WordPress ID. Released removals also remove its route-manifest entry; the ignored WXR backup remains available for a clean re-import.
 - Every legacy public pathname from the WordPress export resolves to its corresponding Astro page at the same pathname. This includes dated article paths and the three published pages.
 - A generated route manifest is the authority for preserved paths; build verification fails when a published source path has no generated destination.

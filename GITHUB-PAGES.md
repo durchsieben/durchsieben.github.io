@@ -170,7 +170,7 @@ Confirm all of the following:
 - HTTP redirects to HTTPS once GitHub makes HTTPS enforcement available.
 - `https://durchsieben.de/` returns 200 with the Management÷7 title.
 - The dated article, `/artikeluebersicht/`, `/about/`, and `/impressum/` all return rendered content.
-- `https://durchsieben.de/robots.txt`, `/sitemap-index.xml`, and `/rss.xml` resolve.
+- `https://durchsieben.de/robots.txt`, `/llms.txt`, `/sitemap-index.xml`, and `/rss.xml` resolve.
 - GitHub repository Pages settings report `cname: durchsieben.de` and `https_enforced: true`.
 - Canonical URLs, sitemap entries, and `robots.txt` use `https://durchsieben.de`.
 - The WordPress site remains available until every check passes.

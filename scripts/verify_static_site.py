@@ -96,7 +96,16 @@ def main() -> int:
     if broken:
         raise SystemExit(json.dumps({"brokenLocalLinks": broken}, ensure_ascii=False))
 
-    print(json.dumps({"routes": len(routes), **expected_counts, "localLinks": "PASS"}))
+    robots = (DIST / "robots.txt").read_text(encoding="utf-8")
+    expected_robots = "User-agent: *\nAllow: /\nSitemap: https://durchsieben.de/sitemap-index.xml\n"
+    if robots != expected_robots:
+        raise SystemExit(f"invalid robots.txt: {robots!r}")
+
+    llms = (DIST / "llms.txt").read_text(encoding="utf-8")
+    if not llms.startswith("# Management÷7\n") or "https://durchsieben.de" not in llms:
+        raise SystemExit("invalid llms.txt")
+
+    print(json.dumps({"routes": len(routes), **expected_counts, "localLinks": "PASS", "crawlerFiles": "PASS"}))
     return 0
 
 

@@ -297,11 +297,6 @@ const remaining = Math.max(0, posts.length - initial.length);
     });
   });
 
-  const idle = window.requestIdleCallback ?? ((callback: () => void) => window.setTimeout(callback, 1));
-  idle(() => {
-    void loadIndex();
-  });
-
   (window as unknown as { __searchState: unknown }).__searchState = {
     get query() { return activeQuery; },
     get topic() { return activeTopic; },

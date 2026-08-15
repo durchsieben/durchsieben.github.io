@@ -1,0 +1,13 @@
+# Management÷7
+
+> Kuratiertes deutschsprachiges Archiv zu Führung, Organisation und Entscheidung. 109 Beiträge von Raphael Bossek. Statische Website ohne Login und ohne Kommentare.
+
+Die Startseite listet die neuesten 20 Beiträge. Titelsuche und weitere Archivzeilen laden `/search-index.json` erst bei Nutzung. Jeder veröffentlichte Artikel hat eine eigene URL.
+
+## Seiten
+
+- [Startseite](https://durchsieben.de/): neueste Beiträge und Archivsuche
+- [Über den Autor](https://durchsieben.de/about/): Raphael Bossek
+- [Impressum](https://durchsieben.de/impressum/): rechtliche Hinweise
+- [RSS](https://durchsieben.de/rss.xml): Feed aller veröffentlichten Beiträge
+- [Sitemap](https://durchsieben.de/sitemap-index.xml): alle öffentlichen URLs
