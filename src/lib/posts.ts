@@ -54,6 +54,7 @@ export function summarize(entry: PostEntry): PostSummary {
   const text = plainText(body);
   const words = text ? text.split(' ').length : 0;
   const isoDate = isoDateOf(entry.data.date);
+  const excerpt = excerptOf(body);
   return {
     path: entry.data.sourcePath,
     title: entry.data.title,
@@ -61,12 +62,14 @@ export function summarize(entry: PostEntry): PostSummary {
     isoDate,
     displayDate: dateFormat.format(new Date(`${isoDate}T00:00:00Z`)),
     year: isoDate.slice(0, 4),
-    excerpt: excerptOf(body),
+    excerpt,
     minutes: Math.max(1, Math.round(words / WORDS_PER_MINUTE)),
     words,
-    searchText: `${entry.data.title} ${text}`.toLowerCase(),
+    searchText: `${entry.data.title} ${excerpt}`.toLowerCase(),
   };
 }
+
+export const INITIAL_FEED = 20;
 
 /** All published posts, newest first. */
 export async function newestFirst(): Promise<PostSummary[]> {

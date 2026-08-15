@@ -6,8 +6,23 @@ import { newestFirst, topics } from '../lib/posts';
 const posts = await newestFirst();
 const topicList = topics(posts);
 const lead = `${posts.length} kuratierte Beiträge zu Führung, Organisation und Entscheidung. Lesen statt scrollen – wie in einem Magazin, aber ruhig.`;
+const portraitSizes = 'min(20rem, 28vw)';
+const portraitSrcset = (ext: string) =>
+  `/images/portrait/raphael-bossek-640.${ext} 640w, /images/portrait/raphael-bossek-960.${ext} 960w`;
+const PIXEL = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
 ---
 <BaseLayout title="Startseite" description={lead}>
+  <link
+    slot="head"
+    rel="preload"
+    as="image"
+    type="image/avif"
+    href="/images/portrait/raphael-bossek-640.avif"
+    imagesrcset={portraitSrcset('avif')}
+    imagesizes={portraitSizes}
+    media="(min-width: 761px)"
+    fetchpriority="high"
+  />
   <section class="hero">
     <div class="hero__intro">
       <div class="hero__copy">
@@ -15,13 +30,28 @@ const lead = `${posts.length} kuratierte Beiträge zu Führung, Organisation und
         <h1>Zusammenhänge verstehen. Klarer führen.</h1>
         <p class="lead">{lead}</p>
       </div>
-      <img
-        class="hero__portrait"
-        src="/images/raphael-bossek-portrait.png"
-        alt="Raphael Bossek"
-        width="1280"
-        height="1645"
-      />
+      <picture class="hero__portrait-frame">
+        <source
+          media="(min-width: 761px)"
+          type="image/avif"
+          srcset={portraitSrcset('avif')}
+          sizes={portraitSizes}
+        />
+        <source
+          media="(min-width: 761px)"
+          type="image/webp"
+          srcset={portraitSrcset('webp')}
+          sizes={portraitSizes}
+        />
+        <img
+          class="hero__portrait"
+          src={PIXEL}
+          alt=""
+          width="640"
+          height="823"
+          decoding="async"
+        />
+      </picture>
     </div>
     <SearchAndFeed posts={posts} topics={topicList} feedTitle="Neueste Beiträge" feedEyebrow="Aktuell" />
   </section>

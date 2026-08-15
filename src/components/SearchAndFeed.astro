@@ -1,5 +1,6 @@
 ---
 import type { PostSummary } from '../lib/posts';
+import { INITIAL_FEED } from '../lib/posts';
 
 interface Props {
   posts: PostSummary[];
@@ -9,8 +10,8 @@ interface Props {
 }
 
 const { posts, topics, feedTitle, feedEyebrow } = Astro.props;
-const feedJson = JSON.stringify(posts);
-const topicsJson = JSON.stringify(topics);
+const initial = posts.slice(0, INITIAL_FEED);
+const remaining = Math.max(0, posts.length - initial.length);
 ---
 <section class="search" aria-label="Artikel suchen">
   <label class="search__label" for="post-search">Im Archiv suchen</label>
@@ -27,15 +28,14 @@ const topicsJson = JSON.stringify(topics);
       autocomplete="off"
       spellcheck="false"
       data-search-input
-      data-search-feed="posts"
     />
     <button class="search__clear" type="button" data-search-clear hidden>zurücksetzen</button>
   </div>
   <p class="search__hint" data-search-hint>
-    {posts.length} Beiträge · neueste zuerst · Filter nach Themen unten
+    {posts.length} Beiträge · neueste zuerst · die ersten {initial.length} geladen
   </p>
   <div class="topics" role="group" aria-label="Themenfilter">
-    {topics.map((topic) => (
+    {topics.map((topic: { slug: string; label: string; count: number }) => (
       <button
         type="button"
         class="topic-pill"
@@ -56,55 +56,55 @@ const topicsJson = JSON.stringify(topics);
       {feedEyebrow && <p class="feed-meta">{feedEyebrow}</p>}
       <h2 data-feed-title>{feedTitle}</h2>
     </div>
-    <p class="feed-meta" data-feed-count>{posts.length} Beiträge</p>
+    <p class="feed-meta" data-feed-count>{initial.length} von {posts.length} Beiträge</p>
   </header>
-  <div class="feed" data-feed-list data-feed-initial={posts.length} id="posts">
-    {posts.map((post) => (
+  <div
+    class="feed"
+    data-feed-list
+    data-feed-total={posts.length}
+    data-feed-page={INITIAL_FEED}
+    id="posts"
+  >
+    {initial.map((post: PostSummary) => (
       <article class="feed__row" data-article-row data-article={post.path}>
         <div class="feed__col feed__col--left">
           <p class="feed__meta">
-            <time datetime={post.isoDate} data-article-date={post.isoDate}>{post.displayDate}</time>
+            <time datetime={post.isoDate}>{post.displayDate}</time>
             <span class="dot" aria-hidden="true"></span>
             <span>{post.minutes} Min Lesedauer</span>
             <span class="dot" aria-hidden="true"></span>
             <span>{post.year}</span>
           </p>
           <h3 class="feed__title">
-            <a href={post.path} data-article-link>{post.title}</a>
+            <a href={post.path} data-article-link data-original={post.title}>{post.title}</a>
           </h3>
         </div>
         <div class="feed__col feed__col--right">
-          <p class="feed__excerpt" data-article-excerpt>{post.excerpt}</p>
+          <p class="feed__excerpt" data-article-excerpt data-original={post.excerpt}>{post.excerpt}</p>
         </div>
       </article>
     ))}
   </div>
+  {remaining > 0 && (
+    <button class="feed-more" type="button" data-feed-more>
+      Weitere Beiträge · {remaining} übrig
+    </button>
+  )}
   <p class="feed-empty" data-feed-empty hidden>Kein Beitrag passt zu deiner Suche.</p>
 </section>
 
-<script type="application/json" id="search-payload" set:html={feedJson}></script>
-<script type="application/json" id="topics-payload" set:html={topicsJson}></script>
-
 <script>
-  type Topic = { slug: string; label: string; count: number };
+  type Topic = { slug: string; label: string };
   type PostSummary = {
     path: string;
     title: string;
-    date: string;
     isoDate: string;
     displayDate: string;
     year: string;
     excerpt: string;
     minutes: number;
-    words: number;
     searchText: string;
   };
-
-  const payloadEl = document.getElementById('search-payload');
-  const topicEl = document.getElementById('topics-payload');
-  const posts: PostSummary[] = payloadEl ? JSON.parse(payloadEl.textContent ?? '[]') : [];
-  const topics: Topic[] = topicEl ? JSON.parse(topicEl.textContent ?? '[]') : [];
-  const byPath = new Map(posts.map((post) => [post.path, post]));
 
   const input = document.querySelector<HTMLInputElement>('[data-search-input]');
   const clearBtn = document.querySelector<HTMLButtonElement>('[data-search-clear]');
@@ -113,11 +113,23 @@ const topicsJson = JSON.stringify(topics);
   const countEl = document.querySelector<HTMLElement>('[data-feed-count]');
   const titleEl = document.querySelector<HTMLElement>('[data-feed-title]');
   const emptyEl = document.querySelector<HTMLElement>('[data-feed-empty]');
+  const moreBtn = document.querySelector<HTMLButtonElement>('[data-feed-more]');
   const feedTitleDefault = titleEl?.textContent?.trim() ?? '';
   const pills = document.querySelectorAll<HTMLButtonElement>('[data-topic-pill]');
+  const topics: Topic[] = [...pills].map((pill) => ({
+    slug: pill.dataset.topic ?? '',
+    label: pill.querySelector('span')?.textContent?.trim() ?? '',
+  }));
+  const total = Number(list?.dataset.feedTotal ?? 0);
+  const pageSize = Number(list?.dataset.feedPage ?? 20);
+  let visibleCount = list?.querySelectorAll('[data-article-row]').length ?? 0;
+  let catalog: PostSummary[] | null = null;
+  let catalogPromise: Promise<PostSummary[]> | null = null;
+  let activeQuery = '';
+  let activeTopic: string | null = null;
 
   function escapeHtml(value: string): string {
-    return value.replace(/[&<>"']/g, (char) => {
+    return value.replace(/[&<>\"']/g, (char) => {
       switch (char) {
         case '&': return '&amp;';
         case '<': return '&lt;';
@@ -136,105 +148,122 @@ const topicsJson = JSON.stringify(topics);
       .map((term) => term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
       .join('|');
     if (!pattern) return escapeHtml(text);
-    const safe = escapeHtml(text);
-    return safe.replace(new RegExp(`(${pattern})`, 'gi'), '<mark>$1</mark>');
+    return escapeHtml(text).replace(new RegExp(`(${pattern})`, 'gi'), '<mark>$1</mark>');
   }
 
-  let activeQuery = '';
-  let activeTopic: string | null = null;
+  function loadIndex(): Promise<PostSummary[]> {
+    if (catalog) return Promise.resolve(catalog);
+    if (!catalogPromise) {
+      catalogPromise = fetch('/search-index.json')
+        .then((response) => {
+          if (!response.ok) throw new Error('search-index');
+          return response.json() as Promise<PostSummary[]>;
+        })
+        .then((posts) => {
+          catalog = posts;
+          return posts;
+        })
+        .catch((error) => {
+          catalogPromise = null;
+          throw error;
+        });
+    }
+    return catalogPromise;
+  }
 
-  function filterPosts(): PostSummary[] {
-    const query = activeQuery.trim().toLowerCase();
-    const terms = query.split(/\s+/).filter((part) => part.length > 0);
+  function rowFor(post: PostSummary, terms: string[]): HTMLElement {
+    const row = document.createElement('article');
+    row.className = 'feed__row';
+    row.dataset.article = post.path;
+    row.innerHTML =
+      `<div class="feed__col feed__col--left">` +
+      `<p class="feed__meta"><time datetime="${escapeHtml(post.isoDate)}">${escapeHtml(post.displayDate)}</time>` +
+      `<span class="dot" aria-hidden="true"></span><span>${post.minutes} Min Lesedauer</span>` +
+      `<span class="dot" aria-hidden="true"></span><span>${escapeHtml(post.year)}</span></p>` +
+      `<h3 class="feed__title"><a href="${escapeHtml(post.path)}" data-article-link data-original="${escapeHtml(post.title)}">${highlight(post.title, terms)}</a></h3>` +
+      `</div><div class="feed__col feed__col--right">` +
+      `<p class="feed__excerpt" data-article-excerpt data-original="${escapeHtml(post.excerpt)}">${highlight(post.excerpt, terms)}</p>` +
+      `</div>`;
+    return row;
+  }
+
+  function termsOf(query: string): string[] {
+    return query.trim().toLowerCase().split(/\s+/).filter((part) => part.length > 0);
+  }
+
+  function matching(posts: PostSummary[]): PostSummary[] {
+    const terms = termsOf(activeQuery);
     return posts.filter((post) => {
       if (activeTopic && !post.searchText.includes(activeTopic.toLowerCase())) return false;
-      if (!terms.length) return true;
       return terms.every((term) => post.searchText.includes(term));
     });
   }
 
-  function renderFeed(): void {
-    if (!list || !countEl || !emptyEl || !titleEl) return;
-    const filtered = filterPosts();
+  function updateChrome(shown: number, filtering: boolean): void {
+    if (countEl) {
+      countEl.textContent = filtering ? `${shown} Beiträge` : `${shown} von ${total} Beiträge`;
+    }
+    if (titleEl) {
+      titleEl.textContent = filtering ? (shown ? 'Suchergebnisse' : 'Keine Treffer') : feedTitleDefault;
+    }
+    if (emptyEl) emptyEl.hidden = shown > 0;
+    if (clearBtn) clearBtn.hidden = !filtering;
+    if (moreBtn) moreBtn.hidden = filtering || shown >= total;
+    if (moreBtn && !filtering && shown < total) {
+      moreBtn.textContent = `Weitere Beiträge · ${total - shown} übrig`;
+    }
+    if (hint) {
+      if (!filtering) {
+        hint.textContent = `${total} Beiträge · neueste zuerst · die ersten ${shown} geladen`;
+      } else {
+        const parts: string[] = [];
+        if (activeQuery) parts.push(`Suche: „${activeQuery}“`);
+        if (activeTopic) {
+          const topic = topics.find((item) => item.slug === activeTopic);
+          if (topic) parts.push(`Thema: ${topic.label}`);
+        }
+        parts.push(`${shown} Treffer`);
+        hint.textContent = parts.join(' · ');
+      }
+    }
+  }
+
+  function renderSlice(posts: PostSummary[], terms: string[]): void {
+    if (!list) return;
     list.replaceChildren();
-    if (!filtered.length) {
-      emptyEl.hidden = false;
-      countEl.textContent = '0 Beiträge';
-      titleEl.textContent = activeQuery || activeTopic ? 'Keine Treffer' : feedTitleDefault;
-      return;
-    }
-    emptyEl.hidden = true;
-    countEl.textContent = `${filtered.length} Beiträge`;
-    titleEl.textContent = activeQuery || activeTopic ? 'Suchergebnisse' : feedTitleDefault;
-
     const fragment = document.createDocumentFragment();
-    for (const post of filtered) {
-      const row = document.createElement('article');
-      row.className = 'feed__row';
-      row.dataset.article = post.path;
-
-      const left = document.createElement('div');
-      left.className = 'feed__col feed__col--left';
-      const meta = document.createElement('p');
-      meta.className = 'feed__meta';
-      meta.innerHTML =
-        `<time datetime="${post.isoDate}">${escapeHtml(post.displayDate)}</time>` +
-        '<span class="dot" aria-hidden="true"></span>' +
-        `<span>${post.minutes} Min Lesedauer</span>` +
-        '<span class="dot" aria-hidden="true"></span>' +
-        `<span>${escapeHtml(post.year)}</span>`;
-      const title = document.createElement('h3');
-      title.className = 'feed__title';
-      const link = document.createElement('a');
-      link.href = post.path;
-      const titleText = highlight(post.title, [activeQuery.split(/\s+/).filter(Boolean)[0] ?? '']);
-      link.innerHTML = titleText;
-      title.appendChild(link);
-      left.appendChild(meta);
-      left.appendChild(title);
-
-      const right = document.createElement('div');
-      right.className = 'feed__col feed__col--right';
-      const excerpt = document.createElement('p');
-      excerpt.className = 'feed__excerpt';
-      const excerptText = highlight(post.excerpt, [activeQuery.split(/\s+/).filter(Boolean)[0] ?? '']);
-      excerpt.innerHTML = excerptText;
-      right.appendChild(excerpt);
-
-      row.appendChild(left);
-      row.appendChild(right);
-      fragment.appendChild(row);
-    }
+    for (const post of posts) fragment.appendChild(rowFor(post, terms));
     list.appendChild(fragment);
   }
 
-  function updateHint(filtered: number): void {
-    if (!hint) return;
-    if (!activeQuery && !activeTopic) {
-      hint.textContent = `${posts.length} Beiträge · neueste zuerst · Filter nach Themen unten`;
-    } else {
-      const parts: string[] = [];
-      if (activeQuery) parts.push(`Suche: „${activeQuery}“`);
-      if (activeTopic) {
-        const topic = topics.find((t) => t.slug === activeTopic);
-        if (topic) parts.push(`Thema: ${topic.label}`);
-      }
-      parts.push(`${filtered} Treffer`);
-      hint.textContent = parts.join(' · ');
+  async function applyFilter(): Promise<void> {
+    const filtering = Boolean(activeQuery.trim() || activeTopic);
+    if (!filtering) {
+      if (catalog) renderSlice(catalog.slice(0, visibleCount), []);
+      updateChrome(visibleCount, false);
+      return;
     }
+    const posts = await loadIndex();
+    const hits = matching(posts);
+    renderSlice(hits, termsOf(activeQuery));
+    updateChrome(hits.length, true);
   }
 
-  function applyFilter(): void {
-    const filtered = filterPosts();
-    renderFeed();
-    updateHint(filtered.length);
-    if (clearBtn) clearBtn.hidden = !activeQuery && !activeTopic;
+  async function revealMore(): Promise<void> {
+    const posts = await loadIndex();
+    if (!list) return;
+    const next = posts.slice(visibleCount, visibleCount + pageSize);
+    const fragment = document.createDocumentFragment();
+    for (const post of next) fragment.appendChild(rowFor(post, []));
+    list.appendChild(fragment);
+    visibleCount = Math.min(total, visibleCount + pageSize);
+    updateChrome(visibleCount, false);
   }
 
   if (input) {
     input.addEventListener('input', () => {
       activeQuery = input.value;
-      applyFilter();
+      void applyFilter();
     });
   }
 
@@ -242,8 +271,14 @@ const topicsJson = JSON.stringify(topics);
     clearBtn.addEventListener('click', () => {
       if (input) input.value = '';
       activeQuery = '';
-      applyFilter();
+      void applyFilter();
       input?.focus();
+    });
+  }
+
+  if (moreBtn) {
+    moreBtn.addEventListener('click', () => {
+      void revealMore();
     });
   }
 
@@ -258,17 +293,18 @@ const topicsJson = JSON.stringify(topics);
         activeTopic = slug;
         pill.setAttribute('aria-pressed', 'true');
       }
-      applyFilter();
+      void applyFilter();
     });
   });
 
-  // Expose for tests / debugging.
+  const idle = window.requestIdleCallback ?? ((callback: () => void) => window.setTimeout(callback, 1));
+  idle(() => {
+    void loadIndex();
+  });
+
   (window as unknown as { __searchState: unknown }).__searchState = {
     get query() { return activeQuery; },
     get topic() { return activeTopic; },
-    count: () => filterPosts().length,
-    posts: () => posts,
-    topics: () => topics,
-    byPath: (path: string) => byPath.get(path),
+    count: () => list?.querySelectorAll('[data-article-row]').length ?? 0,
   };
 </script>

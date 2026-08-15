@@ -27,21 +27,8 @@ const isActive = (href: string) => (href === '/' ? currentPath === href : curren
     <meta name="theme-color" content="#fdfdf9" media="(prefers-color-scheme: light)" />
     <link rel="alternate" type="application/rss+xml" title="Management÷7 RSS" href="/rss.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap"
-      />
-    </noscript>
     <title>{title} | Management÷7</title>
+    <slot name="head" />
     <script is:inline>
       (() => {
         const stored = localStorage.getItem('theme');
@@ -54,7 +41,6 @@ const isActive = (href: string) => (href === '/' ? currentPath === href : curren
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="/" aria-label="Management÷7 Startseite">
-          <span class="brand-mark" aria-hidden="true"></span>
           <span>Management<sup>÷7</sup></span>
         </a>
         <nav class="site-nav" aria-label="Hauptnavigation">

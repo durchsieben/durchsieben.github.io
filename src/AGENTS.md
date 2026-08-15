@@ -15,8 +15,9 @@ Owns deterministic WordPress-derived content and the legacy-route manifest used 
 - Rewrite only the imported content and route data through `../scripts/import_wordpress.py`; remove retained articles through `../scripts/remove_wordpress_articles.py`; do not hand-edit imported source URLs or route paths.
 - `lib/posts.ts` is the single helper for post summaries, sort order (newest first), plain-text extraction, reading time, and topic generation. Pages and components use it instead of re-implementing sort or text extraction.
 - `components/` holds Astro UI components (`SearchAndFeed.astro`). Pages compose them; do not duplicate feed/search markup in individual pages.
-- The homepage hero pairs the archive introduction with the transparent Raphael Bossek portrait at `public/images/raphael-bossek-portrait.png` before rendering the entire archive (newest first) with its client-side search and topic filter; a separate `/artikeluebersicht/` archive page is no longer maintained and the old inline article list in the catch-all route is removed.
-- The `/about/` page uses the same portrait, supplied by the importer, in a two-column author introduction that preserves a broad reading column on desktop and stacks on mobile.
+- The homepage hero pairs the archive introduction with the transparent Raphael Bossek portrait on desktop (`public/images/portrait/` AVIF/WebP derivatives; original PNG stays at `public/images/raphael-bossek-portrait.png` for the importer). The portrait is omitted on viewports ≤760px and must not be downloaded there. The homepage HTML renders the newest 20 posts; remaining rows and title/excerpt search load from `/search-index.json`. A separate `/artikeluebersicht/` archive page is no longer maintained and the old inline article list in the catch-all route is removed.
+- The `/about/` page uses the same portrait, rewritten at render time to the AVIF/WebP derivatives, in a two-column author introduction that preserves a broad reading column on desktop and stacks on mobile.
+- Typography self-hosts a Latin Source Serif 4 subset (`font-display: optional`). UI chrome uses the system sans stack. Do not add Google Fonts.
 
 ## Verification
 
