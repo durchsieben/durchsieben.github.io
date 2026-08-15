@@ -17,7 +17,8 @@ Owns deterministic WordPress-derived content and the legacy-route manifest used 
 - `components/` holds Astro UI components (`SearchAndFeed.astro`). Pages compose them; do not duplicate feed/search markup in individual pages.
 - The homepage hero pairs the archive introduction with the transparent Raphael Bossek portrait on desktop (`public/images/portrait/` AVIF/WebP derivatives; original PNG stays at `public/images/raphael-bossek-portrait.png` for the importer). The portrait is omitted on viewports ≤760px and must not be downloaded there. The homepage HTML renders the newest 20 posts; remaining rows and title/excerpt search load from `/search-index.json`. A separate `/artikeluebersicht/` archive page is no longer maintained and the old inline article list in the catch-all route is removed.
 - The `/about/` page uses the same portrait, rewritten at render time to the AVIF/WebP derivatives, in a two-column author introduction that preserves a broad reading column on desktop and stacks on mobile.
-- Typography self-hosts a Latin Source Serif 4 subset (`font-display: optional`). UI chrome uses the system sans stack. Do not add Google Fonts.
+- Typography self-hosts a Latin Source Serif 4 subset at weights 400/600 only (`font-display: optional`). Bold chrome maps to 600. UI chrome uses the system sans stack. Do not add Google Fonts.
+- Global CSS is always inlined at build time (`build.inlineStylesheets: 'always'`) so first paint does not wait on a separate stylesheet request. GitHub Pages cache lifetimes stay at the platform default (`max-age=600`); do not invent `_headers` for Pages.
 
 ## Verification
 

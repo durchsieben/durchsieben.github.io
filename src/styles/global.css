@@ -21,13 +21,6 @@
   font-display: optional;
   src: url('@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff2') format('woff2');
 }
-@font-face {
-  font-family: 'Source Serif 4';
-  font-style: normal;
-  font-weight: 700;
-  font-display: optional;
-  src: url('@fontsource/source-serif-4/files/source-serif-4-latin-700-normal.woff2') format('woff2');
-}
 
 :root {
   color-scheme: light;
@@ -39,11 +32,12 @@
   --paper-soft: oklch(0.965 0.006 95);
   --ink: oklch(0.21 0.012 260);
   --ink-soft: oklch(0.34 0.012 260);
-  --muted: oklch(0.5 0.012 260);
+  /* Muted/accent tuned for ≥4.5:1 on --paper (WCAG AA body text). */
+  --muted: oklch(0.45 0.012 260);
   --rule: oklch(0.86 0.008 95);
   --rule-strong: oklch(0.74 0.01 95);
-  --accent: oklch(0.55 0.135 145);
-  --accent-hover: color-mix(in oklch, var(--accent), black 18%);
+  --accent: oklch(0.45 0.135 145);
+  --accent-hover: color-mix(in oklch, var(--accent), black 14%);
   --accent-soft: color-mix(in oklch, var(--accent), transparent 86%);
   --highlight: oklch(0.93 0.07 95);
   --shadow: 0 1px 2px color-mix(in oklch, var(--ink), transparent 94%), 0 12px 32px color-mix(in oklch, var(--ink), transparent 90%);
@@ -99,8 +93,8 @@ mark { background: var(--highlight); color: var(--ink); padding: 0 0.1em; border
   position: sticky;
   top: 0;
   z-index: 20;
-  background: color-mix(in oklch, var(--paper), transparent 6%);
-  backdrop-filter: saturate(180%) blur(12px);
+  /* Solid paper keeps nav/brand contrast stable over scrolling content. */
+  background: var(--paper);
   border-bottom: 1px solid var(--rule);
 }
 .site-header__inner {
@@ -117,7 +111,7 @@ mark { background: var(--highlight); color: var(--ink); padding: 0 0.1em; border
   align-items: center;
   gap: 0.65rem;
   font-family: var(--serif);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.15rem;
   letter-spacing: -0.01em;
   color: var(--ink);
@@ -204,7 +198,7 @@ mark { background: var(--highlight); color: var(--ink); padding: 0 0.1em; border
   color: var(--accent);
   font-family: var(--sans);
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.22em;
 }
@@ -236,7 +230,7 @@ mark { background: var(--highlight); color: var(--ink); padding: 0 0.1em; border
   display: block;
   font-family: var(--sans);
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--muted);
@@ -517,7 +511,7 @@ mark { background: var(--highlight); color: var(--ink); padding: 0 0.1em; border
   color: var(--accent);
   font-family: var(--sans);
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
 }
